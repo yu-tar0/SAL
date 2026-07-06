@@ -16,6 +16,9 @@ venv/
 # Generated audit outputs (regenerate with product-spec-quality-auditor)
 audit_outputs/
 
+# Generated remediation outputs (regenerate with product-spec-remediation-planner)
+remediation_outputs/
+
 # OS / editor noise
 .DS_Store
 Thumbs.db
