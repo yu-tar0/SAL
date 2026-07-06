@@ -13,6 +13,9 @@ venv/
 *.duckdb.tmp
 *.duckdb.tmp.*
 
+# Generated audit outputs (regenerate with product-spec-quality-auditor)
+audit_outputs/
+
 # OS / editor noise
 .DS_Store
 Thumbs.db
