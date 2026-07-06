@@ -1,0 +1,124 @@
+﻿company,raw_item_name,n_products,sample_table,sample_value
+Bobcat,K - Reach at Maximum Height,6,bobcat_sal_仕様値_Bobcat_SAL仕様,427
+Bobcat,Travel Speed – Low Range,6,bobcat_sal_仕様値_Bobcat_SAL仕様,13.2
+Bobcat,Weight With Add-On Counterweight,6,bobcat_sal_仕様値_Bobcat_SAL仕様,1932
+Bobcat,Tractor: 23 x 8.50 - 12,5,bobcat_sal_仕様値_Bobcat_SAL仕様,1091
+Bobcat,Turf: 23 x 10.50 - 12,5,bobcat_sal_仕様値_Bobcat_SAL仕様,1180
+Bobcat,Turf: 23 x 8.50 - 12,5,bobcat_sal_仕様値_Bobcat_SAL仕様,1097*
+Bobcat,Turf: 26 x 12.00 - 12,5,bobcat_sal_仕様値_Bobcat_SAL仕様,–
+Bobcat,Tractor: 23 x 5.70 - 12,4,bobcat_sal_仕様値_Bobcat_SAL仕様,990
+Bobcat,Tractor: 26 x 12.00 - 12,4,bobcat_sal_仕様値_Bobcat_SAL仕様,–
+Bobcat,Tractor: 29 x 12.50 - 15,4,bobcat_sal_仕様値_Bobcat_SAL仕様,–
+Bobcat,Turf: 29 x 12.50 - 15,4,bobcat_sal_仕様値_Bobcat_SAL仕様,–
+Bobcat,Turf: 31 x 15.50 - 15,4,bobcat_sal_仕様値_Bobcat_SAL仕様,–
+Bobcat,Aspiration,3,bobcat_sal_仕様値_Bobcat_SAL仕様,Naturally Aspirated
+Bobcat,Type,3,bobcat_sal_仕様値_Bobcat_SAL仕様,Diesel
+Case,HYDRAULICS / Auxiliary 2 – optional / Max. Flow Rate,18,case_sl50tr_仕様項目一覧_仕様,42
+Case,HYDRAULICS / Auxiliary 2 – optional / Pressure,18,case_sl22ev_仕様項目一覧_仕様,170
+Case,Height front frame,18,case_sl27_仕様項目一覧_寸法,1380
+Case,Height with bucket,18,case_sl15_仕様項目一覧_寸法,2976
+Case,Maximum radius external,18,case_sl27tr_仕様項目一覧_寸法,2225
+Case,Outer size of tires,18,case_sl12tr_仕様項目一覧_寸法,570
+Case,HYDRAULICS / Driving Hydraulics / Flow Rate,16,case_sl15_仕様項目一覧_仕様,84
+Case,HYDRAULICS / Driving Hydraulics / Operating Pressure,16,case_sl15_仕様項目一覧_仕様,350
+Case,SERVICE CAPACITIES / Engine oil w/ filter,16,case_sl12_仕様項目一覧_仕様,4.4
+Case,Max. height with cabin,14,case_sl35tr_仕様項目一覧_寸法,2523
+Case,SERVICE CAPACITIES / Engine Coolant,14,case_sl35tr_仕様項目一覧_仕様,12.35
+Case,HYDRAULICS / Working Hydraulics / Operating Pressure,12,case_sl12tr_仕様項目一覧_仕様,170
+Case,HYDRAULICS / Working Hydraulics / Total Flow Rate,12,case_sl15_仕様項目一覧_仕様,42
+Case,HYDRAULICS / Continuous Flow – optional / Max. Flow Rate,10,case_sl12tr_仕様項目一覧_仕様,33
+Case,HYDRAULICS / Continuous Flow – optional / Pressure,10,case_sl23_仕様項目一覧_仕様,170
+Case,TIPPING LOADS / T,10,case_sl22ev_仕様項目一覧_転倒荷重,932
+Case,TIPPING LOADS / U,10,case_sl27_仕様項目一覧_転倒荷重,1276
+Case,TIPPING LOADS / V,10,case_sl27_仕様項目一覧_転倒荷重,1576
+Case,TIPPING LOADS / W,10,case_sl27tr_仕様項目一覧_転倒荷重,2084
+Case,TIPPING LOADS / X,10,case_sl27tr_仕様項目一覧_転倒荷重,3074
+Case,DRIVETRAIN / Differential Type,9,case_sl27tr_仕様項目一覧_仕様,Hydraulic controlled
+Case,DRIVETRAIN / Parking brake / Type,9,case_sl12tr_仕様項目一覧_仕様,Hydraulic multidisk brake
+Case,HYDRAULICS / Control Valve Type,9,case_sl27_仕様項目一覧_仕様,Open Center
+Case,HYDRAULICS / Pump Type,9,case_sl15_仕様項目一覧_仕様,Fixed Gear
+Case,Max. loading angle,9,case_sl23_仕様項目一覧_寸法,34.0
+Case,Rollback angle on the ground,9,case_sl27_仕様項目一覧_寸法,43.0
+Case,DRIVETRAIN / Max. Travel speed / Turtle,8,case_sl27tr_仕様項目一覧_仕様,9.9
+Case,ELECTRICAL / Alternator,8,case_sl27tr_仕様項目一覧_仕様,60
+Case,ELECTRICAL / Battery,8,case_sl27tr_仕様項目一覧_仕様,52
+Case,ELECTRICAL / Battery cold-cranking amps,8,case_sl27tr_仕様項目一覧_仕様,520
+Case,ENGINE / Exhaust aftertreatment,8,case_sl35tr_仕様項目一覧_仕様,N/A
+Case,LOADER PERFORMANCE SPECS / Rated Operating Capacity (50% of Tipping Load),8,case_sl15_仕様項目一覧_仕様,830
+Case,Rollback angle at max. lift height,8,case_sl27_仕様項目一覧_寸法,45.0
+Case,TIPPING LOADS / Y,8,case_sl23_仕様項目一覧_転倒荷重,1505
+Case,TIPPING LOADS / Z,8,case_sl23_仕様項目一覧_転倒荷重,1065
+Case,HYDRAULICS / High Flow – optional / Max. Flow Rate,6,case_sl27_仕様項目一覧_仕様,135
+Case,HYDRAULICS / High Flow – optional / Pressure,6,case_sl27tr_仕様項目一覧_仕様,250
+Case,TIPPING LOAD PATHS / T,6,case_sl12tr_仕様項目一覧_転倒荷重,1470
+Case,TIPPING LOAD PATHS / U,6,case_sl12tr_仕様項目一覧_転倒荷重,1785
+Case,TIPPING LOAD PATHS / V,6,case_sl35tr_仕様項目一覧_転倒荷重,2185
+Case,OPERATING WEIGHT / Cab Option,4,case_sl27tr_仕様項目一覧_仕様,80
+Case,TIPPING LOAD PATHS / W,4,case_sl50tr_仕様項目一覧_転倒荷重,2800
+Case,DRIVETRAIN / Max. Travel speed / Mid,2,case_sl22ev_仕様項目一覧_仕様,12
+Case,DRIVETRAIN / Max. Travel speed / Rabbit – Low Gear,2,case_sl50tr_仕様項目一覧_仕様,30
+Case,DRIVETRAIN / Max. Travel speed / Turtle – High Gear,2,case_sl50tr_仕様項目一覧_仕様,13.1
+Case,DRIVETRAIN / Max. Travel speed / Turtle – Low Gear,2,case_sl50tr_仕様項目一覧_仕様,6.7
+Case,LOADER PERFORMANCE SPECS / Articulated,2,case_sl50tr_仕様項目一覧_仕様,1453
+Case,"LOADER PERFORMANCE SPECS / Articulated, Retracted",2,case_sl27tr_仕様項目一覧_仕様,985
+Case,Max. dumping height extended,2,case_sl27tr_仕様項目一覧_寸法,2920
+Case,OPERATING WEIGHT / Cab weight,2,case_sl35tr_仕様項目一覧_仕様,100
+Case,SERVICE CAPACITIES / Engine coolant,2,case_sl15_仕様項目一覧_仕様,4.4
+Case,TIPPING LOAD / T,2,case_sl12_仕様項目一覧_転倒荷重,1000
+Case,TIPPING LOAD / U,2,case_sl12_仕様項目一覧_転倒荷重,800
+Case,TIPPING LOAD / V,2,case_sl12_仕様項目一覧_転倒荷重,550
+Case,TIPPING LOAD / W,2,case_sl12_仕様項目一覧_転倒荷重,410
+Case,TIPPING LOAD / X,2,case_sl12_仕様項目一覧_転倒荷重,1690
+Case,TIPPING LOAD / Y,2,case_sl12_仕様項目一覧_転倒荷重,840
+Case,TIPPING LOAD / Z,2,case_sl12_仕様項目一覧_転倒荷重,510
+Case,TIPPING LOAD PATHS / S,2,case_sl50tr_仕様項目一覧_転倒荷重,1260
+Case,TIPPING LOAD PATHS / X,2,case_sl35tr_仕様項目一覧_転倒荷重,2500
+Case,ELECTRIC POWERTRAIN / Expected run time – dependent on application / Expected run time,1,case_sl22ev_仕様項目一覧_仕様,5 - 6
+Case,ELECTRIC POWERTRAIN / Motor Type,1,case_sl22ev_仕様項目一覧_仕様,3 Phase DC Brushless (IP54)
+Case,ELECTRIC POWERTRAIN / Off-Board Charger,1,case_sl22ev_仕様項目一覧_仕様,480V 3 Phase Optional
+Case,ELECTRIC POWERTRAIN / Off-Board Charger / Charging Time 20 - 80%,1,case_sl22ev_仕様項目一覧_仕様,1.0
+Case,ELECTRIC POWERTRAIN / On-Board Charger,1,case_sl22ev_仕様項目一覧_仕様,240V 1 Phase
+Case,ELECTRIC POWERTRAIN / On-Board Charger / Charging Time 20 - 80%,1,case_sl22ev_仕様項目一覧_仕様,5.2
+GIANT,Max. speed low,2,giant_g2300_hd_仕様一覧_仕様比較,6.2 mph
+GIANT,Max. speed option,2,giant_g1500_series_仕様一覧_仕様比較,11.8 mp/h
+Gianni Ferrari,Alternator,2,gianni_ferrari_turboloader_仕様一覧_仕様一覧,40 A (60 A cab version)
+Gianni Ferrari,Battery,2,gianni_ferrari_turboloader_仕様一覧_仕様一覧,12 V / 70 Ah battery master switch as standard
+Gianni Ferrari,Cooling,2,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Liquid
+Gianni Ferrari,Driving wheels,2,gianni_ferrari_turboloader_仕様一覧_仕様一覧,4WD
+Gianni Ferrari,Electrical outlet,2,gianni_ferrari_turboloader_仕様一覧_仕様一覧,12 V CC on the lifting boom
+Gianni Ferrari,Forward - reverse motion,2,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Double pedal operation
+Gianni Ferrari,Front PTO auxiliary hydraulics,2,gianni_ferrari_turboloader_仕様一覧_仕様一覧,3 flat-face quick-release couplings
+Gianni Ferrari,Front auxiliary hydraulics,2,gianni_ferrari_turboloader_仕様一覧_仕様一覧,2 flat-face quick-release couplings
+Gianni Ferrari,Length / Width / Height with CAB,2,gianni_ferrari_turboloader_仕様一覧_仕様一覧,267 x 128 x 219 cm
+Gianni Ferrari,Length / Width / Height with ROPS,2,gianni_ferrari_turboloader_仕様一覧_仕様一覧,267 x 128 x 210 cm
+Gianni Ferrari,Lights,2,gianni_ferrari_turboloader_仕様一覧_仕様一覧,"Front and rear work lights, road headlights complete with rotating beacon"
+Gianni Ferrari,Load anti-spill device,2,gianni_ferrari_turboloader_仕様一覧_仕様一覧,●
+Gianni Ferrari,Machine anti-tip device,2,gianni_ferrari_turboloader_仕様一覧_仕様一覧,●
+Gianni Ferrari,Parking brake,2,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Hydraulic negative action multi-disc brakes in oil bath on front axle
+Gianni Ferrari,Pump,2,gianni_ferrari_turboloader_仕様一覧_仕様一覧,"piston, Poclain"
+Gianni Ferrari,Rear auxiliary hydraulics,2,gianni_ferrari_turboloader_仕様一覧_仕様一覧,2 flat-face quick-release couplings
+Gianni Ferrari,Self-levelling,2,gianni_ferrari_turboloader_仕様一覧_仕様一覧,●
+Gianni Ferrari,Steering,2,gianni_ferrari_turboloader_仕様一覧_仕様一覧,"Power steering wheel, articulated chassis"
+Gianni Ferrari,Wheel motors,2,gianni_ferrari_turboloader_仕様一覧_仕様一覧,"orbital type, Danfoss"
+Gianni Ferrari,Forward speed low,1,gianni_ferrari_turboloader_仕様一覧_仕様一覧,8 km/h
+MultiOne,ACI,7,multione_5_3_k_id_仕様一覧_仕様一覧,ATTACHMENT CONTROL INTERFACE
+MultiOne,Drive speed (max.) (1) - low,6,multione_8_5s_k_仕様一覧_仕様一覧,12.5
+MultiOne,Drive speed (max.) - 2 speed [low],4,multione_11_5_y_仕様一覧_仕様一覧,12 km/h (7.5 mph)
+MultiOne,Charger Absorbed Current,3,multione_ez7_仕様一覧_仕様一覧,Max. 14 A
+MultiOne,Charger Input Frequency,3,multione_ez8_ez8_long_range_仕様一覧_仕様一覧,50 ÷ 60 Hz
+MultiOne,Charger Input Voltage,3,multione_ez8_ez8_long_range_仕様一覧_仕様一覧,110 - 230 ± 10% VAC
+MultiOne,Charger Protection,3,multione_ez7_仕様一覧_仕様一覧,"Output short-circuit, Inverse polarity"
+MultiOne,Charger plug type,3,multione_ez8_ez8_long_range_仕様一覧_仕様一覧,CEE 2P+T
+MultiOne,Charger type,3,multione_ez7_仕様一覧_仕様一覧,Sealed single-phase
+MultiOne,Charging Current [120 VAC],3,multione_ez7_仕様一覧_仕様一覧,Max. 30 A
+MultiOne,Charging Current [230 VAC],3,multione_ez8_ez8_long_range_仕様一覧_仕様一覧,Max. 60 A
+MultiOne,Charging system,3,multione_ez7_仕様一覧_仕様一覧,Integrated charger
+MultiOne,Cruise Control Drive,3,multione_8_4_turbos_仕様一覧_仕様一覧,CRUISE CONTROL DRIVE
+MultiOne,Electric motors,3,multione_ez7_仕様一覧_仕様一覧,2
+MultiOne,NEW,3,multione_11_5_y_仕様一覧_仕様一覧,NEW
+MultiOne,Drive,2,multione_11_6_k_turbos_仕様一覧_仕様一覧,Drive
+MultiOne,Turning radius: inside/outside,2,multione_1_1_仕様一覧_仕様一覧,内側 0mm/0in
+MultiOne,シリーズ,2,multione_11_5_y_仕様一覧_仕様一覧,11 SERIES: 11.5 Y - STAGE IIIA
+MultiOne,Cruise Control,1,multione_11_6_k_turbos_仕様一覧_仕様一覧,Cruise Control
+MultiOne,EFI,1,multione_2_3_efi_仕様一覧_仕様一覧,ELECTRONIC FUEL INJECTION
+MultiOne,Engine [過給・燃料噴射],1,multione_11_6_k_turbos_仕様一覧_仕様一覧,Turbo common rail

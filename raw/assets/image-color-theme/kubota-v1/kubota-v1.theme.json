@@ -1,0 +1,20 @@
+{
+  "id": "kubota-v1",
+  "name": "kubota",
+  "version": 1,
+  "status": "active",
+  "created": "2026-06-01",
+  "updated": "2026-06-01",
+  "description": "kubota theme generated faithfully from image colors.",
+  "colors": {
+    "page_bg": "#F6F9F9",
+    "paper_bg": "#FFFFFF",
+    "ink": "#1D3535",
+    "muted": "#5E7D7D",
+    "accent": "#00A8A9",
+    "line": "#D7E5E5",
+    "soft": "#EBF7F7",
+    "warn": "#8A5A00",
+    "warn_bg": "#FFF4D8"
+  }
+}

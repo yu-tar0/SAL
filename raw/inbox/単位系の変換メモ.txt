@@ -1,0 +1,8 @@
+米国慣用単位（US customary units）からメートル法／SI系単位への変換
+
+例：
+in → mm
+lb → kg
+mph → km/h
+gpm / PSI → L/min / MPa
+lb-ft → N·m

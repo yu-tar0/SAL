@@ -1,0 +1,6 @@
+﻿issue_type,severity,n,companies
+unmapped_item,review,653,Case | Gianni Ferrari | MultiOne | GIANT | Bobcat
+scope_excluded,info,95,
+numeric_parse_failed,review,81,Bobcat | GIANT | Avant | Case
+low_confidence,review,34,GIANT | Case
+unit_no_rule,review,2,GIANT

@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local database runtime files
+*.duckdb
+*.duckdb.wal
+*.duckdb.tmp
+*.duckdb.tmp.*
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+~$*
+*.bak
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/

@@ -1,0 +1,46 @@
+﻿canonical_item,n_companies,n_products,companies
+articulation_angle,1,3,Bobcat
+aux_hydraulic_flow_high,1,1,Bobcat
+bucket_capacity,1,1,Yanmar
+bucket_width,1,3,Bobcat
+drive_hydraulic_system,1,19,Avant
+dump_angle,1,9,Case
+dump_height,1,9,Case
+engine_manufacturer,1,2,Gianni Ferrari
+ground_clearance,1,3,Bobcat
+ground_pressure,1,14,MultiOne
+hydraulic_system_capacity,1,9,Case
+market_segment,1,19,Avant
+operation_time,1,3,MultiOne
+power_type,1,19,Avant
+product_class,1,19,Avant
+rated_engine_speed,1,8,Case
+rated_operating_capacity_articulated,1,3,Bobcat
+rops_fops,1,2,Gianni Ferrari
+sales_status,1,19,Avant
+seat_height,1,9,Case
+starter_battery_capacity,1,2,Gianni Ferrari
+telescopic_length,1,13,Avant
+tipping_load_articulated,1,7,Case
+tipping_load_straight,1,9,Case
+tire_tread,1,19,Avant
+traction_force,1,16,Avant
+warranty,1,9,Case
+wheel_size,1,9,Avant
+work_hydraulic_system,1,19,Avant
+battery_type,2,4,Case | MultiOne
+charge_time,2,4,Avant | Case
+lift_capacity,2,33,MultiOne | Avant
+max_reach,2,5,Bobcat | Gianni Ferrari
+model_name,2,16,Gianni Ferrari | MultiOne
+motor_power_drive,2,3,Case | GIANT
+motor_power_implement,2,3,Case | GIANT
+operating_weight_enclosed,2,5,Case | Gianni Ferrari
+overall_length_with_bucket,2,12,Bobcat | Case
+product_code,2,20,MultiOne | Avant
+product_url,2,21,Avant | MultiOne
+pushing_force,2,16,MultiOne | Gianni Ferrari
+rated_operating_capacity,2,5,Bobcat | Case
+system_voltage,2,11,Case | Gianni Ferrari
+telescopic_boom,2,21,Gianni Ferrari | Avant
+wheelbase,2,12,Bobcat | Case

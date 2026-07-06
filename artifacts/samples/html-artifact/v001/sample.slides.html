@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Artifact 新標準サンプル - Slides</title>
+    <style>
+        :root {
+            --bg: #e8edf2;
+            --paper: #ffffff;
+            --ink: #152033;
+            --muted: #526071;
+            --accent: #0f766e;
+            --line: #d5dee8;
+            --soft: #edf7f5;
+            --warn: #fff7df;
+            --w: 297mm;
+            --h: 167.0625mm;
+            --font: "Yu Gothic", "Meiryo", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            color: var(--ink);
+            background: var(--bg);
+            font-family: var(--font);
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            gap: 14px;
+            padding: 12px;
+            background: #ffffff;
+            border-bottom: 1px solid var(--line);
+        }
+        .nav a { color: var(--accent); font-weight: 700; text-decoration: none; }
+        .deck {
+            max-width: 1280px;
+            margin: 24px auto;
+        }
+        .slide {
+            position: relative;
+            min-height: 720px;
+            margin: 22px 0;
+            padding: 66px 74px;
+            overflow: hidden;
+            background: var(--paper);
+            box-shadow: 0 12px 30px rgba(21,32,51,0.16);
+            page-break-after: always;
+        }
+        .slide::before {
+            content: "";
+            position: absolute;
+            inset: 0 0 auto 0;
+            height: 10px;
+            background: var(--accent);
+        }
+        .slide:last-child { page-break-after: auto; }
+        h1, h2, h3 { margin: 0; line-height: 1.12; letter-spacing: 0; }
+        h1 { font-size: 58px; max-width: 900px; }
+        h2 { font-size: 46px; max-width: 920px; }
+        h3 { margin-top: 26px; font-size: 28px; color: var(--accent); }
+        p {
+            max-width: 980px;
+            margin: 26px 0 0;
+            color: var(--muted);
+            font-size: 28px;
+            line-height: 1.45;
+        }
+        ul {
+            display: grid;
+            gap: 18px;
+            margin: 30px 0 0;
+            padding-left: 1.1em;
+            color: var(--muted);
+            font-size: 29px;
+            line-height: 1.38;
+        }
+        .kicker {
+            margin-bottom: 22px;
+            color: var(--accent);
+            font-size: 22px;
+            font-weight: 700;
+        }
+        .meta {
+            position: absolute;
+            left: 74px;
+            bottom: 42px;
+            color: #748294;
+            font-size: 20px;
+        }
+        .num {
+            position: absolute;
+            right: 50px;
+            bottom: 38px;
+            color: #8391a2;
+            font-size: 20px;
+        }
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 34px;
+        }
+        .card {
+            min-height: 210px;
+            padding: 28px;
+            border: 1px solid var(--line);
+            border-top: 8px solid var(--accent);
+            background: #ffffff;
+        }
+        .card strong {
+            display: block;
+            font-size: 32px;
+            color: var(--ink);
+        }
+        .card span {
+            display: block;
+            margin-top: 18px;
+            color: var(--muted);
+            font-size: 23px;
+            line-height: 1.35;
+        }
+        .callout {
+            margin-top: 36px;
+            padding: 28px 32px;
+            background: var(--warn);
+            border-left: 9px solid #c58a08;
+            color: var(--ink);
+            font-size: 30px;
+            line-height: 1.38;
+        }
+        code {
+            padding: 2px 7px;
+            border-radius: 5px;
+            background: #eef2f5;
+            font-size: 0.86em;
+        }
+        @page {
+            size: 297mm 167.0625mm;
+            margin: 0;
+        }
+        @media print {
+            body { background: #ffffff; }
+            .nav { display: none; }
+            .deck { max-width: none; margin: 0; }
+            .slide {
+                width: var(--w);
+                height: var(--h);
+                min-height: 0;
+                margin: 0;
+                box-shadow: none;
+                print-color-adjust: exact;
+                -webkit-print-color-adjust: exact;
+            }
+        }
+        @media (max-width: 760px) {
+            .nav { flex-wrap: wrap; }
+            .deck { margin: 0; }
+            .slide { min-height: auto; margin: 0; padding: 48px 22px 72px; box-shadow: none; border-bottom: 1px solid var(--line); }
+            h1 { font-size: 34px; }
+            h2 { font-size: 30px; }
+            p, ul { font-size: 19px; }
+            .cards { grid-template-columns: 1fr; }
+            .meta { left: 22px; bottom: 24px; font-size: 14px; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <a href="sample.md">MD正本</a>
+        <a href="sample.web.html">Web版</a>
+        <a href="sample.a4.html">A4版</a>
+    </nav>
+
+    <main class="deck">
+        <section class="slide">
+            <div class="kicker">LLM Wiki Artifact</div>
+            <h1>HTML Artifact 新標準サンプル</h1>
+            <p>Markdown 正本から Web / A4 / Slides の用途別 HTML を生成する。</p>
+            <div class="meta">2026-05-24 | Source: sample.md</div>
+            <div class="num">1</div>
+        </section>
+
+        <section class="slide">
+            <div class="kicker">TL;DR</div>
+            <h2>内容は Markdown、見せ方は用途別HTML</h2>
+            <ul>
+                <li>内容修正は Markdown 正本に集約する。</li>
+                <li>Web は連続ページとして読む。</li>
+                <li>A4 と Slides は出力用途に合わせて別々に調整する。</li>
+            </ul>
+            <div class="num">2</div>
+        </section>
+
+        <section class="slide">
+            <div class="kicker">Outputs</div>
+            <h2>3種類のHTMLを分ける</h2>
+            <div class="cards">
+                <div class="card">
+                    <strong>web.html</strong>
+                    <span>ブラウザ閲覧用。切れ目のないページとして表示する。</span>
+                </div>
+                <div class="card">
+                    <strong>a4.html</strong>
+                    <span>A4印刷/PDF用。用紙単位の区切りを持たせる。</span>
+                </div>
+                <div class="card">
+                    <strong>slides.html</strong>
+                    <span>16:9資料用。1スライド1メッセージへ再構成する。</span>
+                </div>
+            </div>
+            <div class="num">3</div>
+        </section>
+
+        <section class="slide">
+            <div class="kicker">Workflow</div>
+            <h2>修正対象を分ける</h2>
+            <ul>
+                <li>本文や構成の修正は <code>*.md</code> に入れる。</li>
+                <li>A4の余白や改ページは <code>*.a4.html</code> を調整する。</li>
+                <li>スライドの文字量やページ分割は <code>*.slides.html</code> を調整する。</li>
+            </ul>
+            <div class="callout">HTMLは表示物。正本はMarkdown。</div>
+            <div class="num">4</div>
+        </section>
+
+        <section class="slide">
+            <div class="kicker">Quality</div>
+            <h2>新サンプルで確認すること</h2>
+            <ul>
+                <li>MD正本と3種類のHTMLが同じ basename で並ぶ。</li>
+                <li>Web版から他形式へ移動できる。</li>
+                <li>A4版は印刷ページとして扱える。</li>
+                <li>Slides版は長文ではなく要点として読める。</li>
+            </ul>
+            <div class="num">5</div>
+        </section>
+    </main>
+</body>
+</html>

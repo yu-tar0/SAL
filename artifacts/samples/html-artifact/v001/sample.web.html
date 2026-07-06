@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Artifact 新標準サンプル - Web</title>
+    <style>
+        :root {
+            --bg: #f4f7f9;
+            --paper: #ffffff;
+            --ink: #162033;
+            --muted: #5d6978;
+            --accent: #0f766e;
+            --line: #d8e2ea;
+            --soft: #edf7f5;
+            --warn: #fff7df;
+            --font: "Yu Gothic", "Meiryo", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            color: var(--ink);
+            background: var(--bg);
+            font-family: var(--font);
+            line-height: 1.75;
+        }
+        .topbar {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            justify-content: center;
+            padding: 12px 16px;
+            background: rgba(255,255,255,0.96);
+            border-bottom: 1px solid var(--line);
+        }
+        .topbar a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 700;
+        }
+        main {
+            max-width: 980px;
+            margin: 32px auto 56px;
+            padding: 44px 52px;
+            background: var(--paper);
+            box-shadow: 0 12px 32px rgba(22,32,51,0.12);
+        }
+        h1, h2, h3 { margin: 0; line-height: 1.18; letter-spacing: 0; }
+        h1 {
+            font-size: 42px;
+            padding-bottom: 16px;
+            border-bottom: 5px solid var(--accent);
+        }
+        h2 {
+            margin-top: 42px;
+            font-size: 28px;
+        }
+        p, li {
+            color: var(--muted);
+            font-size: 17px;
+        }
+        p { margin: 16px 0 0; }
+        ul { margin-top: 16px; }
+        .meta {
+            margin-top: 16px;
+            color: #6f7d8a;
+        }
+        .toc {
+            margin-top: 28px;
+            padding: 20px 24px;
+            background: var(--soft);
+            border-left: 6px solid var(--accent);
+        }
+        .toc a { color: var(--ink); text-decoration: none; }
+        .callout {
+            margin-top: 24px;
+            padding: 18px 22px;
+            background: var(--warn);
+            border-left: 7px solid #c58a08;
+            color: var(--ink);
+        }
+        table {
+            width: 100%;
+            margin-top: 24px;
+            border-collapse: collapse;
+            font-size: 16px;
+        }
+        th, td {
+            padding: 13px 12px;
+            border-bottom: 1px solid var(--line);
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            background: var(--accent);
+            color: #ffffff;
+        }
+        code {
+            padding: 2px 5px;
+            border-radius: 4px;
+            background: #eef2f5;
+        }
+        footer {
+            max-width: 980px;
+            margin: 0 auto 40px;
+            color: #71808e;
+            text-align: center;
+            font-size: 14px;
+        }
+        @media (max-width: 760px) {
+            .topbar { flex-wrap: wrap; position: static; }
+            main { margin: 0; padding: 28px 20px; box-shadow: none; }
+            h1 { font-size: 32px; }
+            h2 { font-size: 24px; }
+            table { font-size: 14px; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="topbar">
+        <strong>HTML Artifact 新標準サンプル</strong>
+        <a href="sample.md">MD正本</a>
+        <a href="sample.a4.html">A4版</a>
+        <a href="sample.slides.html">Slides版</a>
+    </nav>
+    <main>
+        <header>
+            <h1>HTML Artifact 新標準サンプル</h1>
+            <p class="meta">2026-05-24 | Web閲覧用 | Source: sample.md</p>
+        </header>
+
+        <section class="toc">
+            <strong>目次</strong>
+            <ul>
+                <li><a href="#tldr">TL;DR</a></li>
+                <li><a href="#purpose">このサンプルの目的</a></li>
+                <li><a href="#outputs">出力形式</a></li>
+                <li><a href="#roles">Markdown と HTML の役割</a></li>
+                <li><a href="#quality">品質チェック</a></li>
+            </ul>
+        </section>
+
+        <section id="tldr">
+            <h2>TL;DR</h2>
+            <p>この HTML は、Markdown 正本から生成する Web 閲覧用の連続ページです。同じ正本から、A4印刷用と16:9スライド用の HTML も別ファイルとして生成します。</p>
+        </section>
+
+        <section id="purpose">
+            <h2>このサンプルの目的</h2>
+            <p>旧サンプルは、1つの HTML 内で A4 とスライドを切り替える形式でした。新標準では、Markdown を内容の正本とし、用途ごとに HTML を分けます。</p>
+            <p>この方式により、内容修正は Markdown 側で一元管理し、A4 やスライドの見た目だけを直したい場合は該当する HTML を個別に調整できます。</p>
+        </section>
+
+        <section id="outputs">
+            <h2>出力形式</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ファイル</th>
+                        <th>用途</th>
+                        <th>レイアウト方針</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>*.web.html</code></td>
+                        <td>ブラウザ閲覧</td>
+                        <td>切れ目のない Web ページとして表示する</td>
+                    </tr>
+                    <tr>
+                        <td><code>*.a4.html</code></td>
+                        <td>A4印刷/PDF</td>
+                        <td>用紙単位のページ区切りを持たせる</td>
+                    </tr>
+                    <tr>
+                        <td><code>*.slides.html</code></td>
+                        <td>16:9スライド/PDF/PowerPoint</td>
+                        <td>1スライド1メッセージを基本に再構成する</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="roles">
+            <h2>Markdown と HTML の役割</h2>
+            <p>Markdown は、タイトル、章、節、表、図、根拠などの意味構造を残すための正本です。フォントサイズや余白などの細かな見た目は、出力先 HTML 側で決めます。</p>
+            <p>HTML は、Markdown の意味構造を人間が読みやすい形に変換した表示物です。Web、A4、Slides では同じ内容を扱っていても、見せ方は同じにしません。</p>
+            <div class="callout">内容を直す場合は Markdown を修正し、A4 や Slides の余白・ページ区切り・文字量だけを直す場合は対応する HTML を調整します。</div>
+        </section>
+
+        <section id="quality">
+            <h2>品質チェック</h2>
+            <ul>
+                <li>Markdown に入力元と出力先が明記されている。</li>
+                <li><code>web.html</code> から A4 版と Slides 版へ移動できる。</li>
+                <li><code>a4.html</code> は印刷時にページ区切りが明確になる。</li>
+                <li><code>slides.html</code> は長文をそのまま流し込まず、スライド向けに要点化している。</li>
+                <li>旧形式の単一 HTML サンプルに依存しない。</li>
+            </ul>
+        </section>
+    </main>
+    <footer>Generated as Web HTML Artifact | Source Markdown: sample.md</footer>
+</body>
+</html>

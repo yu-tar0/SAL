@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SALの誕生と進化：小型アーティキュレートローダーの成立背景と現代の電動化</title>
+    <!-- Artifact Theme: wiki-teal-v1 -->
+    <script type="application/json" id="artifact-theme-metadata">
+        {
+            "theme_id": "wiki-teal-v1",
+            "theme_name": "Wiki Teal",
+            "theme_version": 1,
+            "applied_on": "2026-06-30",
+            "source_theme_file": ".github/skills/html-artifact/assets/themes.json",
+            "colors": {
+                "page_bg": "#f3f5f7",
+                "paper_bg": "#ffffff",
+                "ink": "#172033",
+                "muted": "#5f6b7a",
+                "accent": "#0f766e",
+                "line": "#d9e1ea",
+                "soft": "#edf7f5",
+                "warn": "#8a5a00",
+                "warn_bg": "#fff4d8"
+            }
+        }
+    </script>
+    <style>
+        :root {
+            --page-bg: #f3f5f7;
+            --paper-bg: #ffffff;
+            --ink: #172033;
+            --muted: #5f6b7a;
+            --accent: #0f766e;
+            --line: #d9e1ea;
+            --soft: #edf7f5;
+            --warn: #8a5a00;
+            --warn-bg: #fff4d8;
+            --font: "Yu Gothic", "Meiryo", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            color: var(--ink);
+            background: radial-gradient(circle at top, #ffffff 0, var(--page-bg) 55%);
+            font-family: var(--font);
+            line-height: 1.8;
+        }
+        .topbar {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            display: flex;
+            gap: 14px;
+            align-items: center;
+            justify-content: center;
+            padding: 12px 18px;
+            background: rgba(255,255,255,0.94);
+            border-bottom: 1px solid var(--line);
+            backdrop-filter: blur(8px);
+        }
+        .topbar a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 700;
+        }
+        main {
+            max-width: 1080px;
+            margin: 32px auto 56px;
+            padding: 46px 56px;
+            background: var(--paper-bg);
+            box-shadow: 0 18px 46px rgba(23,32,51,0.12);
+        }
+        header {
+            margin-bottom: 28px;
+        }
+        h1, h2, h3, h4 {
+            margin: 0;
+            line-height: 1.18;
+            letter-spacing: 0;
+        }
+        h1 {
+            font-size: 40px;
+            padding-bottom: 18px;
+            border-bottom: 5px solid var(--accent);
+        }
+        h2 {
+            margin-top: 42px;
+            font-size: 28px;
+        }
+        h3 {
+            margin-top: 28px;
+            font-size: 22px;
+        }
+        h4 {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        p, li, blockquote {
+            color: var(--muted);
+            font-size: 17px;
+        }
+        p { margin: 16px 0 0; }
+        ul, ol {
+            margin: 16px 0 0;
+            padding-left: 1.4em;
+        }
+        li + li { margin-top: 6px; }
+        .meta {
+            margin-top: 16px;
+            color: #6f7d8a;
+        }
+        .lede {
+            margin-top: 18px;
+            font-size: 18px;
+        }
+        .toc {
+            margin-top: 30px;
+            padding: 20px 24px;
+            background: var(--soft);
+            border-left: 6px solid var(--accent);
+        }
+        .toc a {
+            color: var(--ink);
+            text-decoration: none;
+        }
+        .callout {
+            margin-top: 22px;
+            padding: 18px 22px;
+            background: var(--soft);
+            border-left: 8px solid var(--accent);
+            color: var(--ink);
+        }
+        .callout.warn {
+            background: var(--warn-bg);
+            border-left-color: var(--warn);
+        }
+        .table-wrap {
+            overflow-x: auto;
+            margin-top: 22px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 15px;
+            min-width: 640px;
+        }
+        th, td {
+            padding: 13px 12px;
+            border-bottom: 1px solid var(--line);
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            background: var(--accent);
+            color: #ffffff;
+        }
+        td { color: var(--ink); }
+        pre {
+            margin-top: 18px;
+            padding: 18px 20px;
+            overflow-x: auto;
+            background: #0f1720;
+            color: #e9f1f7;
+            border-radius: 8px;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        code {
+            padding: 2px 6px;
+            border-radius: 4px;
+            background: #eef2f5;
+            color: var(--ink);
+            font-family: Consolas, "Courier New", monospace;
+        }
+        pre code {
+            padding: 0;
+            background: transparent;
+            color: inherit;
+        }
+        blockquote {
+            margin: 22px 0 0;
+            padding: 14px 20px;
+            border-left: 6px solid var(--accent);
+            background: var(--soft);
+        }
+        .source-list a {
+            color: var(--accent);
+            word-break: break-all;
+        }
+        footer {
+            max-width: 1080px;
+            margin: 0 auto 40px;
+            color: #71808e;
+            text-align: center;
+            font-size: 14px;
+        }
+        @media (max-width: 800px) {
+            .topbar {
+                position: static;
+                flex-wrap: wrap;
+            }
+            main {
+                margin: 0;
+                padding: 28px 20px 36px;
+                box-shadow: none;
+            }
+            h1 { font-size: 31px; }
+            h2 { font-size: 24px; }
+            h3 { font-size: 20px; }
+            table { min-width: 560px; font-size: 14px; }
+        }
+    </style>
+</head>
+<body>
+    <nav class="topbar">
+        <strong>SAL HTML Artifact</strong>
+        <a href="2026-06-30-summary-sal-birth-evolution-electric.md">MD正本</a>
+    </nav>
+    <main>
+        <header>
+            <h1>SALの誕生と進化：小型アーティキュレートローダーの成立背景と現代の電動化</h1>
+            <p class="meta">2026-06-30 | Web閲覧用 | Source Markdown: 2026-06-30-summary-sal-birth-evolution-electric.md</p>
+            <p class="lede">SALの成立背景、多用途アタッチメント母機への進化、現代の電動油圧構成までを、元の Markdown の構造を保ったままブラウザ閲覧用に再構成した Artifact です。</p>
+        </header>
+
+        <section class="toc">
+            <strong>目次</strong>
+            <ol>
+                <li><a href="#s1">1. 要約</a></li>
+                <li><a href="#s2">2. SALはどのように生まれたか</a></li>
+                <li><a href="#s3">3. SALの進化：アタッチメント母機への発展</a></li>
+                <li><a href="#s4">4. 現代でSALのような新しい機械を開発しているメーカー</a></li>
+                <li><a href="#s5">5. 電動SALのシステム構成</a></li>
+                <li><a href="#s6">6. 電動SALの代表的な構成パターン</a></li>
+                <li><a href="#s7">7. SAL開発目線での示唆</a></li>
+                <li><a href="#s8">8. SAL設計思想としてのまとめ</a></li>
+                <li><a href="#s9">9. 参考URL一覧</a></li>
+                <li><a href="#s10">10. 一文での結論</a></li>
+            </ol>
+        </section>
+
+        <section id="s1">
+            <h2>1. 要約</h2>
+            <div class="callout">SALは、大型ホイールローダーの小型版ではなく、狭い畜舎・農場・施設内で人力で行っていた運搬・給餌・清掃・積込みを機械化するために生まれた。現代では、電動化しても油圧アタッチメント母機という本質を残す「電動油圧SAL」が主流になっている。</div>
+            <p>その後、アタッチメント交換によって1台を多用途に使う思想が強まり、現在では農業、酪農、造園、ツリーケア、軽建設、施設管理、除雪、自治体作業などへ用途が広がっている。</p>
+            <p>現代の進化軸は、主に次の4つである。</p>
+            <ol>
+                <li><strong>小型・狭所対応</strong></li>
+                <li><strong>アタッチメント母機化</strong></li>
+                <li><strong>芝・床面を傷めにくい走行方式</strong></li>
+                <li><strong>電動化・低騒音・屋内対応</strong></li>
+            </ol>
+            <p>特に電動SALは、完全な電動直駆機械というより、<strong>エンジンをバッテリー＋電動モーターに置き換え、走行・作業機側には油圧システムを残す“電動油圧SAL”</strong>として発展している。</p>
+        </section>
+
+        <section id="s2">
+            <h2>2. SALはどのように生まれたか</h2>
+
+            <h3>2.1 出発点は「狭い農場・畜舎の人力作業の機械化」</h3>
+            <p>SALの原型に近い存在として重要なのが、ドイツWeidemannの <strong>Hoftrac</strong> である。</p>
+            <p>Weidemannは1972〜1973年ごろ、三輪式の簡易ローダーの試作から、小型のアーティキュレート式ホイールローダーを開発した。背景には、1950〜60年代に建てられた狭い牛舎や通路があり、そこで手押し車やフォークを使って行われていた給餌・糞出し・運搬作業を機械化する必要があった。</p>
+            <p>参考URL: <a href="https://www.weidemann.com/ca/company/news/news-detail/50-years-of-hoftrac">https://www.weidemann.com/ca/company/news/news-detail/50-years-of-hoftrac</a></p>
+            <p>このためSALには、誕生時点から次のような要求があった。</p>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>要求</th>
+                            <th>機械に求められた特徴</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>既存の畜舎に入る</td><td>小型、低全高、細い車幅</td></tr>
+                        <tr><td>狭い場所で向きを変える</td><td>アーティキュレート操舵、小回り</td></tr>
+                        <tr><td>人力作業を置き換える</td><td>バケット、フォーク、清掃作業への対応</td></tr>
+                        <tr><td>床・芝・土を荒らしにくい</td><td>スキッド操舵ではなく関節式操舵</td></tr>
+                        <tr><td>農家が使える価格にする</td><td>複雑すぎない構造、低コスト</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>つまり、SALの本質は<strong>「狭い現場で、人の重作業を、低コストに、多用途に機械化すること」</strong>にある。</p>
+
+            <h3>2.2 スキッドステアとは異なる成立背景</h3>
+            <p>小型作業機としては、スキッドステアローダーも存在する。しかしSALは、スキッドステアとは異なる価値を持って発展した。</p>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>比較項目</th>
+                            <th>スキッドステア</th>
+                            <th>SAL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>旋回方式</td><td>左右輪の速度差で旋回</td><td>車体中央の関節で曲がる</td></tr>
+                        <tr><td>小回り</td><td>非常に良い</td><td>良い</td></tr>
+                        <tr><td>床面への影響</td><td>タイヤをこすりやすい</td><td>芝・床を傷めにくい</td></tr>
+                        <tr><td>乗り心地</td><td>作業機寄り</td><td>比較的扱いやすい</td></tr>
+                        <tr><td>代表用途</td><td>建設、土木、解体</td><td>農業、造園、畜舎、施設管理</td></tr>
+                        <tr><td>アタッチメント</td><td>多い</td><td>多い</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>SALは、スキッドステアほどの旋回性を求めるよりも、<strong>地面を荒らさず、狭所で扱いやすく、多用途に使えること</strong>を重視した機械だといえる。</p>
+            <p>BobcatもSALについて、スキッドステアのようにタイヤをスキッドさせず、アーティキュレート操舵によって表面損傷を減らせる点を特徴として説明している。</p>
+            <p>参考URL: <a href="https://www.bobcat.com/na/en/equipment/loaders/small-articulated-loaders">https://www.bobcat.com/na/en/equipment/loaders/small-articulated-loaders</a></p>
+        </section>
+
+        <section id="s3">
+            <h2>3. SALの進化：アタッチメント母機への発展</h2>
+
+            <h3>3.1 Avantによる多用途化</h3>
+            <p>1990年代以降、SALは単なる農場内ローダーから、<strong>多用途アタッチメント母機</strong>へ進化していった。</p>
+            <p>Avantは1991年創業で、「コンパクトで、力があり、使いやすいローダー」を作るという考えから始まり、現在では多数のアタッチメントを展開している。</p>
+            <p>参考URL: <a href="https://avanttecno.com/about-us/">https://avanttecno.com/about-us/</a></p>
+            <p>Avantの豪州代理店の沿革では、初期の発想として、農場内のきつい作業に対して適切でコスト効率のよい機械がなかったこと、最初は給餌作業のような人力作業の置き換えだったことが説明されている。</p>
+            <p>参考URL: <a href="https://avantequipment.com.au/about-us/history/">https://avantequipment.com.au/about-us/history/</a></p>
+            <ul>
+                <li>バケットだけでなく、フォーク、スイーパー、オーガ、草刈り機、除雪機、グラップルなどを使う</li>
+                <li>1台の母機に多数のアタッチメントを付け替える</li>
+                <li>農場だけでなく、造園、施設管理、自治体作業、軽建設にも使う</li>
+                <li>単純な積込み機ではなく「作業プラットフォーム」として使う</li>
+            </ul>
+
+            <h3>3.2 SALの価値の変化</h3>
+            <p>SALの価値は、時代とともに次のように変化している。</p>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>時代・段階</th>
+                            <th>主な価値</th>
+                            <th>機械の方向性</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>誕生期</td><td>畜舎内の人力作業を減らす</td><td>小型、低コスト、単純なローダー</td></tr>
+                        <tr><td>普及期</td><td>農場内の多用途作業を1台で行う</td><td>クイックアタッチ、補助油圧</td></tr>
+                        <tr><td>拡張期</td><td>造園・ツリーケア・施設管理へ展開</td><td>芝を傷めない、狭所対応、テレスコブーム</td></tr>
+                        <tr><td>現代</td><td>低騒音・屋内・排ガス規制対応</td><td>電動化、電子制御、バッテリー管理</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="s4">
+            <h2>4. 現代でSALのような新しい機械を開発しているメーカー</h2>
+            <p>現代では、SALは古い成熟ジャンルというより、<strong>再び開発が活発化している小型多用途機械</strong>と見た方がよい。</p>
+            <p>特に目立つのは、以下の方向である。</p>
+            <ol>
+                <li>既存SALメーカーによる高機能化</li>
+                <li>建機メーカーによるSAL市場への参入</li>
+                <li>電動SALの開発</li>
+                <li>SALに近い小型アタッチメント母機の開発</li>
+                <li>遠隔操作・自律化との接続</li>
+            </ol>
+
+            <h3>4.1 SALそのものに新規参入・再注力しているメーカー</h3>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>メーカー</th>
+                            <th>動き</th>
+                            <th>代表例</th>
+                            <th>見るべきポイント</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>CASE</td><td>SALラインを新規展開</td><td>SL12、SL12 TR、SL15、SL22EV、SL27 TR、SL35 TR、SL50 TR</td><td>小型SALから電動SALまで展開</td></tr>
+                        <tr><td>New Holland</td><td>SALラインを展開</td><td>ML12、ML12T、ML27Tなど</td><td>農業・軽建設・造園向け</td></tr>
+                        <tr><td>Bobcat</td><td>SALカテゴリを拡張</td><td>L23、L28、L35</td><td>スキッドステア中心メーカーがSALにも展開</td></tr>
+                        <tr><td>Vermeer</td><td>造園・ツリーケア向けに展開</td><td>ATXシリーズ</td><td>芝を傷めにくい、テレスコ、アタッチメント対応</td></tr>
+                        <tr><td>Mecalac</td><td>小型アーティキュレートとSwing Loaderを展開</td><td>MCLシリーズ、eS900tele、eS1000</td><td>旋回アームで機械を動かさず作業する方向</td></tr>
+                        <tr><td>Intrepid / Knikmops系</td><td>北米で小型SALを展開</td><td>KM85、KM100 Tele、KM130 Tele、KM180 Tele、KM250</td><td>造園・ハードスケープ・ツリーケア向け</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="source-list">
+                <p>参考URL:</p>
+                <ul>
+                    <li><a href="https://www.casece.com/en-us/northamerica/inside-case/articles/2023/case-previews-all-new-small-articulated-loader-line-at-conexpo-con-agg-2023">CASE SALライン</a></li>
+                    <li><a href="https://construction.newholland.com/en-us/northamerica/products/light-construction-equipment/small-articulated-loaders/ml12t">New Holland ML12T</a></li>
+                    <li><a href="https://www.bobcat.com/na/en/equipment/loaders/small-articulated-loaders">Bobcat SAL</a></li>
+                    <li><a href="https://www.vermeer.com/na/compact-articulated-loaders">Vermeer compact articulated loaders</a></li>
+                    <li><a href="https://mecalac.com/us/fiche-famille-machines/11-2-1.html">Mecalac loader family</a></li>
+                    <li><a href="https://compactequip.com/wheel-loaders/intrepid-loaders-usa-debuts-km180-tele-a-small-articulated-loader-with-reach/">Intrepid / Knikmops KM180 Tele 紹介記事</a></li>
+                    <li><a href="https://www.equipmentworld.com/construction-equipment/compact-equipment/compact-wheel-loaders/article/15821310/small-articulated-loader-buyers-guide-2026">2026年版SALバイヤーズガイド</a></li>
+                </ul>
+            </div>
+
+            <h3>4.2 電動SALで先行・展開しているメーカー</h3>
+            <p>現代のSAL開発で特に重要なのが<strong>電動化</strong>である。</p>
+            <p>SALは、もともと狭所・屋内・畜舎・施設内・造園で使われることが多いため、電動化との相性がよい。</p>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>メーカー</th>
+                            <th>代表例</th>
+                            <th>電動化の意味</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Avant</td><td>e500シリーズ、e700シリーズ</td><td>低騒音、ゼロエミッション、多用途アタッチメント母機</td></tr>
+                        <tr><td>MultiOne</td><td>EZシリーズ</td><td>電動コンパクトローダー、家庭用電源や外部充電に対応</td></tr>
+                        <tr><td>TOBROCO-GIANT</td><td>G2200E、G2200E TELE、G2700E</td><td>走行用と作業油圧用に別モーターを持つ構成</td></tr>
+                        <tr><td>Weidemann</td><td>1190e、1290e、1390e</td><td>Hoftracの電動化、畜舎・屋内向け</td></tr>
+                        <tr><td>Wacker Neuson</td><td>WL300eなど</td><td>小型ホイールローダーのゼロエミッション化</td></tr>
+                        <tr><td>CASE</td><td>SL22EV</td><td>SALライン内の電動モデル</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="source-list">
+                <p>参考URL:</p>
+                <ul>
+                    <li><a href="https://avanttecno.com/loaders/e500-series/">Avant e500 series</a></li>
+                    <li><a href="https://www.multione.com/wp-content/uploads/2025/06/EZ_DEPL_2024_r00_EN.pdf">MultiOne EZ カタログ</a></li>
+                    <li><a href="https://www.tobroco-giant.com/en/wheel-loaders/electric-wheel-loader-g2200e">GIANT G2200E</a></li>
+                    <li><a href="https://www.weidemann.com/uk/products/farm-loader/hoftrac-1190e">Weidemann 1190e</a></li>
+                    <li><a href="https://www.wackerneuson.com/cemea/about-us/news/detail/wacker-neuson-bauma-2025-highlights-13">Wacker Neuson Bauma 2025 highlights</a></li>
+                    <li><a href="https://www.casece.com/en-us/northamerica/products/small-articulated-loaders/sl22ev">CASE SL22EV</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="s5">
+            <h2>5. 電動SALのシステム構成</h2>
+
+            <h3>5.1 基本思想</h3>
+            <p>現代の電動SALは、乗用車EVのようにタイヤを電動モーターで直接駆動する構成が主流ではない。</p>
+            <p>主流は、<strong>ディーゼルエンジンをバッテリー＋電動モーターに置き換え、走行系・作業機系には油圧を残す構成</strong>である。</p>
+            <p>基本構成は次のようになる。</p>
+            <pre><code>リチウムイオンバッテリー
+        ↓
+BMS・インバータ・コントローラ
+        ↓
+電動モーター
+        ↓
+走行用油圧ポンプ／作業機用油圧ポンプ
+        ↓
+走行油圧モーター・アクスル
++
+ブームシリンダ、補助油圧ポート、アタッチメント</code></pre>
+            <p>この構成を採る理由は、SALの価値が<strong>油圧アタッチメント母機</strong>にあるためである。既存のアタッチメント資産を使うには、作業機側の油圧インターフェースを残す方が合理的である。</p>
+
+            <h3>5.2 主流は「走行用モーター」と「作業油圧用モーター」を分ける構成</h3>
+            <p>多くの電動SALでは、走行用と作業機用でモーターを分ける<strong>2モーター構成</strong>が採られている。</p>
+            <pre><code>バッテリー
+  ├─ 走行用電動モーター
+  │      ↓
+  │   走行ポンプ／走行駆動系
+  │      ↓
+  │   4WD・油圧モーター・アクスル
+  │
+  └─ 作業油圧用電動モーター
+         ↓
+      作業油圧ポンプ
+         ↓
+      ブーム・バケット・補助油圧</code></pre>
+            <ul>
+                <li>走行していない時は走行側の消費を抑えられる</li>
+                <li>作業油圧が必要な時だけ作業側を使える</li>
+                <li>走行負荷と作業機負荷を別々に管理しやすい</li>
+                <li>バッテリー・モーターの過負荷制御がしやすい</li>
+                <li>作業機アタッチメントの要求に合わせやすい</li>
+            </ul>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>メーカー / 機種</th>
+                            <th>構成の特徴</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Weidemann 1290e</td><td>走行用と作業油圧用に2つの電動モーターを使用</td></tr>
+                        <tr><td>GIANT G2200E</td><td>走行用7kW、作業油圧用12kWの2モーター構成</td></tr>
+                        <tr><td>MultiOne EZ</td><td>トランスミッション用モーターとブーム・補助油圧用モーターを分離</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="source-list">
+                <p>参考URL:</p>
+                <ul>
+                    <li><a href="https://www.weidemann.com/uk/products/farm-loader/hoftrac-1290e">Weidemann 1290e</a></li>
+                    <li><a href="https://www.tobroco-giant.com/en/wheel-loaders/electric-wheel-loader-g2200e">GIANT G2200E</a></li>
+                    <li><a href="https://de.multione.com/produkt/serie-ez/">MultiOne EZ</a></li>
+                </ul>
+            </div>
+
+            <h3>5.3 走行は「電動直駆」より「電動HST／油圧4WD」が多い</h3>
+            <p>現代の電動SALでは、インホイールモーターのようにタイヤを直接電動駆動する方式は主流ではない。</p>
+            <p>多くは、<strong>電動モーターで油圧ポンプを回し、油圧モーターやアクスルで4輪を駆動する</strong>。</p>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>メーカー / 機種</th>
+                            <th>走行構成</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Avant e500</td><td>Hydrostatic, Avant Optidrive</td></tr>
+                        <tr><td>MultiOne EZ</td><td>4WD 油圧式ダイレクトドライブモーター</td></tr>
+                        <tr><td>Avant e700</td><td>テレスコブーム、アーティキュレート、4輪油圧駆動を維持</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="source-list">
+                <p>参考URL:</p>
+                <ul>
+                    <li><a href="https://avantequipment.co.nz/loaders/e-series">Avant e-series</a></li>
+                    <li><a href="https://avanttecno.com/uk/loaders/e700-series/">Avant e700 series</a></li>
+                </ul>
+            </div>
+
+            <h3>5.4 1モーター＋複数ポンプ構成</h3>
+            <p>一方で、Avant e727のように、<strong>1つの電動モーターで走行ポンプと補助油圧ポンプをまとめて駆動する構成</strong>もある。</p>
+            <p>Avant e727の公開仕様では、次のような構成が示されている。</p>
+            <ul>
+                <li>電動モーター：1基</li>
+                <li>走行用油圧ポンプ：1基</li>
+                <li>補助ポンプ：2基</li>
+                <li>油圧走行モーター：4基</li>
+                <li>バッテリー：27kWh / 44V</li>
+                <li>補助油圧：最大35L/min、最大200bar</li>
+            </ul>
+            <pre><code>バッテリー 27kWh / 44V
+        ↓
+電動モーター 1基
+        ↓
+  ┌───────────────┬───────────────┐
+  ↓               ↓
+走行用可変ポンプ   補助油圧ポンプ×2
+  ↓               ↓
+4輪油圧モーター     ブーム・補助油圧</code></pre>
+            <p>この方式は、部品点数を減らし、スペースとコストを抑えながら、ポンプ側の構成と制御で走行・作業油圧を成立させる考え方だと見られる。</p>
+            <div class="source-list">
+                <p>参考URL:</p>
+                <ul>
+                    <li><a href="https://bauma.avanttecno.com/avant-loaders/new-e-series/avant-e727/">Avant e727</a></li>
+                    <li><a href="https://avanttecno.com/uk/loaders/e700-series/">Avant e700 series</a></li>
+                </ul>
+            </div>
+
+            <h3>5.5 バッテリー電圧・容量</h3>
+            <p>電動SALは、乗用車EVのような400V級が主流ではなく、44V、48V、96Vなどの比較的低い電圧帯が目立つ。</p>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>メーカー / 機種</th>
+                            <th>電圧・容量</th>
+                            <th>備考</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Avant e500</td><td>44V、13〜27kWh</td><td>e513/e527。OptiTempリチウムイオン</td></tr>
+                        <tr><td>Avant e727</td><td>44V、27kWh</td><td>1モーター、走行ポンプ1、補助ポンプ2</td></tr>
+                        <tr><td>GIANT G2200E</td><td>48V、260Ah標準、390/520Ah選択可</td><td>走行7kW、作業油圧12kW</td></tr>
+                        <tr><td>Weidemann 1390e</td><td>96V、14.1/18/28kWh</td><td>3種類のリチウムイオン電池</td></tr>
+                        <tr><td>Wacker Neuson WL300e</td><td>48V、14.1/18.7/23.4kWh</td><td>3種類の電池容量、3kW車載充電器</td></tr>
+                        <tr><td>CASE SL22EV</td><td>24.9kWh</td><td>5〜6時間想定、240V単相充電または急速充電</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="source-list">
+                <p>参考URL:</p>
+                <ul>
+                    <li><a href="https://avanttecno.com/is/loaders/e500-series/">Avant e500</a></li>
+                    <li><a href="https://bauma.avanttecno.com/avant-loaders/new-e-series/avant-e727/">Avant e727</a></li>
+                    <li><a href="https://www.tobroco-giant.com/en/wheel-loaders/electric-wheel-loader-g2200e">GIANT G2200E</a></li>
+                    <li><a href="https://www.weidemann.com/uk/products/farm-loader/hoftrac-1390e">Weidemann 1390e</a></li>
+                    <li><a href="https://www.wackerneuson.ch/en/zero-emission/electric-wheel-loaders/wl300e">Wacker Neuson WL300e</a></li>
+                    <li><a href="https://www.casece.com/en-us/northamerica/products/small-articulated-loaders/sl22ev">CASE SL22EV</a></li>
+                </ul>
+            </div>
+
+            <h3>5.6 作業機側は油圧アタッチメント互換を優先</h3>
+            <p>電動SALでも、作業機側は基本的に油圧である。</p>
+            <p>理由は明確で、SALの価値が<strong>アタッチメント母機</strong>にあるためである。</p>
+            <p>バケット、パレットフォーク、スイーパー、オーガ、草刈り機、除雪機、ミキサー、グラップルなどを動かすには、既存の油圧インターフェースを残す方が合理的である。</p>
+            <blockquote>
+                電源と原動機は電動化する。<br>
+                しかし、SALの本質である油圧アタッチメント母機構造は残す。
+            </blockquote>
+        </section>
+
+        <section id="s6">
+            <h2>6. 電動SALの代表的な構成パターン</h2>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>パターン</th>
+                            <th>構成</th>
+                            <th>代表例</th>
+                            <th>特徴</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>2モーター分離型</td><td>走行用モーター＋作業油圧用モーター</td><td>GIANT G2200E、Weidemann、MultiOne EZ</td><td>走行と作業油圧を別々に最適化できる。効率がよい</td></tr>
+                        <tr><td>1モーター複数ポンプ型</td><td>1モーターで走行ポンプ＋補助ポンプを駆動</td><td>Avant e727</td><td>部品点数・コスト・スペースを抑えやすい</td></tr>
+                        <tr><td>電動コンパクトホイールローダー型</td><td>電池＋電動駆動＋油圧作業機</td><td>Wacker Neuson WL300e、CASE SL22EV</td><td>SALよりやや建機寄り。屋内・低騒音用途を狙う</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="s7">
+            <h2>7. SAL開発目線での示唆</h2>
+
+            <h3>7.1 SALの本質</h3>
+            <p>SALは、高性能な油圧システムや自動化技術そのものが価値ではない。</p>
+            <p>本質は、次の点にある。</p>
+            <ul>
+                <li>狭い場所に入れる</li>
+                <li>人力作業を減らせる</li>
+                <li>アタッチメントを替えて多用途に使える</li>
+                <li>芝や床を傷めにくい</li>
+                <li>ユーザーが理解しやすい</li>
+                <li>価格に対する価値が高い</li>
+                <li>故障しにくく、現場で使いやすい</li>
+            </ul>
+            <p>したがって、SALでは<strong>高度な自動化よりも、ユーザーが納得して使える分かりやすさとコストパフォーマンス</strong>が重要になる。</p>
+
+            <h3>7.2 M280クラスのような低コストSALで参考になる方向</h3>
+            <p>M280クラス、または低コストSALを考える場合、参考になるのは次の方向である。</p>
+
+            <h4>方向1：既存油圧SALの原動機だけを電動化する</h4>
+            <p>最も現実的なのは、既存の油圧SALの構成を大きく変えず、エンジンをバッテリー＋電動モーターに置き換える構成である。</p>
+            <p>メリット：</p>
+            <ul>
+                <li>既存アタッチメントとの互換性を保ちやすい</li>
+                <li>油圧回路の設計資産を使える</li>
+                <li>機械構成を大きく変えずに電動化できる</li>
+                <li>ユーザーにとって理解しやすい</li>
+            </ul>
+
+            <h4>方向2：高機能化するなら2モーター構成</h4>
+            <p>走行用と作業油圧用を分ける2モーター構成は、性能と制御性の面で有利である。</p>
+            <p>メリット：</p>
+            <ul>
+                <li>走行負荷と作業負荷を別々に管理できる</li>
+                <li>バッテリー・モーターの過負荷を制御しやすい</li>
+                <li>作業機側の油圧要求に対応しやすい</li>
+                <li>電動SALらしい効率向上が期待できる</li>
+            </ul>
+            <p>デメリット：</p>
+            <ul>
+                <li>モーター、インバータ、制御系が増える</li>
+                <li>コストが上がる</li>
+                <li>故障診断や整備が複雑になる</li>
+            </ul>
+
+            <h4>方向3：コスト重視なら1モーター＋複数ポンプ構成</h4>
+            <p>Avant e727のような1モーター＋複数ポンプ構成は、SALのコストパフォーマンス設計に合う可能性がある。</p>
+            <p>メリット：</p>
+            <ul>
+                <li>部品点数を抑えられる</li>
+                <li>スペースを抑えやすい</li>
+                <li>コストを抑えやすい</li>
+                <li>従来の油圧SALに近い構成にできる</li>
+            </ul>
+            <p>デメリット：</p>
+            <ul>
+                <li>走行と作業油圧の同時負荷管理が難しい</li>
+                <li>電動モーター1基に負荷が集中する</li>
+                <li>ポンプ構成・制御の設計が重要になる</li>
+            </ul>
+        </section>
+
+        <section id="s8">
+            <h2>8. SAL設計思想としてのまとめ</h2>
+            <p>SALの誕生と進化を踏まえると、設計思想は次のように整理できる。</p>
+            <pre><code>SALは、重機の小型版ではない。
+SALは、人力作業を、狭い現場で、安く、分かりやすく、多用途に機械化するための母機である。</code></pre>
+            <p>そのため、現代のSAL開発では、単純な馬力競争よりも次の価値が重要になる。</p>
+            <ul>
+                <li>小型であること</li>
+                <li>小回りが利くこと</li>
+                <li>芝や床を傷めにくいこと</li>
+                <li>アタッチメントが多いこと</li>
+                <li>操作が分かりやすいこと</li>
+                <li>コストが合うこと</li>
+                <li>メンテナンスしやすいこと</li>
+                <li>電動化・低騒音・屋内作業に対応できること</li>
+            </ul>
+            <p>電動化においても、現代メーカーの多くは、油圧を完全に捨てるのではなく、<strong>原動機を電動化し、作業機インターフェースは油圧のまま残す</strong>という現実的な構成を選んでいる。</p>
+            <p>これは、SALの価値が「電動であること」そのものではなく、<strong>現場で使えるアタッチメント母機であること</strong>にあるためである。</p>
+        </section>
+
+        <section id="s9">
+            <h2>9. 参考URL一覧</h2>
+
+            <h3>SALの誕生・歴史</h3>
+            <ul class="source-list">
+                <li><a href="https://www.weidemann.com/ca/company/news/news-detail/50-years-of-hoftrac">Weidemann Hoftrac 50年史</a></li>
+                <li><a href="https://avanttecno.com/about-us/">Avant 会社情報</a></li>
+                <li><a href="https://avantequipment.com.au/about-us/history/">Avant Equipment Australia history</a></li>
+            </ul>
+
+            <h3>SALカテゴリ・現代メーカー</h3>
+            <ul class="source-list">
+                <li><a href="https://www.bobcat.com/na/en/equipment/loaders/small-articulated-loaders">Bobcat Small Articulated Loaders</a></li>
+                <li><a href="https://www.casece.com/en-us/northamerica/inside-case/articles/2023/case-previews-all-new-small-articulated-loader-line-at-conexpo-con-agg-2023">CASE SALライン発表</a></li>
+                <li><a href="https://www.casece.com/en-us/northamerica/products/small-articulated-loaders/sl22ev">CASE SL22EV</a></li>
+                <li><a href="https://construction.newholland.com/en-us/northamerica/products/light-construction-equipment/small-articulated-loaders/ml12t">New Holland ML12T</a></li>
+                <li><a href="https://www.vermeer.com/na/compact-articulated-loaders">Vermeer compact articulated loaders</a></li>
+                <li><a href="https://mecalac.com/us/fiche-famille-machines/11-2-1.html">Mecalac loader family</a></li>
+                <li><a href="https://compactequip.com/wheel-loaders/intrepid-loaders-usa-debuts-km180-tele-a-small-articulated-loader-with-reach/">Intrepid / Knikmops KM180 Tele 紹介記事</a></li>
+                <li><a href="https://www.equipmentworld.com/construction-equipment/compact-equipment/compact-wheel-loaders/article/15821310/small-articulated-loader-buyers-guide-2026">Equipment World 2026 SAL buyers guide</a></li>
+            </ul>
+
+            <h3>電動SAL・電動小型ローダー</h3>
+            <ul class="source-list">
+                <li><a href="https://avanttecno.com/loaders/e500-series/">Avant e500 series</a></li>
+                <li><a href="https://avantequipment.co.nz/loaders/e-series">Avant e-series New Zealand</a></li>
+                <li><a href="https://avanttecno.com/uk/loaders/e700-series/">Avant e700 series</a></li>
+                <li><a href="https://bauma.avanttecno.com/avant-loaders/new-e-series/avant-e727/">Avant e727</a></li>
+                <li><a href="https://www.multione.com/wp-content/uploads/2025/06/EZ_DEPL_2024_r00_EN.pdf">MultiOne EZ カタログ</a></li>
+                <li><a href="https://de.multione.com/produkt/serie-ez/">MultiOne EZ ドイツ製品ページ</a></li>
+                <li><a href="https://www.tobroco-giant.com/en/wheel-loaders/electric-wheel-loader-g2200e">GIANT G2200E</a></li>
+                <li><a href="https://www.weidemann.com/uk/products/farm-loader/hoftrac-1190e">Weidemann 1190e</a></li>
+                <li><a href="https://www.weidemann.com/uk/products/farm-loader/hoftrac-1290e">Weidemann 1290e</a></li>
+                <li><a href="https://www.weidemann.com/uk/products/farm-loader/hoftrac-1390e">Weidemann 1390e</a></li>
+                <li><a href="https://www.wackerneuson.ch/en/zero-emission/electric-wheel-loaders/wl300e">Wacker Neuson WL300e</a></li>
+                <li><a href="https://www.wackerneuson.com/cemea/about-us/news/detail/wacker-neuson-bauma-2025-highlights-13">Wacker Neuson Bauma 2025 highlights</a></li>
+            </ul>
+        </section>
+
+        <section id="s10">
+            <h2>10. 一文での結論</h2>
+            <div class="callout warn">SALは、狭い農場・畜舎の人力作業を機械化するために生まれ、アタッチメント母機として多用途化し、現代では電動化によって屋内・低騒音・ゼロエミッション用途へ進化している。ただし、電動SALでも作業機インターフェースは油圧を残す構成が主流であり、SALの本質は今も「安く、分かりやすく、多用途に使える小型作業母機」である。</div>
+        </section>
+
+        <section id="provenance">
+            <h2>Provenance</h2>
+            <ul>
+                <li>入力 raw: <code>raw/inbox/sal_birth_evolution_electric.md</code></li>
+                <li>入力 wiki: なし</li>
+                <li>生成先 HTML: <code>artifacts/2026-06-30-summary-sal-birth-evolution-electric/2026-06-30-summary-sal-birth-evolution-electric.web.html</code></li>
+                <li>作成日: 2026-06-30</li>
+            </ul>
+        </section>
+
+        <section id="updated">
+            <h2>Last Updated</h2>
+            <p>2026-06-30</p>
+        </section>
+    </main>
+    <footer>Generated as Web HTML Artifact | Source Markdown: 2026-06-30-summary-sal-birth-evolution-electric.md</footer>
+</body>
+</html>

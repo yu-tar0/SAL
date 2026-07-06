@@ -1,0 +1,93 @@
+﻿{
+  "default_theme_id": "wiki-teal-v1",
+  "themes": [
+    {
+      "id": "wiki-teal-v1",
+      "name": "Wiki Teal",
+      "version": 1,
+      "status": "active",
+      "created": "2026-06-01",
+      "updated": "2026-06-01",
+      "description": "LLM Wiki HTML Artifact standard theme based on the original teal accent palette.",
+      "colors": {
+        "page_bg": "#f3f5f7",
+        "paper_bg": "#ffffff",
+        "ink": "#172033",
+        "muted": "#5f6b7a",
+        "accent": "#0f766e",
+        "line": "#d9e1ea",
+        "soft": "#edf7f5",
+        "warn": "#8a5a00",
+        "warn_bg": "#fff4d8"
+      },
+      "css_variables": {
+        "page_bg": "--page-bg",
+        "paper_bg": "--paper-bg",
+        "ink": "--ink",
+        "muted": "--muted",
+        "accent": "--accent",
+        "line": "--line",
+        "soft": "--soft",
+        "warn": "--warn",
+        "warn_bg": "--warn-bg"
+      },
+      "usage": {
+        "default_for": [
+          "web.html",
+          "a4.html",
+          "slides.html"
+        ],
+        "switching": "generation-time"
+      }
+    },
+    {
+      "id": "blackrock-v1-color",
+      "name": "BlackRock",
+      "version": 1,
+      "status": "active",
+      "created": "2026-06-01",
+      "updated": "2026-06-01",
+      "description": "BlackRock logo image based HTML Artifact color theme.",
+      "colors": {
+        "page_bg": "#F5F6F8",
+        "paper_bg": "#FFFFFF",
+        "ink": "#171717",
+        "muted": "#5F6368",
+        "accent": "#000000",
+        "line": "#DADCE0",
+        "soft": "#F3F4F6",
+        "warn": "#8A5A00",
+        "warn_bg": "#FFF4D8"
+      },
+      "css_variables": {
+        "page_bg": "--page-bg",
+        "paper_bg": "--paper-bg",
+        "ink": "--ink",
+        "muted": "--muted",
+        "accent": "--accent",
+        "line": "--line",
+        "soft": "--soft",
+        "warn": "--warn",
+        "warn_bg": "--warn-bg"
+      },
+      "usage": {
+        "default_for": [],
+        "switching": "generation-time"
+      }
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-06-01",
+      "theme_id": "wiki-teal-v1",
+      "change": "Created the first standard HTML Artifact color theme from the existing teal-based template palette."
+    },
+    {
+      "date": "2026-06-01",
+      "theme_id": "blackrock-v1-color",
+      "change": "Added a monochrome BlackRock theme generated from raw/assets/image-color-theme/blackrock-v1/BlackRock.png for side-by-side artifact comparison."
+    }
+  ]
+}
+
+

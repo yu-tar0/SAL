@@ -1,0 +1,6 @@
+﻿company,raw_item_name,canonical_item,mapping_method,confidence,notes,n_products
+GIANT,Battery,battery_capacity,unit_based,0.6,GIANT 電動機の Battery(Ah/48V)。kWh への変換規則が無いためテキスト保持,2
+GIANT,Driving mechanism,motor_power_drive,inferred,0.6,電動機の走行機構出力,2
+GIANT,Working hydraulics,aux_hydraulic_flow,inferred,0.6,GIANT の作業油圧流量。補助油圧流量に相当すると判断（要レビュー）,26
+GIANT,Working hydraulics motor,motor_power_implement,inferred,0.6,,2
+Case,DRIVETRAIN / Max. Travel speed / Rabbit – High Gear,max_travel_speed,inferred,0.65,,2

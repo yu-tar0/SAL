@@ -1,0 +1,14 @@
+# Core structured-data layer
+duckdb>=1.0
+
+# PDF page rendering: scripts/pdf_to_page_images.py
+pymupdf>=1.24
+
+# Image theme generation: .github/skills/image-color-theme/scripts/image_to_theme.py
+pillow>=10.0
+
+# HTML slides to PPTX conversion: scripts/html_slides_to_pptx.py
+beautifulsoup4>=4.12
+
+# XLSX to CSV conversion: scripts/xlsx_to_csv.py
+openpyxl>=3.1

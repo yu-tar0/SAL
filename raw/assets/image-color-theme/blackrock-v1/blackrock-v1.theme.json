@@ -1,0 +1,20 @@
+{
+  "id": "blackrock-v1",
+  "name": "BlackRock",
+  "version": 1,
+  "status": "active",
+  "created": "2026-06-01",
+  "updated": "2026-06-01",
+  "description": "BlackRock logo image based HTML Artifact color theme.",
+  "colors": {
+    "page_bg": "#F5F6F8",
+    "paper_bg": "#FFFFFF",
+    "ink": "#171717",
+    "muted": "#5F6368",
+    "accent": "#000000",
+    "line": "#DADCE0",
+    "soft": "#F3F4F6",
+    "warn": "#8A5A00",
+    "warn_bg": "#FFF4D8"
+  }
+}

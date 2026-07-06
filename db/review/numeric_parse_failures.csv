@@ -1,0 +1,92 @@
+﻿company,product_id,canonical_item,original_value,original_unit,source_table,notes
+GIANT,giant:g2200e,battery_capacity,Li-ion 260Ah/48V,Ah / 48V,giant_g2200e_series_仕様一覧_仕様比較,GIANT 電動機の Battery(Ah/48V)。kWh への変換規則が無いためテキスト保持; Spec Comparisonより; [unit_no_rule] ah/48v → kWh の変換ルールなし
+GIANT,giant:g2200e_x_tra,battery_capacity,Li-ion 260Ah/48V,Ah / 48V,giant_g2200e_series_仕様一覧_仕様比較,GIANT 電動機の Battery(Ah/48V)。kWh への変換規則が無いためテキスト保持; Spec Comparisonより; [unit_no_rule] ah/48v → kWh の変換ルールなし
+Avant,avant:avant_e513,charge_time,onboard 3 kW: 2 h 50 min,,avant_型式_仕様一覧_型式一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_e513,charge_time,onboard 3 kW: 2 h 50 min,,avant_型式_仕様一覧_仕様一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_e527,charge_time,onboard 3 kW: 5 h 40 min,,avant_型式_仕様一覧_仕様一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_e527,charge_time,onboard 3 kW: 5 h 40 min,,avant_型式_仕様一覧_型式一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_e727,charge_time,onboard 3 kW: 5 h 30 min; onboard 9 kW: 1 h 50 min; rapid 400 V 16 A: 2 h 10 min; rapid 400 V 32 A: 1 h 5 min,,avant_型式_仕様一覧_型式一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_e727,charge_time,onboard 3 kW: 5 h 30 min; onboard 9 kW: 1 h 50 min; rapid 400 V 16 A: 2 h 10 min; rapid 400 V 32 A: 1 h 5 min,,avant_型式_仕様一覧_仕様一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Case,case:sl22ev,engine_displacement,24.9 kWh (Battery Total Usable Capacity),in3 (L),case_sal_catalog_specs_with_features_revised_Case_SALカタログ,排気量と気筒数の複合表記。排気量として扱う; US(メートル)併記のカタログ値; カタログ併記からメートル側を抽出; [numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_423,engine_power,ECE R120,,avant_型式_仕様一覧_型式一覧,「14.9 kW (20 hp)」形式から公式 kW を採用（hp 換算の 馬力/出力 より優先）; [numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_423,engine_power,ECE R120,,avant_型式_仕様一覧_仕様一覧,「14.9 kW (20 hp)」形式から公式 kW を採用（hp 換算の 馬力/出力 より優先）; [numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_528,engine_power,ECE R120,,avant_型式_仕様一覧_仕様一覧,「14.9 kW (20 hp)」形式から公式 kW を採用（hp 換算の 馬力/出力 より優先）; [numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_528,engine_power,ECE R120,,avant_型式_仕様一覧_型式一覧,「14.9 kW (20 hp)」形式から公式 kW を採用（hp 換算の 馬力/出力 より優先）; [numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_530,engine_power,ECE R120,,avant_型式_仕様一覧_型式一覧,「14.9 kW (20 hp)」形式から公式 kW を採用（hp 換算の 馬力/出力 より優先）; [numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_530,engine_power,ECE R120,,avant_型式_仕様一覧_仕様一覧,「14.9 kW (20 hp)」形式から公式 kW を採用（hp 換算の 馬力/出力 より優先）; [numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_645i,engine_power,ECE R120,,avant_型式_仕様一覧_型式一覧,「14.9 kW (20 hp)」形式から公式 kW を採用（hp 換算の 馬力/出力 より優先）; [numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_645i,engine_power,ECE R120,,avant_型式_仕様一覧_仕様一覧,「14.9 kW (20 hp)」形式から公式 kW を採用（hp 換算の 馬力/出力 より優先）; [numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_650i,engine_power,ECE R120,,avant_型式_仕様一覧_仕様一覧,「14.9 kW (20 hp)」形式から公式 kW を採用（hp 換算の 馬力/出力 より優先）; [numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_650i,engine_power,ECE R120,,avant_型式_仕様一覧_型式一覧,「14.9 kW (20 hp)」形式から公式 kW を採用（hp 換算の 馬力/出力 より優先）; [numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_e513,engine_power,電動,,avant_型式_仕様一覧_型式一覧,Avant 横持ち列名; [numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_e513,engine_power,電動,,avant_型式_仕様一覧_仕様一覧,Avant 縦持ち; [numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_e527,engine_power,電動,,avant_型式_仕様一覧_型式一覧,Avant 横持ち列名; [numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_e527,engine_power,電動,,avant_型式_仕様一覧_仕様一覧,Avant 縦持ち; [numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_e727,engine_power,電動,,avant_型式_仕様一覧_型式一覧,Avant 横持ち列名; [numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_e727,engine_power,電動,,avant_型式_仕様一覧_仕様一覧,Avant 縦持ち; [numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Case,case:sl22ev,engine_power,Traction 9 (6.5); Implement 16 (12),hp (kW),case_sal_catalog_specs_with_features_revised_Case_SALカタログ,Case カタログ; US(メートル)併記のカタログ値; [numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_223,engine_torque,53 Nm @ 2400 rpm,,avant_型式_仕様一覧_型式一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_223,engine_torque,53 Nm @ 2400 rpm,,avant_型式_仕様一覧_仕様一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_225,engine_torque,36.9 lb-ft @ 2600 rpm,,avant_型式_仕様一覧_型式一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_225,engine_torque,36.9 lb-ft @ 2600 rpm,,avant_型式_仕様一覧_仕様一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_423,engine_torque,41 lbf-ft @ 2200 rpm,,avant_型式_仕様一覧_仕様一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_423,engine_torque,41 lbf-ft @ 2200 rpm,,avant_型式_仕様一覧_型式一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_523,engine_torque,41 lbf-ft @ 2600 rpm,,avant_型式_仕様一覧_型式一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_523,engine_torque,41 lbf-ft @ 2600 rpm,,avant_型式_仕様一覧_仕様一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_528,engine_torque,53 lbf-ft @ 2200 rpm,,avant_型式_仕様一覧_型式一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_528,engine_torque,53 lbf-ft @ 2200 rpm,,avant_型式_仕様一覧_仕様一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_530,engine_torque,53 lbf-ft @ 2200 rpm,,avant_型式_仕様一覧_型式一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_530,engine_torque,53 lbf-ft @ 2200 rpm,,avant_型式_仕様一覧_仕様一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_635i,engine_torque,66 lbf-ft @ 1800 rpm,,avant_型式_仕様一覧_仕様一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_635i,engine_torque,66 lbf-ft @ 1800 rpm,,avant_型式_仕様一覧_型式一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_640i,engine_torque,66 lbf-ft @ 1800 rpm,,avant_型式_仕様一覧_仕様一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_640i,engine_torque,66 lbf-ft @ 1800 rpm,,avant_型式_仕様一覧_型式一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_645i,engine_torque,87 lbf-ft @ 2000 rpm,,avant_型式_仕様一覧_型式一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_645i,engine_torque,87 lbf-ft @ 2000 rpm,,avant_型式_仕様一覧_仕様一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_650i,engine_torque,87 lbf-ft @ 2000 rpm,,avant_型式_仕様一覧_仕様一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_650i,engine_torque,87 lbf-ft @ 2000 rpm,,avant_型式_仕様一覧_型式一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_735i,engine_torque,66 lbf-ft @ 1800 rpm,,avant_型式_仕様一覧_仕様一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_735i,engine_torque,66 lbf-ft @ 1800 rpm,,avant_型式_仕様一覧_型式一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_755i,engine_torque,166 lbf-ft @ 1500 rpm,,avant_型式_仕様一覧_仕様一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_755i,engine_torque,166 lbf-ft @ 1500 rpm,,avant_型式_仕様一覧_型式一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_760i,engine_torque,166 lbf-ft @ 1500 rpm,,avant_型式_仕様一覧_型式一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_760i,engine_torque,166 lbf-ft @ 1500 rpm,,avant_型式_仕様一覧_仕様一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_855i,engine_torque,166 lbf-ft @ 1500 rpm,,avant_型式_仕様一覧_仕様一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_855i,engine_torque,166 lbf-ft @ 1500 rpm,,avant_型式_仕様一覧_型式一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_860i,engine_torque,166 lbf-ft @ 1500 rpm,,avant_型式_仕様一覧_仕様一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_860i,engine_torque,166 lbf-ft @ 1500 rpm,,avant_型式_仕様一覧_型式一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_220,max_travel_speed,0-10 km/h,km/h,avant_型式_仕様一覧_仕様一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_220,max_travel_speed,0-10,km/h,avant_型式_仕様一覧_型式一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_523,max_travel_speed,0-12 km/h,km/h,avant_型式_仕様一覧_仕様一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_523,max_travel_speed,0-12,km/h,avant_型式_仕様一覧_型式一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_640i,max_travel_speed,0-23 km/h,km/h,avant_型式_仕様一覧_仕様一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_640i,max_travel_speed,0-23,km/h,avant_型式_仕様一覧_型式一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_735i,max_travel_speed,0-12 km/h,km/h,avant_型式_仕様一覧_仕様一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_735i,max_travel_speed,0-12,km/h,avant_型式_仕様一覧_型式一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_755i,max_travel_speed,0-16,km/h,avant_型式_仕様一覧_型式一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_755i,max_travel_speed,0-16 km/h,km/h,avant_型式_仕様一覧_仕様一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_760i,max_travel_speed,0-26 km/h,km/h,avant_型式_仕様一覧_仕様一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_760i,max_travel_speed,0-26,km/h,avant_型式_仕様一覧_型式一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_855i,max_travel_speed,0-15,km/h,avant_型式_仕様一覧_型式一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_855i,max_travel_speed,0-15 km/h,km/h,avant_型式_仕様一覧_仕様一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_860i,max_travel_speed,0-30 km/h,km/h,avant_型式_仕様一覧_仕様一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Avant,avant:avant_860i,max_travel_speed,0-30,km/h,avant_型式_仕様一覧_型式一覧,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Bobcat,bobcat:l35,max_travel_speed,32.6**,km/hr.,bobcat_sal_仕様値_Bobcat_SAL仕様,高速レンジ側を最高速度とみなす; [numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Bobcat,bobcat:l28,rated_operating_capacity,"885
+Ext 521",kg,bobcat_sal_仕様値_Bobcat_SAL仕様,ROC 直進系のばらつき表記; [numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Bobcat,bobcat:l28,rated_operating_capacity,"696
+Ext 402",kg,bobcat_sal_仕様値_Bobcat_SAL仕様,Bobcat; [numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Bobcat,bobcat:l35,rated_operating_capacity,"940
+Ext 536",kg,bobcat_sal_仕様値_Bobcat_SAL仕様,Bobcat; [numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Bobcat,bobcat:l35,rated_operating_capacity,"1121
+Ext 653",kg,bobcat_sal_仕様値_Bobcat_SAL仕様,ROC 直進系のばらつき表記; [numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Bobcat,bobcat:l28,rated_operating_capacity_articulated,"554
+Ext 323",kg,bobcat_sal_仕様値_Bobcat_SAL仕様,Bobcat; [numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Bobcat,bobcat:l28,rated_operating_capacity_articulated,"669
+Ext 401",kg,bobcat_sal_仕様値_Bobcat_SAL仕様,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Bobcat,bobcat:l35,rated_operating_capacity_articulated,"769
+Ext 433",kg,bobcat_sal_仕様値_Bobcat_SAL仕様,Bobcat; [numeric_parse_failed] 数値化できず（複合値・レンジ等）
+Bobcat,bobcat:l35,rated_operating_capacity_articulated,"915
+Ext 523",kg,bobcat_sal_仕様値_Bobcat_SAL仕様,[numeric_parse_failed] 数値化できず（複合値・レンジ等）
+GIANT,giant:g3500_tele,tipping_load,see table,,giant_g3500_series_仕様一覧_仕様比較,GIANT / Yanmar。直進/屈曲の条件不明; 原文表記: see table; [numeric_parse_failed] 数値化できず（複合値・レンジ等）
+GIANT,giant:g5000_tele,tipping_load,see table,,giant_g5000_series_仕様一覧_仕様比較,GIANT / Yanmar。直進/屈曲の条件不明; 原文表記: see table; [numeric_parse_failed] 数値化できず（複合値・レンジ等）

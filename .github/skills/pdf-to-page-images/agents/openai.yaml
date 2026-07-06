@@ -1,0 +1,4 @@
+interface:
+  display_name: "PDF to Page Images"
+  short_description: "Render wiki PDFs into numbered page PNGs."
+  default_prompt: "Render a PDF into page images for the wiki."

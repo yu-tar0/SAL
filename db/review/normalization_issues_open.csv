@@ -1,0 +1,874 @@
+﻿issue_id,issue_type,severity,company,product_id,source_table,raw_item_name,raw_value,detail,status,created_at
+764,low_confidence,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,DRIVETRAIN / Max. Travel speed / Rabbit – High Gear,,confidence 0.65 で max_travel_speed に割当（method=inferred）。要確認,open,2026-07-06 07:16:38.169551
+776,low_confidence,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,DRIVETRAIN / Max. Travel speed / Rabbit – High Gear,,confidence 0.65 で max_travel_speed に割当（method=inferred）。要確認,open,2026-07-06 07:16:38.169551
+749,low_confidence,review,GIANT,giant:g2200e,giant_g2200e_series_仕様一覧_仕様比較,Working hydraulics,,confidence 0.6 で aux_hydraulic_flow に割当（method=inferred）。要確認,open,2026-07-06 07:16:38.169551
+750,low_confidence,review,GIANT,giant:g2200e_x_tra,giant_g2200e_series_仕様一覧_仕様比較,Battery,,confidence 0.6 で battery_capacity に割当（method=unit_based）。要確認,open,2026-07-06 07:16:38.169551
+753,low_confidence,review,GIANT,giant:g2700_hdplus,giant_g2700_series_仕様一覧_仕様比較,Working hydraulics,,confidence 0.6 で aux_hydraulic_flow に割当（method=inferred）。要確認,open,2026-07-06 07:16:38.169551
+754,low_confidence,review,GIANT,giant:g5000_x_tra,giant_g5000_series_仕様一覧_仕様比較,Working hydraulics,,confidence 0.6 で aux_hydraulic_flow に割当（method=inferred）。要確認,open,2026-07-06 07:16:38.169551
+755,low_confidence,review,GIANT,giant:g5000_tele,giant_g5000_series_仕様一覧_仕様比較,Working hydraulics,,confidence 0.6 で aux_hydraulic_flow に割当（method=inferred）。要確認,open,2026-07-06 07:16:38.169551
+756,low_confidence,review,GIANT,giant:g5000_x_tra,giant_g5000_tele_series_仕様一覧_仕様比較,Working hydraulics,,confidence 0.6 で aux_hydraulic_flow に割当（method=inferred）。要確認,open,2026-07-06 07:16:38.169551
+757,low_confidence,review,GIANT,giant:g2300_x_tra_hd,giant_g2300_hd_仕様一覧_仕様比較,Working hydraulics,,confidence 0.6 で aux_hydraulic_flow に割当（method=inferred）。要確認,open,2026-07-06 07:16:38.169551
+758,low_confidence,review,GIANT,giant:g2200e,giant_g2200e_series_仕様一覧_仕様比較,Driving mechanism,,confidence 0.6 で motor_power_drive に割当（method=inferred）。要確認,open,2026-07-06 07:16:38.169551
+752,low_confidence,review,GIANT,giant:g1500_x_tra,giant_g1500_series_仕様一覧_仕様比較,Working hydraulics,,confidence 0.6 で aux_hydraulic_flow に割当（method=inferred）。要確認,open,2026-07-06 07:16:38.169551
+760,low_confidence,review,GIANT,giant:g5000_tele,giant_g5000_tele_series_仕様一覧_仕様比較,Working hydraulics,,confidence 0.6 で aux_hydraulic_flow に割当（method=inferred）。要確認,open,2026-07-06 07:16:38.169551
+761,low_confidence,review,GIANT,giant:g1500,giant_g1500_series_仕様一覧_仕様比較,Working hydraulics,,confidence 0.6 で aux_hydraulic_flow に割当（method=inferred）。要確認,open,2026-07-06 07:16:38.169551
+762,low_confidence,review,GIANT,giant:g2200e_x_tra,giant_g2200e_series_仕様一覧_仕様比較,Working hydraulics motor,,confidence 0.6 で motor_power_implement に割当（method=inferred）。要確認,open,2026-07-06 07:16:38.169551
+763,low_confidence,review,GIANT,giant:g1200_tele,giant_g1200_tele_仕様一覧_仕様比較,Working hydraulics,,confidence 0.6 で aux_hydraulic_flow に割当（method=inferred）。要確認,open,2026-07-06 07:16:38.169551
+751,low_confidence,review,GIANT,giant:g2500_hd,giant_g2500_series_仕様一覧_仕様比較,Working hydraulics,,confidence 0.6 で aux_hydraulic_flow に割当（method=inferred）。要確認,open,2026-07-06 07:16:38.169551
+765,low_confidence,review,GIANT,giant:g2700_x_tra_hd,giant_g2700_series_仕様一覧_仕様比較,Working hydraulics,,confidence 0.6 で aux_hydraulic_flow に割当（method=inferred）。要確認,open,2026-07-06 07:16:38.169551
+766,low_confidence,review,GIANT,giant:g1200,giant_g1200_tele_仕様一覧_仕様比較,Working hydraulics,,confidence 0.6 で aux_hydraulic_flow に割当（method=inferred）。要確認,open,2026-07-06 07:16:38.169551
+767,low_confidence,review,GIANT,giant:g2200e,giant_g2200e_series_仕様一覧_仕様比較,Working hydraulics motor,,confidence 0.6 で motor_power_implement に割当（method=inferred）。要確認,open,2026-07-06 07:16:38.169551
+768,low_confidence,review,GIANT,giant:g3500_x_tra,giant_g3500_series_仕様一覧_仕様比較,Working hydraulics,,confidence 0.6 で aux_hydraulic_flow に割当（method=inferred）。要確認,open,2026-07-06 07:16:38.169551
+769,low_confidence,review,GIANT,giant:g2300_hd,giant_g2300_hd_仕様一覧_仕様比較,Working hydraulics,,confidence 0.6 で aux_hydraulic_flow に割当（method=inferred）。要確認,open,2026-07-06 07:16:38.169551
+770,low_confidence,review,GIANT,giant:g5000_z_bar,giant_g5000_series_仕様一覧_仕様比較,Working hydraulics,,confidence 0.6 で aux_hydraulic_flow に割当（method=inferred）。要確認,open,2026-07-06 07:16:38.169551
+771,low_confidence,review,GIANT,giant:g2700_hd,giant_g2700_series_仕様一覧_仕様比較,Working hydraulics,,confidence 0.6 で aux_hydraulic_flow に割当（method=inferred）。要確認,open,2026-07-06 07:16:38.169551
+772,low_confidence,review,GIANT,giant:g2700_x_tra_hdplus,giant_g2700_series_仕様一覧_仕様比較,Working hydraulics,,confidence 0.6 で aux_hydraulic_flow に割当（method=inferred）。要確認,open,2026-07-06 07:16:38.169551
+773,low_confidence,review,GIANT,giant:gs950t,giant_gs_series_仕様一覧_仕様比較,Working hydraulics,,confidence 0.6 で aux_hydraulic_flow に割当（method=inferred）。要確認,open,2026-07-06 07:16:38.169551
+774,low_confidence,review,GIANT,giant:g3500_z_bar,giant_g3500_series_仕様一覧_仕様比較,Working hydraulics,,confidence 0.6 で aux_hydraulic_flow に割当（method=inferred）。要確認,open,2026-07-06 07:16:38.169551
+775,low_confidence,review,GIANT,giant:g5000_z_bar,giant_g5000_tele_series_仕様一覧_仕様比較,Working hydraulics,,confidence 0.6 で aux_hydraulic_flow に割当（method=inferred）。要確認,open,2026-07-06 07:16:38.169551
+782,low_confidence,review,GIANT,giant:g2200e_x_tra,giant_g2200e_series_仕様一覧_仕様比較,Driving mechanism,,confidence 0.6 で motor_power_drive に割当（method=inferred）。要確認,open,2026-07-06 07:16:38.169551
+777,low_confidence,review,GIANT,giant:g2200e,giant_g2200e_series_仕様一覧_仕様比較,Battery,,confidence 0.6 で battery_capacity に割当（method=unit_based）。要確認,open,2026-07-06 07:16:38.169551
+778,low_confidence,review,GIANT,giant:g3500_tele,giant_g3500_series_仕様一覧_仕様比較,Working hydraulics,,confidence 0.6 で aux_hydraulic_flow に割当（method=inferred）。要確認,open,2026-07-06 07:16:38.169551
+779,low_confidence,review,GIANT,giant:g2200e_x_tra,giant_g2200e_series_仕様一覧_仕様比較,Working hydraulics,,confidence 0.6 で aux_hydraulic_flow に割当（method=inferred）。要確認,open,2026-07-06 07:16:38.169551
+780,low_confidence,review,GIANT,giant:gs900,giant_gs_series_仕様一覧_仕様比較,Working hydraulics,,confidence 0.6 で aux_hydraulic_flow に割当（method=inferred）。要確認,open,2026-07-06 07:16:38.169551
+781,low_confidence,review,GIANT,giant:g2500_x_tra_hd,giant_g2500_series_仕様一覧_仕様比較,Working hydraulics,,confidence 0.6 で aux_hydraulic_flow に割当（method=inferred）。要確認,open,2026-07-06 07:16:38.169551
+759,low_confidence,review,GIANT,giant:gt5048,giant_gt5048_series_仕様一覧_仕様比較,Working hydraulics,,confidence 0.6 で aux_hydraulic_flow に割当（method=inferred）。要確認,open,2026-07-06 07:16:38.169551
+785,numeric_parse_failed,review,Avant,avant:avant_528,avant_型式_仕様一覧_型式一覧,engine_power,ECE R120,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+852,numeric_parse_failed,review,Avant,avant:avant_530,avant_型式_仕様一覧_型式一覧,engine_torque,53 lbf-ft @ 2200 rpm,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+787,numeric_parse_failed,review,Avant,avant:avant_650i,avant_型式_仕様一覧_仕様一覧,engine_torque,87 lbf-ft @ 2000 rpm,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+846,numeric_parse_failed,review,Avant,avant:avant_e513,avant_型式_仕様一覧_仕様一覧,engine_power,電動,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+789,numeric_parse_failed,review,Avant,avant:avant_423,avant_型式_仕様一覧_仕様一覧,engine_torque,41 lbf-ft @ 2200 rpm,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+790,numeric_parse_failed,review,Avant,avant:avant_423,avant_型式_仕様一覧_型式一覧,engine_power,ECE R120,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+791,numeric_parse_failed,review,Avant,avant:avant_528,avant_型式_仕様一覧_仕様一覧,engine_power,ECE R120,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+792,numeric_parse_failed,review,Avant,avant:avant_528,avant_型式_仕様一覧_型式一覧,engine_torque,53 lbf-ft @ 2200 rpm,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+793,numeric_parse_failed,review,Avant,avant:avant_635i,avant_型式_仕様一覧_型式一覧,engine_torque,66 lbf-ft @ 1800 rpm,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+794,numeric_parse_failed,review,Avant,avant:avant_755i,avant_型式_仕様一覧_型式一覧,max_travel_speed,0-16,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+795,numeric_parse_failed,review,Avant,avant:avant_860i,avant_型式_仕様一覧_仕様一覧,max_travel_speed,0-30 km/h,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+796,numeric_parse_failed,review,Avant,avant:avant_e727,avant_型式_仕様一覧_型式一覧,engine_power,電動,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+864,numeric_parse_failed,review,Avant,avant:avant_855i,avant_型式_仕様一覧_型式一覧,engine_torque,166 lbf-ft @ 1500 rpm,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+798,numeric_parse_failed,review,Avant,avant:avant_220,avant_型式_仕様一覧_型式一覧,max_travel_speed,0-10,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+863,numeric_parse_failed,review,Avant,avant:avant_760i,avant_型式_仕様一覧_型式一覧,max_travel_speed,0-26,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+800,numeric_parse_failed,review,Avant,avant:avant_423,avant_型式_仕様一覧_仕様一覧,engine_power,ECE R120,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+801,numeric_parse_failed,review,Avant,avant:avant_423,avant_型式_仕様一覧_型式一覧,engine_torque,41 lbf-ft @ 2200 rpm,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+802,numeric_parse_failed,review,Avant,avant:avant_523,avant_型式_仕様一覧_仕様一覧,max_travel_speed,0-12 km/h,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+803,numeric_parse_failed,review,Avant,avant:avant_640i,avant_型式_仕様一覧_型式一覧,engine_torque,66 lbf-ft @ 1800 rpm,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+804,numeric_parse_failed,review,Avant,avant:avant_645i,avant_型式_仕様一覧_型式一覧,engine_torque,87 lbf-ft @ 2000 rpm,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+862,numeric_parse_failed,review,Avant,avant:avant_755i,avant_型式_仕様一覧_型式一覧,engine_torque,166 lbf-ft @ 1500 rpm,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+786,numeric_parse_failed,review,Avant,avant:avant_530,avant_型式_仕様一覧_仕様一覧,engine_torque,53 lbf-ft @ 2200 rpm,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+807,numeric_parse_failed,review,Avant,avant:avant_530,avant_型式_仕様一覧_仕様一覧,engine_power,ECE R120,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+808,numeric_parse_failed,review,Avant,avant:avant_760i,avant_型式_仕様一覧_仕様一覧,max_travel_speed,0-26 km/h,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+809,numeric_parse_failed,review,Avant,avant:avant_860i,avant_型式_仕様一覧_型式一覧,max_travel_speed,0-30,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+810,numeric_parse_failed,review,Avant,avant:avant_530,avant_型式_仕様一覧_型式一覧,engine_power,ECE R120,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+861,numeric_parse_failed,review,Avant,avant:avant_735i,avant_型式_仕様一覧_仕様一覧,engine_torque,66 lbf-ft @ 1800 rpm,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+812,numeric_parse_failed,review,Avant,avant:avant_640i,avant_型式_仕様一覧_仕様一覧,engine_torque,66 lbf-ft @ 1800 rpm,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+813,numeric_parse_failed,review,Avant,avant:avant_735i,avant_型式_仕様一覧_仕様一覧,max_travel_speed,0-12 km/h,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+814,numeric_parse_failed,review,Avant,avant:avant_760i,avant_型式_仕様一覧_型式一覧,engine_torque,166 lbf-ft @ 1500 rpm,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+857,numeric_parse_failed,review,Avant,avant:avant_e527,avant_型式_仕様一覧_仕様一覧,charge_time,onboard 3 kW: 5 h 40 min,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+816,numeric_parse_failed,review,Avant,avant:avant_528,avant_型式_仕様一覧_仕様一覧,engine_torque,53 lbf-ft @ 2200 rpm,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+817,numeric_parse_failed,review,Avant,avant:avant_645i,avant_型式_仕様一覧_仕様一覧,engine_power,ECE R120,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+818,numeric_parse_failed,review,Avant,avant:avant_645i,avant_型式_仕様一覧_仕様一覧,engine_torque,87 lbf-ft @ 2000 rpm,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+819,numeric_parse_failed,review,Avant,avant:avant_650i,avant_型式_仕様一覧_仕様一覧,engine_power,ECE R120,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+820,numeric_parse_failed,review,Avant,avant:avant_650i,avant_型式_仕様一覧_型式一覧,engine_torque,87 lbf-ft @ 2000 rpm,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+821,numeric_parse_failed,review,Avant,avant:avant_755i,avant_型式_仕様一覧_仕様一覧,engine_torque,166 lbf-ft @ 1500 rpm,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+822,numeric_parse_failed,review,Avant,avant:avant_755i,avant_型式_仕様一覧_仕様一覧,max_travel_speed,0-16 km/h,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+823,numeric_parse_failed,review,Avant,avant:avant_855i,avant_型式_仕様一覧_仕様一覧,max_travel_speed,0-15 km/h,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+824,numeric_parse_failed,review,Avant,avant:avant_855i,avant_型式_仕様一覧_型式一覧,max_travel_speed,0-15,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+825,numeric_parse_failed,review,Avant,avant:avant_860i,avant_型式_仕様一覧_仕様一覧,engine_torque,166 lbf-ft @ 1500 rpm,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+826,numeric_parse_failed,review,Avant,avant:avant_e727,avant_型式_仕様一覧_仕様一覧,charge_time,onboard 3 kW: 5 h 30 min; onboard 9 kW: 1 h 50 min; rapid 400 V 16 A: 2 h 10 min; rapid 400 V 32 A: 1 h 5 min,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+827,numeric_parse_failed,review,Avant,avant:avant_523,avant_型式_仕様一覧_仕様一覧,engine_torque,41 lbf-ft @ 2600 rpm,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+828,numeric_parse_failed,review,Avant,avant:avant_523,avant_型式_仕様一覧_型式一覧,engine_torque,41 lbf-ft @ 2600 rpm,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+829,numeric_parse_failed,review,Avant,avant:avant_650i,avant_型式_仕様一覧_型式一覧,engine_power,ECE R120,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+830,numeric_parse_failed,review,Avant,avant:avant_e727,avant_型式_仕様一覧_型式一覧,charge_time,onboard 3 kW: 5 h 30 min; onboard 9 kW: 1 h 50 min; rapid 400 V 16 A: 2 h 10 min; rapid 400 V 32 A: 1 h 5 min,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+856,numeric_parse_failed,review,Avant,avant:avant_e527,avant_型式_仕様一覧_仕様一覧,engine_power,電動,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+832,numeric_parse_failed,review,Avant,avant:avant_225,avant_型式_仕様一覧_仕様一覧,engine_torque,36.9 lb-ft @ 2600 rpm,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+833,numeric_parse_failed,review,Avant,avant:avant_640i,avant_型式_仕様一覧_型式一覧,max_travel_speed,0-23,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+834,numeric_parse_failed,review,Avant,avant:avant_735i,avant_型式_仕様一覧_型式一覧,engine_torque,66 lbf-ft @ 1800 rpm,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+855,numeric_parse_failed,review,Avant,avant:avant_e513,avant_型式_仕様一覧_型式一覧,engine_power,電動,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+836,numeric_parse_failed,review,Avant,avant:avant_e513,avant_型式_仕様一覧_仕様一覧,charge_time,onboard 3 kW: 2 h 50 min,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+837,numeric_parse_failed,review,Avant,avant:avant_220,avant_型式_仕様一覧_仕様一覧,max_travel_speed,0-10 km/h,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+838,numeric_parse_failed,review,Avant,avant:avant_523,avant_型式_仕様一覧_型式一覧,max_travel_speed,0-12,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+839,numeric_parse_failed,review,Avant,avant:avant_635i,avant_型式_仕様一覧_仕様一覧,engine_torque,66 lbf-ft @ 1800 rpm,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+840,numeric_parse_failed,review,Avant,avant:avant_640i,avant_型式_仕様一覧_仕様一覧,max_travel_speed,0-23 km/h,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+841,numeric_parse_failed,review,Avant,avant:avant_760i,avant_型式_仕様一覧_仕様一覧,engine_torque,166 lbf-ft @ 1500 rpm,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+842,numeric_parse_failed,review,Avant,avant:avant_223,avant_型式_仕様一覧_型式一覧,engine_torque,53 Nm @ 2400 rpm,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+843,numeric_parse_failed,review,Avant,avant:avant_225,avant_型式_仕様一覧_型式一覧,engine_torque,36.9 lb-ft @ 2600 rpm,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+844,numeric_parse_failed,review,Avant,avant:avant_645i,avant_型式_仕様一覧_型式一覧,engine_power,ECE R120,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+845,numeric_parse_failed,review,Avant,avant:avant_860i,avant_型式_仕様一覧_型式一覧,engine_torque,166 lbf-ft @ 1500 rpm,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+865,numeric_parse_failed,review,Avant,avant:avant_e527,avant_型式_仕様一覧_型式一覧,engine_power,電動,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+847,numeric_parse_failed,review,Avant,avant:avant_e513,avant_型式_仕様一覧_型式一覧,charge_time,onboard 3 kW: 2 h 50 min,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+848,numeric_parse_failed,review,Avant,avant:avant_e527,avant_型式_仕様一覧_型式一覧,charge_time,onboard 3 kW: 5 h 40 min,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+849,numeric_parse_failed,review,Avant,avant:avant_e727,avant_型式_仕様一覧_仕様一覧,engine_power,電動,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+854,numeric_parse_failed,review,Avant,avant:avant_855i,avant_型式_仕様一覧_仕様一覧,engine_torque,166 lbf-ft @ 1500 rpm,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+853,numeric_parse_failed,review,Avant,avant:avant_735i,avant_型式_仕様一覧_型式一覧,max_travel_speed,0-12,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+806,numeric_parse_failed,review,Avant,avant:avant_223,avant_型式_仕様一覧_仕様一覧,engine_torque,53 Nm @ 2400 rpm,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+850,numeric_parse_failed,review,Bobcat,bobcat:l28,bobcat_sal_仕様値_Bobcat_SAL仕様,rated_operating_capacity_articulated,"554
+Ext 323",数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+835,numeric_parse_failed,review,Bobcat,bobcat:l35,bobcat_sal_仕様値_Bobcat_SAL仕様,rated_operating_capacity_articulated,"915
+Ext 523",数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+815,numeric_parse_failed,review,Bobcat,bobcat:l28,bobcat_sal_仕様値_Bobcat_SAL仕様,rated_operating_capacity,"885
+Ext 521",数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+858,numeric_parse_failed,review,Bobcat,bobcat:l28,bobcat_sal_仕様値_Bobcat_SAL仕様,rated_operating_capacity,"696
+Ext 402",数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+859,numeric_parse_failed,review,Bobcat,bobcat:l28,bobcat_sal_仕様値_Bobcat_SAL仕様,rated_operating_capacity_articulated,"669
+Ext 401",数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+811,numeric_parse_failed,review,Bobcat,bobcat:l35,bobcat_sal_仕様値_Bobcat_SAL仕様,rated_operating_capacity,"1121
+Ext 653",数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+805,numeric_parse_failed,review,Bobcat,bobcat:l35,bobcat_sal_仕様値_Bobcat_SAL仕様,max_travel_speed,32.6**,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+797,numeric_parse_failed,review,Bobcat,bobcat:l35,bobcat_sal_仕様値_Bobcat_SAL仕様,rated_operating_capacity_articulated,"769
+Ext 433",数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+788,numeric_parse_failed,review,Bobcat,bobcat:l35,bobcat_sal_仕様値_Bobcat_SAL仕様,rated_operating_capacity,"940
+Ext 536",数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+851,numeric_parse_failed,review,Case,case:sl22ev,case_sal_catalog_specs_with_features_revised_Case_SALカタログ,engine_power,Traction 9 (6.5); Implement 16 (12),数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+799,numeric_parse_failed,review,Case,case:sl22ev,case_sal_catalog_specs_with_features_revised_Case_SALカタログ,engine_displacement,24.9 kWh (Battery Total Usable Capacity),数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+831,numeric_parse_failed,review,GIANT,giant:g5000_tele,giant_g5000_series_仕様一覧_仕様比較,tipping_load,see table,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+860,numeric_parse_failed,review,GIANT,giant:g3500_tele,giant_g3500_series_仕様一覧_仕様比較,tipping_load,see table,数値型の標準項目だが数値化できなかった（複合値・レンジ・注記付き等）,open,2026-07-06 07:16:38.220996
+1,scope_excluded,info,,,case_sl12_仕様項目一覧_概要,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+2,scope_excluded,info,,,case_sl27tr_仕様項目一覧_装備,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+3,scope_excluded,info,,,avant_型式_仕様一覧_油圧システム,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+4,scope_excluded,info,,,gianni_ferrari_turboloader_仕様一覧_アタッチメント一覧,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+5,scope_excluded,info,,,giant_g2300_hd_仕様一覧_概要,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+6,scope_excluded,info,,,giant_g3500_series_仕様一覧_概要,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+7,scope_excluded,info,,,giant_g3500_series_仕様一覧_原文,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+8,scope_excluded,info,,,giant_gs_series_仕様一覧_概要,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+9,scope_excluded,info,,,giant_型式分類一覧_分類メモ,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+10,scope_excluded,info,,,multione_11_5_y_仕様一覧_注記・原文,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+11,scope_excluded,info,,,multione_5_2_k_id_仕様一覧_注記・原文,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+12,scope_excluded,info,,,multione_5_3_k_id_仕様一覧_オプション・特徴,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+13,scope_excluded,info,,,multione_7_2_k_仕様一覧_注記・原文,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+41,scope_excluded,info,,,case_sl12_仕様項目一覧_注記,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+42,scope_excluded,info,,,case_sl15_仕様項目一覧_注記,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+43,scope_excluded,info,,,case_sl27_仕様項目一覧_注記,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+44,scope_excluded,info,,,case_sl35tr_仕様項目一覧_注記,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+45,scope_excluded,info,,,case_sl50tr_仕様項目一覧_注記,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+46,scope_excluded,info,,,giant_g1200_tele_仕様一覧_タイヤ・アタッチメント,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+47,scope_excluded,info,,,giant_g1200_仕様一覧_概要,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+48,scope_excluded,info,,,giant_g1200_仕様一覧_仕様比較,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+49,scope_excluded,info,,,giant_gs_series_仕様一覧_タイヤ・アタッチメント,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+50,scope_excluded,info,,,giant_gt5048_series_仕様一覧_タイヤ・アタッチメント,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+51,scope_excluded,info,,,multione_5_3_k_id_仕様一覧_注記・原文,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+52,scope_excluded,info,,,multione_6_3_ids_仕様一覧_注記・原文,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+53,scope_excluded,info,,,multione_ez8_ez8_long_range_仕様一覧_オプション・特徴,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+54,scope_excluded,info,,,multione_wheels_仕様一覧_記号説明,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+55,scope_excluded,info,,,case_sl12_仕様項目一覧_装備,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+56,scope_excluded,info,,,case_sl50tr_仕様項目一覧_装備,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+57,scope_excluded,info,,,gianni_ferrari_turboloader_仕様一覧_機能説明,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+58,scope_excluded,info,,,giant_g2300_hd_仕様一覧_タイヤ・アタッチメント,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+59,scope_excluded,info,,,giant_g2500_series_仕様一覧_タイヤ・アタッチメント,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+60,scope_excluded,info,,,giant_gt5048_series_仕様一覧_原文,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+61,scope_excluded,info,,,multione_8_4_turbos_仕様一覧_オプション・特徴,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+62,scope_excluded,info,,,multione_8_5_y_仕様一覧_オプション・特徴,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+63,scope_excluded,info,,,multione_8_5_y_仕様一覧_注記・原文,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+64,scope_excluded,info,,,yanmar_cl26_仕様一覧_概要,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+65,scope_excluded,info,,,yanmar_cl26_仕様一覧_特徴,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+14,scope_excluded,info,,,case_sl15_仕様項目一覧_装備,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+15,scope_excluded,info,,,case_sl22ev_仕様項目一覧_装備,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+16,scope_excluded,info,,,case_sl22ev_仕様項目一覧_注記,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+17,scope_excluded,info,,,case_sl27_仕様項目一覧_装備,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+18,scope_excluded,info,,,case_sl35tr_仕様項目一覧_概要,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+19,scope_excluded,info,,,giant_g1200_tele_仕様一覧_概要,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+20,scope_excluded,info,,,giant_g1500_series_仕様一覧_タイヤ・アタッチメント,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+21,scope_excluded,info,,,giant_g2200e_series_仕様一覧_概要,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+22,scope_excluded,info,,,giant_g2500_series_仕様一覧_概要,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+23,scope_excluded,info,,,giant_g3500_series_仕様一覧_タイヤ・アタッチメント,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+24,scope_excluded,info,,,giant_g5000_series_仕様一覧_タイヤ・アタッチメント,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+25,scope_excluded,info,,,giant_gt5048_series_仕様一覧_概要,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+26,scope_excluded,info,,,multione_1_1_仕様一覧_注記・原文,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+27,scope_excluded,info,,,multione_2_3_efi_仕様一覧_オプション・特徴,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+28,scope_excluded,info,,,multione_2_3_efi_仕様一覧_注記・原文,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+29,scope_excluded,info,,,multione_8_4_turbos_仕様一覧_注記・原文,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+30,scope_excluded,info,,,yanmar_cl26_仕様一覧_注記・原文,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+84,scope_excluded,info,,,case_sl12tr_仕様項目一覧_装備,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+85,scope_excluded,info,,,case_sl23_仕様項目一覧_注記,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+86,scope_excluded,info,,,case_sl35tr_仕様項目一覧_装備,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+87,scope_excluded,info,,,case_sl50tr_仕様項目一覧_概要,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+88,scope_excluded,info,,,gianni_ferrari_turboloader_仕様一覧_概要,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+89,scope_excluded,info,,,giant_g1200_仕様一覧_タイヤ・アタッチメント,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+90,scope_excluded,info,,,giant_g2700_series_仕様一覧_タイヤ・アタッチメント,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+91,scope_excluded,info,,,giant_g5000_series_仕様一覧_概要,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+92,scope_excluded,info,,,giant_g5000_tele_series_仕様一覧_タイヤ・アタッチメント,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+93,scope_excluded,info,,,giant_g5000_tele_series_仕様一覧_原文,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+94,scope_excluded,info,,,multione_11_5_y_仕様一覧_オプション・特徴,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+95,scope_excluded,info,,,multione_wheels_仕様一覧_原文,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+72,scope_excluded,info,,,case_sl12tr_仕様項目一覧_注記,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+73,scope_excluded,info,,,case_sl23_仕様項目一覧_装備,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+74,scope_excluded,info,,,case_sl27tr_仕様項目一覧_注記,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+75,scope_excluded,info,,,gianni_ferrari_turboloader_仕様一覧_荷重図メモ,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+76,scope_excluded,info,,,giant_g2200e_series_仕様一覧_タイヤ・アタッチメント,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+77,scope_excluded,info,,,multione_1_1_仕様一覧_オプション・特徴,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+78,scope_excluded,info,,,multione_11_6_k_turbos_仕様一覧_注記・原文,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+79,scope_excluded,info,,,multione_6_3_ids_仕様一覧_オプション・特徴,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+80,scope_excluded,info,,,multione_8_5s_k_仕様一覧_オプション・特徴,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+81,scope_excluded,info,,,multione_8_5s_k_仕様一覧_注記・原文,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+82,scope_excluded,info,,,multione_ez7_仕様一覧_オプション・特徴,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+83,scope_excluded,info,,,multione_wheels_仕様一覧_WHEELS互換表,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+66,scope_excluded,info,,,case_sl22ev_仕様項目一覧_概要,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+67,scope_excluded,info,,,case_sl23_仕様項目一覧_概要,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+68,scope_excluded,info,,,case_sl27tr_仕様項目一覧_概要,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+69,scope_excluded,info,,,giant_g1500_series_仕様一覧_概要,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+70,scope_excluded,info,,,giant_g2700_series_仕様一覧_概要,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+71,scope_excluded,info,,,multione_ez8_ez8_long_range_仕様一覧_注記・原文,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+31,scope_excluded,info,,,case_sl12tr_仕様項目一覧_概要,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+32,scope_excluded,info,,,case_sl15_仕様項目一覧_概要,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+33,scope_excluded,info,,,case_sl27_仕様項目一覧_概要,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+34,scope_excluded,info,,,gianni_ferrari_turboloader_仕様一覧_アタッチメント仕様,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+35,scope_excluded,info,,,giant_g5000_series_仕様一覧_原文,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+36,scope_excluded,info,,,giant_g5000_tele_series_仕様一覧_概要,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+37,scope_excluded,info,,,multione_11_6_k_turbos_仕様一覧_オプション・特徴,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+38,scope_excluded,info,,,multione_5_2_k_id_仕様一覧_オプション・特徴,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+39,scope_excluded,info,,,multione_7_2_k_仕様一覧_オプション・特徴,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+40,scope_excluded,info,,,multione_ez7_仕様一覧_注記・原文,,,v1 の raw_specs 取り込み対象外（装備/オプション/注記/原文/概要/アタッチメント/タイヤ互換/重複シート等）,open,2026-07-06 07:16:37.865174
+783,unit_no_rule,review,GIANT,giant:g2200e_x_tra,giant_g2200e_series_仕様一覧_仕様比較,battery_capacity,Li-ion 260Ah/48V [Ah / 48V],ah/48v → kWh の変換ルールなし,open,2026-07-06 07:16:38.218308
+784,unit_no_rule,review,GIANT,giant:g2200e,giant_g2200e_series_仕様一覧_仕様比較,battery_capacity,Li-ion 260Ah/48V [Ah / 48V],ah/48v → kWh の変換ルールなし,open,2026-07-06 07:16:38.218308
+685,unmapped_item,review,Bobcat,bobcat:l35,bobcat_sal_仕様値_Bobcat_SAL仕様,Turf: 26 x 12.00 - 12,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+270,unmapped_item,review,Bobcat,bobcat:l28,bobcat_sal_仕様値_Bobcat_SAL仕様,Tractor: 23 x 8.50 - 12,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+543,unmapped_item,review,Bobcat,bobcat:l28,bobcat_sal_仕様値_Bobcat_SAL仕様,Weight With Add-On Counterweight,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+181,unmapped_item,review,Bobcat,bobcat:l23,bobcat_sal_仕様値_Bobcat_SAL仕様,Turf: 31 x 15.50 - 15,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+158,unmapped_item,review,Bobcat,bobcat:l28,bobcat_sal_仕様値_Bobcat_SAL仕様,Travel Speed – Low Range,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+226,unmapped_item,review,Bobcat,bobcat:l23,bobcat_sal_仕様値_Bobcat_SAL仕様,Tractor: 23 x 5.70 - 12,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+140,unmapped_item,review,Bobcat,bobcat:l35,bobcat_sal_仕様値_Bobcat_SAL仕様,Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+139,unmapped_item,review,Bobcat,bobcat:l35,bobcat_sal_仕様値_Bobcat_SAL仕様,Travel Speed – Low Range,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+127,unmapped_item,review,Bobcat,bobcat:l23,bobcat_sal_仕様値_Bobcat_SAL仕様,Turf: 23 x 8.50 - 12,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+118,unmapped_item,review,Bobcat,bobcat:l28,bobcat_sal_仕様値_Bobcat_SAL仕様,K - Reach at Maximum Height,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+734,unmapped_item,review,Bobcat,bobcat:l28,bobcat_sal_仕様値_Bobcat_SAL仕様,Turf: 26 x 12.00 - 12,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+733,unmapped_item,review,Bobcat,bobcat:l28,bobcat_sal_仕様値_Bobcat_SAL仕様,Turf: 23 x 8.50 - 12,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+732,unmapped_item,review,Bobcat,bobcat:l28,bobcat_sal_仕様値_Bobcat_SAL仕様,Travel Speed – Low Range,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+712,unmapped_item,review,Bobcat,bobcat:l35,bobcat_sal_仕様値_Bobcat_SAL仕様,Turf: 31 x 15.50 - 15,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+711,unmapped_item,review,Bobcat,bobcat:l23,bobcat_sal_仕様値_Bobcat_SAL仕様,Travel Speed – Low Range,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+699,unmapped_item,review,Bobcat,bobcat:l35,bobcat_sal_仕様値_Bobcat_SAL仕様,K - Reach at Maximum Height,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+199,unmapped_item,review,Bobcat,bobcat:l23,bobcat_sal_仕様値_Bobcat_SAL仕様,K - Reach at Maximum Height,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+680,unmapped_item,review,Bobcat,bobcat:l35,bobcat_sal_仕様値_Bobcat_SAL仕様,Travel Speed – Low Range,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+679,unmapped_item,review,Bobcat,bobcat:l28,bobcat_sal_仕様値_Bobcat_SAL仕様,Turf: 23 x 10.50 - 12,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+671,unmapped_item,review,Bobcat,bobcat:l28,bobcat_sal_仕様値_Bobcat_SAL仕様,Turf: 29 x 12.50 - 15,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+663,unmapped_item,review,Bobcat,bobcat:l35,bobcat_sal_仕様値_Bobcat_SAL仕様,Aspiration,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+662,unmapped_item,review,Bobcat,bobcat:l28,bobcat_sal_仕様値_Bobcat_SAL仕様,Tractor: 23 x 5.70 - 12,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+654,unmapped_item,review,Bobcat,bobcat:l28,bobcat_sal_仕様値_Bobcat_SAL仕様,Turf: 26 x 12.00 - 12,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+653,unmapped_item,review,Bobcat,bobcat:l28,bobcat_sal_仕様値_Bobcat_SAL仕様,Turf: 23 x 8.50 - 12,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+632,unmapped_item,review,Bobcat,bobcat:l35,bobcat_sal_仕様値_Bobcat_SAL仕様,K - Reach at Maximum Height,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+246,unmapped_item,review,Bobcat,bobcat:l23,bobcat_sal_仕様値_Bobcat_SAL仕様,Turf: 23 x 10.50 - 12,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+618,unmapped_item,review,Bobcat,bobcat:l35,bobcat_sal_仕様値_Bobcat_SAL仕様,Turf: 31 x 15.50 - 15,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+610,unmapped_item,review,Bobcat,bobcat:l28,bobcat_sal_仕様値_Bobcat_SAL仕様,Turf: 23 x 10.50 - 12,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+609,unmapped_item,review,Bobcat,bobcat:l23,bobcat_sal_仕様値_Bobcat_SAL仕様,Weight With Add-On Counterweight,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+608,unmapped_item,review,Bobcat,bobcat:l23,bobcat_sal_仕様値_Bobcat_SAL仕様,Weight With Add-On Counterweight,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+598,unmapped_item,review,Bobcat,bobcat:l35,bobcat_sal_仕様値_Bobcat_SAL仕様,Turf: 26 x 12.00 - 12,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+597,unmapped_item,review,Bobcat,bobcat:l23,bobcat_sal_仕様値_Bobcat_SAL仕様,Aspiration,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+566,unmapped_item,review,Bobcat,bobcat:l35,bobcat_sal_仕様値_Bobcat_SAL仕様,Tractor: 29 x 12.50 - 15,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+556,unmapped_item,review,Bobcat,bobcat:l28,bobcat_sal_仕様値_Bobcat_SAL仕様,Tractor: 23 x 8.50 - 12,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+555,unmapped_item,review,Bobcat,bobcat:l23,bobcat_sal_仕様値_Bobcat_SAL仕様,Tractor: 29 x 12.50 - 15,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+554,unmapped_item,review,Bobcat,bobcat:l23,bobcat_sal_仕様値_Bobcat_SAL仕様,Tractor: 23 x 8.50 - 12,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+544,unmapped_item,review,Bobcat,bobcat:l28,bobcat_sal_仕様値_Bobcat_SAL仕様,Weight With Add-On Counterweight,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+258,unmapped_item,review,Bobcat,bobcat:l35,bobcat_sal_仕様値_Bobcat_SAL仕様,Turf: 23 x 8.50 - 12,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+106,unmapped_item,review,Bobcat,bobcat:l23,bobcat_sal_仕様値_Bobcat_SAL仕様,Travel Speed – Low Range,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+218,unmapped_item,review,Bobcat,bobcat:l28,bobcat_sal_仕様値_Bobcat_SAL仕様,Turf: 31 x 15.50 - 15,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+537,unmapped_item,review,Bobcat,bobcat:l28,bobcat_sal_仕様値_Bobcat_SAL仕様,Tractor: 26 x 12.00 - 12,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+527,unmapped_item,review,Bobcat,bobcat:l35,bobcat_sal_仕様値_Bobcat_SAL仕様,Turf: 29 x 12.50 - 15,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+500,unmapped_item,review,Bobcat,bobcat:l28,bobcat_sal_仕様値_Bobcat_SAL仕様,Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+487,unmapped_item,review,Bobcat,bobcat:l23,bobcat_sal_仕様値_Bobcat_SAL仕様,Turf: 23 x 10.50 - 12,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+479,unmapped_item,review,Bobcat,bobcat:l23,bobcat_sal_仕様値_Bobcat_SAL仕様,Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+449,unmapped_item,review,Bobcat,bobcat:l23,bobcat_sal_仕様値_Bobcat_SAL仕様,Tractor: 23 x 5.70 - 12,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+443,unmapped_item,review,Bobcat,bobcat:l23,bobcat_sal_仕様値_Bobcat_SAL仕様,Tractor: 26 x 12.00 - 12,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+442,unmapped_item,review,Bobcat,bobcat:l23,bobcat_sal_仕様値_Bobcat_SAL仕様,K - Reach at Maximum Height,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+294,unmapped_item,review,Bobcat,bobcat:l28,bobcat_sal_仕様値_Bobcat_SAL仕様,Aspiration,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+269,unmapped_item,review,Bobcat,bobcat:l23,bobcat_sal_仕様値_Bobcat_SAL仕様,Tractor: 23 x 8.50 - 12,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+271,unmapped_item,review,Bobcat,bobcat:l35,bobcat_sal_仕様値_Bobcat_SAL仕様,Tractor: 26 x 12.00 - 12,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+410,unmapped_item,review,Bobcat,bobcat:l35,bobcat_sal_仕様値_Bobcat_SAL仕様,Tractor: 23 x 8.50 - 12,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+391,unmapped_item,review,Bobcat,bobcat:l23,bobcat_sal_仕様値_Bobcat_SAL仕様,Turf: 26 x 12.00 - 12,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+382,unmapped_item,review,Bobcat,bobcat:l23,bobcat_sal_仕様値_Bobcat_SAL仕様,Turf: 23 x 8.50 - 12,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+353,unmapped_item,review,Bobcat,bobcat:l28,bobcat_sal_仕様値_Bobcat_SAL仕様,K - Reach at Maximum Height,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+347,unmapped_item,review,Bobcat,bobcat:l35,bobcat_sal_仕様値_Bobcat_SAL仕様,Tractor: 23 x 5.70 - 12,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+336,unmapped_item,review,Bobcat,bobcat:l35,bobcat_sal_仕様値_Bobcat_SAL仕様,Turf: 23 x 10.50 - 12,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+335,unmapped_item,review,Bobcat,bobcat:l35,bobcat_sal_仕様値_Bobcat_SAL仕様,Tractor: 29 x 12.50 - 15,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+334,unmapped_item,review,Bobcat,bobcat:l28,bobcat_sal_仕様値_Bobcat_SAL仕様,Tractor: 29 x 12.50 - 15,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+306,unmapped_item,review,Bobcat,bobcat:l28,bobcat_sal_仕様値_Bobcat_SAL仕様,Tractor: 26 x 12.00 - 12,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+281,unmapped_item,review,Bobcat,bobcat:l35,bobcat_sal_仕様値_Bobcat_SAL仕様,Weight With Add-On Counterweight,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+282,unmapped_item,review,Bobcat,bobcat:l35,bobcat_sal_仕様値_Bobcat_SAL仕様,Weight With Add-On Counterweight,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+283,unmapped_item,review,Bobcat,bobcat:l35,bobcat_sal_仕様値_Bobcat_SAL仕様,Turf: 29 x 12.50 - 15,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+293,unmapped_item,review,Bobcat,bobcat:l23,bobcat_sal_仕様値_Bobcat_SAL仕様,Turf: 29 x 12.50 - 15,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+96,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_仕様,HYDRAULICS / Driving Hydraulics / Operating Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+97,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_仕様,HYDRAULICS / High Flow – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+98,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_仕様,HYDRAULICS / Working Hydraulics / Operating Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+99,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_仕様,OPERATING WEIGHT / Cab weight,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+100,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_仕様,SERVICE CAPACITIES / Engine oil w/ filter,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+101,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_仕様,ELECTRICAL / Battery,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+102,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_寸法,Max. height with cabin,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+103,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_寸法,Outer size of tires,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+104,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_寸法,Outer size of tires,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+541,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_仕様,HYDRAULICS / Continuous Flow – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+231,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_寸法,Maximum radius external,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+431,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_寸法,Max. loading angle,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+718,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_転倒荷重,TIPPING LOADS / Z,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+289,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_寸法,Outer size of tires,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+290,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_寸法,Maximum radius external,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+291,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_寸法,Maximum radius external,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+720,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_転倒荷重,TIPPING LOADS / Y,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+280,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_転倒荷重,TIPPING LOADS / Z,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+285,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_仕様,LOADER PERFORMANCE SPECS / Rated Operating Capacity (50% of Tipping Load),,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+295,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_仕様,HYDRAULICS / Working Hydraulics / Operating Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+296,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_仕様,DRIVETRAIN / Differential Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+297,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_仕様,HYDRAULICS / Driving Hydraulics / Operating Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+298,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_転倒荷重,TIPPING LOAD PATHS / X,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+719,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_寸法,Maximum radius external,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+300,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+301,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_仕様,HYDRAULICS / Continuous Flow – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+302,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_転倒荷重,TIPPING LOADS / Y,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+213,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_寸法,Maximum radius external,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+212,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_転倒荷重,TIPPING LOADS / Y,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+211,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_寸法,Max. height with cabin,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+284,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+307,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_仕様,ELECTRICAL / Alternator,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+308,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_仕様,DRIVETRAIN / Differential Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+309,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_仕様,HYDRAULICS / Pump Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+310,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_転倒荷重,TIPPING LOADS / X,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+311,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_転倒荷重,TIPPING LOADS / V,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+312,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_寸法,Height front frame,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+313,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_寸法,Maximum radius external,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+314,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_寸法,Max. height with cabin,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+315,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_寸法,Height with bucket,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+316,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_寸法,Rollback angle at max. lift height,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+317,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_寸法,Rollback angle on the ground,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+210,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_仕様,DRIVETRAIN / Parking brake / Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+209,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_仕様,HYDRAULICS / Continuous Flow – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+320,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,HYDRAULICS / Driving Hydraulics / Operating Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+321,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_仕様,DRIVETRAIN / Parking brake / Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+322,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_仕様,ELECTRIC POWERTRAIN / On-Board Charger,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+323,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+324,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_仕様,SERVICE CAPACITIES / Engine Coolant,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+325,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_寸法,Maximum radius external,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+208,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+327,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_仕様,HYDRAULICS / Continuous Flow – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+328,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_仕様,ENGINE / Exhaust aftertreatment,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+329,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_転倒荷重,TIPPING LOAD PATHS / U,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+330,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_転倒荷重,TIPPING LOADS / X,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+331,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_寸法,Height front frame,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+332,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_寸法,Height with bucket,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+333,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_寸法,Max. loading angle,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+273,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_仕様,SERVICE CAPACITIES / Engine Coolant,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+279,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_転倒荷重,TIPPING LOADS / W,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+278,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_寸法,Height with bucket,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+337,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_仕様,HYDRAULICS / High Flow – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+338,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_仕様,HYDRAULICS / Working Hydraulics / Operating Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+339,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_仕様,HYDRAULICS / Control Valve Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+340,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_仕様,ELECTRIC POWERTRAIN / On-Board Charger / Charging Time 20 - 80%,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+341,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_仕様,ELECTRIC POWERTRAIN / Expected run time – dependent on application / Expected run time,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+342,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_仕様,DRIVETRAIN / Differential Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+343,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_転倒荷重,TIPPING LOADS / U,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+344,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_転倒荷重,TIPPING LOAD / T,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+207,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_寸法,Max. height with cabin,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+206,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_転倒荷重,TIPPING LOADS / V,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+277,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_転倒荷重,TIPPING LOADS / T,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+348,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_仕様,ELECTRICAL / Battery cold-cranking amps,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+349,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_転倒荷重,TIPPING LOAD PATHS / S,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+350,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_寸法,Outer size of tires,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+205,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_転倒荷重,TIPPING LOADS / X,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+204,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_寸法,Rollback angle on the ground,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+276,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_転倒荷重,TIPPING LOAD PATHS / T,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+354,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_仕様,SERVICE CAPACITIES / Engine oil w/ filter,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+355,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_仕様,HYDRAULICS / Working Hydraulics / Total Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+356,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_仕様,HYDRAULICS / Pump Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+357,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+358,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_転倒荷重,TIPPING LOADS / U,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+359,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_転倒荷重,TIPPING LOAD PATHS / W,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+360,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_寸法,Outer size of tires,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+361,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_転倒荷重,TIPPING LOAD / U,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+362,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,HYDRAULICS / Driving Hydraulics / Operating Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+363,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_転倒荷重,TIPPING LOADS / T,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+364,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_寸法,Height front frame,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+365,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_寸法,Maximum radius external,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+366,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_転倒荷重,TIPPING LOADS / X,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+367,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_転倒荷重,TIPPING LOAD / Y,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+203,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_仕様,HYDRAULICS / Driving Hydraulics / Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+202,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_仕様,HYDRAULICS / Continuous Flow – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+370,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_仕様,ENGINE / Exhaust aftertreatment,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+371,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_仕様,DRIVETRAIN / Parking brake / Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+372,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_仕様,HYDRAULICS / Driving Hydraulics / Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+373,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_仕様,DRIVETRAIN / Parking brake / Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+374,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_仕様,HYDRAULICS / Working Hydraulics / Operating Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+375,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_転倒荷重,TIPPING LOADS / V,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+376,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_寸法,Max. loading angle,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+377,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_寸法,Rollback angle at max. lift height,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+201,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_仕様,SERVICE CAPACITIES / Engine oil w/ filter,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+200,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+222,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_寸法,Max. loading angle,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+196,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_転倒荷重,TIPPING LOADS / X,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+275,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_仕様,SERVICE CAPACITIES / Engine Coolant,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+383,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_仕様,HYDRAULICS / Continuous Flow – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+384,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_仕様,SERVICE CAPACITIES / Engine oil w/ filter,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+385,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_仕様,ELECTRICAL / Battery cold-cranking amps,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+386,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_仕様,HYDRAULICS / High Flow – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+387,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_寸法,Outer size of tires,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+388,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_転倒荷重,TIPPING LOAD PATHS / V,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+195,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_転倒荷重,TIPPING LOAD PATHS / U,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+194,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_仕様,HYDRAULICS / Continuous Flow – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+274,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+392,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_仕様,HYDRAULICS / Working Hydraulics / Operating Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+393,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_仕様,HYDRAULICS / Working Hydraulics / Total Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+394,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_仕様,DRIVETRAIN / Max. Travel speed / Turtle,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+395,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_仕様,LOADER PERFORMANCE SPECS / Rated Operating Capacity (50% of Tipping Load),,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+396,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_仕様,OPERATING WEIGHT / Cab Option,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+397,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_仕様,HYDRAULICS / Driving Hydraulics / Operating Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+398,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_仕様,SERVICE CAPACITIES / Engine oil w/ filter,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+399,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_仕様,HYDRAULICS / Pump Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+400,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_転倒荷重,TIPPING LOAD PATHS / W,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+401,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_寸法,Height front frame,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+193,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_仕様,HYDRAULICS / High Flow – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+403,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_仕様,OPERATING WEIGHT / Cab Option,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+404,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_仕様,ELECTRICAL / Battery cold-cranking amps,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+405,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+406,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_仕様,SERVICE CAPACITIES / Engine oil w/ filter,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+407,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_仕様,ENGINE / Exhaust aftertreatment,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+408,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_寸法,Rollback angle on the ground,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+192,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_仕様,SERVICE CAPACITIES / Engine oil w/ filter,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+191,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_仕様,HYDRAULICS / Driving Hydraulics / Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+411,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_仕様,HYDRAULICS / Working Hydraulics / Total Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+412,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+413,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_仕様,HYDRAULICS / Continuous Flow – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+414,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_転倒荷重,TIPPING LOADS / T,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+415,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_寸法,Outer size of tires,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+416,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_寸法,Height front frame,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+417,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_転倒荷重,TIPPING LOADS / T,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+418,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_寸法,Height front frame,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+419,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_寸法,Rollback angle on the ground,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+188,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_寸法,Rollback angle on the ground,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+187,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_寸法,Max. height with cabin,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+186,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+185,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_仕様,ELECTRICAL / Battery,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+424,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_仕様,HYDRAULICS / Driving Hydraulics / Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+425,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_仕様,HYDRAULICS / Continuous Flow – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+426,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_仕様,SERVICE CAPACITIES / Engine oil w/ filter,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+427,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_仕様,SERVICE CAPACITIES / Engine oil w/ filter,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+428,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_仕様,"LOADER PERFORMANCE SPECS / Articulated, Retracted",,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+429,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_仕様,HYDRAULICS / Driving Hydraulics / Operating Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+286,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,DRIVETRAIN / Max. Travel speed / Rabbit – Low Gear,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+287,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_仕様,DRIVETRAIN / Parking brake / Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+288,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_転倒荷重,TIPPING LOADS / V,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+184,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_仕様,HYDRAULICS / Driving Hydraulics / Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+183,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_仕様,HYDRAULICS / Continuous Flow – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+435,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_仕様,HYDRAULICS / Driving Hydraulics / Operating Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+436,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_仕様,HYDRAULICS / Working Hydraulics / Total Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+437,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+438,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_寸法,Height front frame,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+439,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_転倒荷重,TIPPING LOAD PATHS / U,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+440,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_寸法,Height front frame,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+441,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_寸法,Outer size of tires,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+272,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_仕様,SERVICE CAPACITIES / Engine Coolant,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+182,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,SERVICE CAPACITIES / Engine oil w/ filter,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+444,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+445,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+446,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,SERVICE CAPACITIES / Engine oil w/ filter,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+447,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_転倒荷重,TIPPING LOADS / U,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+225,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_寸法,Outer size of tires,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+176,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_寸法,Max. height with cabin,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+450,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_仕様,SERVICE CAPACITIES / Engine Coolant,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+451,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+452,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_寸法,Outer size of tires,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+453,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_寸法,Max. loading angle,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+454,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_寸法,Max. loading angle,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+175,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_転倒荷重,TIPPING LOADS / W,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+174,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_寸法,Maximum radius external,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+457,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_仕様,SERVICE CAPACITIES / Engine oil w/ filter,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+458,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_仕様,HYDRAULICS / Working Hydraulics / Total Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+459,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_仕様,DRIVETRAIN / Max. Travel speed / Turtle,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+460,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_仕様,ELECTRIC POWERTRAIN / Motor Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+461,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_転倒荷重,TIPPING LOADS / Y,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+462,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_寸法,Height front frame,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+463,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_転倒荷重,TIPPING LOADS / V,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+464,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_転倒荷重,TIPPING LOADS / W,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+173,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_仕様,DRIVETRAIN / Parking brake / Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+172,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_仕様,LOADER PERFORMANCE SPECS / Rated Operating Capacity (50% of Tipping Load),,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+467,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_仕様,HYDRAULICS / High Flow – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+468,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_仕様,HYDRAULICS / Continuous Flow – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+469,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,HYDRAULICS / High Flow – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+470,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_仕様,DRIVETRAIN / Differential Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+471,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_転倒荷重,TIPPING LOAD / V,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+472,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_転倒荷重,TIPPING LOAD / W,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+473,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_寸法,Outer size of tires,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+474,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_転倒荷重,TIPPING LOADS / T,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+171,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_仕様,HYDRAULICS / Continuous Flow – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+170,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_仕様,HYDRAULICS / Working Hydraulics / Operating Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+168,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_寸法,Height with bucket,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+167,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_転倒荷重,TIPPING LOADS / X,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+263,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_寸法,Height with bucket,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+480,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,SERVICE CAPACITIES / Engine Coolant,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+481,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_仕様,HYDRAULICS / Continuous Flow – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+482,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_寸法,Maximum radius external,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+483,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_転倒荷重,TIPPING LOADS / W,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+484,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_転倒荷重,TIPPING LOAD PATHS / T,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+485,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_転倒荷重,TIPPING LOAD / X,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+486,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_寸法,Height front frame,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+166,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_転倒荷重,TIPPING LOADS / Z,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+488,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+489,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_仕様,SERVICE CAPACITIES / Engine Coolant,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+490,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+491,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,HYDRAULICS / Control Valve Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+492,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+493,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_仕様,HYDRAULICS / Continuous Flow – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+494,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_仕様,DRIVETRAIN / Parking brake / Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+495,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_仕様,HYDRAULICS / Pump Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+496,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_仕様,HYDRAULICS / Working Hydraulics / Total Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+497,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_転倒荷重,TIPPING LOADS / Y,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+498,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_寸法,Outer size of tires,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+165,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_転倒荷重,TIPPING LOADS / U,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+264,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_寸法,Max. loading angle,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+501,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_仕様,HYDRAULICS / Working Hydraulics / Total Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+502,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,ELECTRICAL / Alternator,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+503,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,ELECTRICAL / Battery,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+504,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,SERVICE CAPACITIES / Engine Coolant,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+505,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_仕様,DRIVETRAIN / Max. Travel speed / Mid,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+506,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_転倒荷重,TIPPING LOAD PATHS / T,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+507,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_転倒荷重,TIPPING LOAD / X,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+508,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_転倒荷重,TIPPING LOADS / W,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+509,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_寸法,Max. height with cabin,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+164,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_転倒荷重,TIPPING LOAD PATHS / U,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+163,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_寸法,Maximum radius external,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+162,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_仕様,ENGINE / Exhaust aftertreatment,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+161,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_仕様,HYDRAULICS / Driving Hydraulics / Operating Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+160,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_仕様,DRIVETRAIN / Differential Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+159,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_仕様,LOADER PERFORMANCE SPECS / Rated Operating Capacity (50% of Tipping Load),,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+516,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,HYDRAULICS / High Flow – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+517,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_仕様,HYDRAULICS / Driving Hydraulics / Operating Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+518,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,HYDRAULICS / Driving Hydraulics / Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+519,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_仕様,HYDRAULICS / High Flow – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+520,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_仕様,HYDRAULICS / Working Hydraulics / Operating Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+521,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_仕様,HYDRAULICS / Control Valve Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+522,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_転倒荷重,TIPPING LOADS / V,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+523,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_転倒荷重,TIPPING LOADS / W,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+524,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_転倒荷重,TIPPING LOADS / Y,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+227,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_仕様,DRIVETRAIN / Differential Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+154,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_寸法,Rollback angle at max. lift height,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+253,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_転倒荷重,TIPPING LOAD PATHS / T,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+528,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_仕様,HYDRAULICS / Driving Hydraulics / Operating Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+529,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,DRIVETRAIN / Differential Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+530,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_仕様,DRIVETRAIN / Max. Travel speed / Turtle,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+531,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_仕様,ELECTRICAL / Alternator,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+532,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_仕様,SERVICE CAPACITIES / Engine Coolant,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+533,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_寸法,Outer size of tires,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+534,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_寸法,Height front frame,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+535,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_寸法,Max. height with cabin,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+536,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_寸法,Height with bucket,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+262,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_寸法,Maximum radius external,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+538,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+539,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,DRIVETRAIN / Max. Travel speed / Turtle – High Gear,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+540,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_仕様,HYDRAULICS / Pump Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+261,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+260,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_仕様,SERVICE CAPACITIES / Engine Coolant,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+542,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_転倒荷重,TIPPING LOADS / U,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+259,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_仕様,DRIVETRAIN / Max. Travel speed / Turtle,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+545,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+546,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_仕様,HYDRAULICS / Working Hydraulics / Operating Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+547,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_仕様,ELECTRIC POWERTRAIN / Off-Board Charger,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+548,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_仕様,HYDRAULICS / Driving Hydraulics / Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+549,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_転倒荷重,TIPPING LOAD PATHS / U,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+550,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_寸法,Rollback angle at max. lift height,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+153,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_寸法,Rollback angle on the ground,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+152,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_寸法,Height front frame,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+151,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_転倒荷重,TIPPING LOAD PATHS / T,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+150,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_寸法,Maximum radius external,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+149,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_寸法,Height with bucket,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+148,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_仕様,SERVICE CAPACITIES / Engine oil w/ filter,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+557,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+558,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_仕様,HYDRAULICS / Driving Hydraulics / Operating Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+559,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_仕様,HYDRAULICS / Control Valve Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+560,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_仕様,SERVICE CAPACITIES / Engine Coolant,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+561,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_仕様,ELECTRICAL / Battery,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+562,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_転倒荷重,TIPPING LOADS / Y,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+563,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_寸法,Height front frame,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+147,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_仕様,HYDRAULICS / Driving Hydraulics / Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+146,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_仕様,HYDRAULICS / Control Valve Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+254,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_転倒荷重,TIPPING LOADS / T,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+567,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,DRIVETRAIN / Max. Travel speed / Turtle – Low Gear,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+568,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_仕様,HYDRAULICS / Driving Hydraulics / Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+569,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_仕様,"LOADER PERFORMANCE SPECS / Articulated, Retracted",,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+570,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_仕様,DRIVETRAIN / Max. Travel speed / Turtle,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+571,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_仕様,ELECTRICAL / Battery,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+572,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_仕様,HYDRAULICS / Control Valve Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+573,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_仕様,DRIVETRAIN / Differential Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+574,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_寸法,Max. dumping height extended,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+430,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_仕様,ELECTRIC POWERTRAIN / Off-Board Charger / Charging Time 20 - 80%,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+145,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_仕様,SERVICE CAPACITIES / Engine oil w/ filter,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+144,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_仕様,DRIVETRAIN / Differential Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+578,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_仕様,HYDRAULICS / Working Hydraulics / Operating Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+579,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+580,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_仕様,HYDRAULICS / Driving Hydraulics / Operating Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+581,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_仕様,ELECTRICAL / Battery cold-cranking amps,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+582,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_仕様,HYDRAULICS / Working Hydraulics / Total Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+583,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_転倒荷重,TIPPING LOADS / T,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+584,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_寸法,Max. height with cabin,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+585,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_寸法,Outer size of tires,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+586,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_寸法,Height with bucket,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+587,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_転倒荷重,TIPPING LOAD / V,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+588,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_転倒荷重,TIPPING LOAD / W,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+143,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_仕様,ENGINE / Exhaust aftertreatment,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+590,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,DRIVETRAIN / Max. Travel speed / Turtle – High Gear,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+591,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_仕様,HYDRAULICS / Continuous Flow – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+592,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,ENGINE / Exhaust aftertreatment,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+593,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_仕様,OPERATING WEIGHT / Cab Option,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+594,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+142,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_仕様,HYDRAULICS / Working Hydraulics / Total Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+141,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_仕様,HYDRAULICS / Driving Hydraulics / Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+245,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_寸法,Height with bucket,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+252,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_転倒荷重,TIPPING LOADS / Z,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+599,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_仕様,HYDRAULICS / Working Hydraulics / Total Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+600,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_仕様,HYDRAULICS / Continuous Flow – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+601,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_仕様,HYDRAULICS / High Flow – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+602,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+603,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_寸法,Height with bucket,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+604,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_転倒荷重,TIPPING LOAD PATHS / V,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+605,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_寸法,Max. height with cabin,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+606,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_寸法,Outer size of tires,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+221,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_寸法,Outer size of tires,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+251,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_転倒荷重,TIPPING LOADS / W,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+250,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_仕様,SERVICE CAPACITIES / Engine Coolant,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+249,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_仕様,SERVICE CAPACITIES / Engine Coolant,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+611,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,DRIVETRAIN / Max. Travel speed / Turtle – Low Gear,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+612,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_仕様,HYDRAULICS / Driving Hydraulics / Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+613,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_仕様,DRIVETRAIN / Max. Travel speed / Turtle,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+614,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_仕様,ELECTRICAL / Battery cold-cranking amps,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+615,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_寸法,Height with bucket,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+616,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_転倒荷重,TIPPING LOADS / V,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+617,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_寸法,Max. dumping height extended,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+248,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_仕様,SERVICE CAPACITIES / Engine oil w/ filter,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+619,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_仕様,DRIVETRAIN / Max. Travel speed / Mid,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+620,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_仕様,ELECTRICAL / Alternator,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+621,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_仕様,DRIVETRAIN / Parking brake / Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+622,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_仕様,ENGINE / Exhaust aftertreatment,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+623,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_仕様,HYDRAULICS / Working Hydraulics / Total Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+624,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_仕様,ELECTRICAL / Alternator,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+625,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_転倒荷重,TIPPING LOADS / X,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+626,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_転倒荷重,TIPPING LOAD / Y,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+627,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_寸法,Max. height with cabin,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+628,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_転倒荷重,TIPPING LOADS / T,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+228,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_仕様,LOADER PERFORMANCE SPECS / Rated Operating Capacity (50% of Tipping Load),,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+224,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_寸法,Max. height with cabin,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+138,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_転倒荷重,TIPPING LOAD PATHS / V,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+247,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_仕様,SERVICE CAPACITIES / Engine Coolant,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+633,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,ELECTRICAL / Battery cold-cranking amps,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+634,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+635,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_仕様,ENGINE / Exhaust aftertreatment,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+636,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_仕様,HYDRAULICS / Pump Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+637,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_転倒荷重,TIPPING LOAD PATHS / W,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+638,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_寸法,Height front frame,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+639,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_転倒荷重,TIPPING LOAD / U,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+640,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_寸法,Rollback angle at max. lift height,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+641,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_転倒荷重,TIPPING LOADS / U,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+642,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_寸法,Rollback angle on the ground,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+137,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_転倒荷重,TIPPING LOADS / W,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+644,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_仕様,HYDRAULICS / Driving Hydraulics / Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+645,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+646,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+647,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_仕様,ELECTRICAL / Alternator,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+648,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_仕様,ELECTRICAL / Battery,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+649,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_転倒荷重,TIPPING LOADS / T,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+650,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_転倒荷重,TIPPING LOADS / T,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+136,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_転倒荷重,TIPPING LOAD / Z,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+135,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_転倒荷重,TIPPING LOADS / Z,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+234,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_仕様,HYDRAULICS / Working Hydraulics / Total Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+244,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_寸法,Rollback angle on the ground,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+655,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_仕様,DRIVETRAIN / Max. Travel speed / Turtle,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+656,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_寸法,Height front frame,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+657,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_寸法,Max. height with cabin,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+658,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_寸法,Height with bucket,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+659,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_転倒荷重,TIPPING LOAD PATHS / S,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+660,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_寸法,Outer size of tires,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+661,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_寸法,Rollback angle at max. lift height,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+243,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_転倒荷重,TIPPING LOADS / U,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+242,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_寸法,Height front frame,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+664,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,HYDRAULICS / Driving Hydraulics / Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+665,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,HYDRAULICS / High Flow – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+666,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_仕様,LOADER PERFORMANCE SPECS / Rated Operating Capacity (50% of Tipping Load),,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+667,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_仕様,OPERATING WEIGHT / Cab Option,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+668,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_仕様,HYDRAULICS / Working Hydraulics / Operating Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+669,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_転倒荷重,TIPPING LOAD PATHS / W,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+670,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_寸法,Rollback angle at max. lift height,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+241,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_転倒荷重,TIPPING LOAD / T,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+672,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+673,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_仕様,ELECTRICAL / Alternator,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+674,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_仕様,HYDRAULICS / Driving Hydraulics / Operating Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+675,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_仕様,LOADER PERFORMANCE SPECS / Rated Operating Capacity (50% of Tipping Load),,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+676,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_転倒荷重,TIPPING LOADS / W,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+677,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_寸法,Rollback angle at max. lift height,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+134,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_仕様,HYDRAULICS / Driving Hydraulics / Operating Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+240,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_寸法,Maximum radius external,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+239,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_仕様,HYDRAULICS / Control Valve Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+681,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_仕様,HYDRAULICS / Driving Hydraulics / Operating Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+682,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_仕様,HYDRAULICS / High Flow – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+683,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_仕様,HYDRAULICS / Continuous Flow – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+684,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_転倒荷重,TIPPING LOAD PATHS / T,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+238,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_仕様,ELECTRICAL / Battery cold-cranking amps,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+686,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,HYDRAULICS / High Flow – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+687,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,LOADER PERFORMANCE SPECS / Articulated,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+688,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_仕様,HYDRAULICS / Continuous Flow – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+689,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_転倒荷重,TIPPING LOADS / W,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+690,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_転倒荷重,TIPPING LOAD PATHS / V,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+691,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_転倒荷重,TIPPING LOADS / Z,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+692,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_寸法,Height front frame,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+693,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_転倒荷重,TIPPING LOAD / Z,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+694,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_寸法,Height with bucket,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+133,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_仕様,ELECTRICAL / Alternator,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+132,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_仕様,HYDRAULICS / Working Hydraulics / Operating Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+131,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_仕様,HYDRAULICS / Control Valve Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+130,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_仕様,HYDRAULICS / Driving Hydraulics / Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+237,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_仕様,HYDRAULICS / Driving Hydraulics / Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+700,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+701,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_仕様,HYDRAULICS / Continuous Flow – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+702,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,DRIVETRAIN / Parking brake / Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+703,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+704,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+705,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_転倒荷重,TIPPING LOADS / U,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+706,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_転倒荷重,TIPPING LOADS / V,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+707,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_転倒荷重,TIPPING LOAD PATHS / V,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+708,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_寸法,Height with bucket,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+129,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_仕様,HYDRAULICS / Pump Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+128,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,LOADER PERFORMANCE SPECS / Articulated,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+236,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,HYDRAULICS / Pump Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+235,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_仕様,HYDRAULICS / Driving Hydraulics / Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+713,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_仕様,HYDRAULICS / Continuous Flow – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+714,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+715,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_仕様,SERVICE CAPACITIES / Engine coolant,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+716,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_仕様,ELECTRICAL / Battery cold-cranking amps,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+717,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_転倒荷重,TIPPING LOADS / X,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+223,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_転倒荷重,TIPPING LOAD PATHS / X,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+219,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_仕様,SERVICE CAPACITIES / Engine oil w/ filter,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+220,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_仕様,HYDRAULICS / Working Hydraulics / Operating Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+230,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_転倒荷重,TIPPING LOADS / V,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+722,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+723,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_寸法,Height front frame,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+724,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_寸法,Maximum radius external,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+725,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_寸法,Max. height with cabin,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+726,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_寸法,Height with bucket,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+727,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_仕様,OPERATING WEIGHT / Cab weight,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+728,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_寸法,Max. loading angle,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+124,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_寸法,Max. loading angle,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+123,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_転倒荷重,TIPPING LOADS / U,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+122,unmapped_item,review,Case,case:sl35_tr,case_sl35tr_仕様項目一覧_転倒荷重,TIPPING LOAD PATHS / V,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+229,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_寸法,Height with bucket,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+121,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_転倒荷重,TIPPING LOADS / V,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+120,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_仕様,ELECTRICAL / Battery,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+735,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_仕様,LOADER PERFORMANCE SPECS / Rated Operating Capacity (50% of Tipping Load),,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+736,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,DRIVETRAIN / Max. Travel speed / Rabbit – Low Gear,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+737,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+738,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+739,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_仕様,HYDRAULICS / Pump Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+740,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_転倒荷重,TIPPING LOADS / U,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+741,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_転倒荷重,TIPPING LOADS / Z,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+742,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_転倒荷重,TIPPING LOADS / X,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+743,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_寸法,Maximum radius external,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+744,unmapped_item,review,Case,case:sl22ev,case_sl22ev_仕様項目一覧_寸法,Maximum radius external,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+745,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_転倒荷重,TIPPING LOAD PATHS / U,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+746,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_寸法,Outer size of tires,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+747,unmapped_item,review,Case,case:sl12_tr,case_sl12tr_仕様項目一覧_寸法,Rollback angle on the ground,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+119,unmapped_item,review,Case,case:sl12,case_sl12_仕様項目一覧_仕様,HYDRAULICS / Driving Hydraulics / Operating Pressure,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+107,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_仕様,SERVICE CAPACITIES / Engine coolant,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+108,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_仕様,HYDRAULICS / Auxiliary 2 – optional / Max. Flow Rate,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+109,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_仕様,ELECTRICAL / Battery,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+110,unmapped_item,review,Case,case:sl27,case_sl27_仕様項目一覧_仕様,HYDRAULICS / Control Valve Type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+111,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_仕様,DRIVETRAIN / Max. Travel speed / Turtle,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+112,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_転倒荷重,TIPPING LOADS / Y,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+113,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_転倒荷重,TIPPING LOADS / X,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+114,unmapped_item,review,Case,case:sl27_tr,case_sl27tr_仕様項目一覧_寸法,Maximum radius external,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+115,unmapped_item,review,Case,case:sl23,case_sl23_仕様項目一覧_転倒荷重,TIPPING LOADS / Z,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+116,unmapped_item,review,Case,case:sl15,case_sl15_仕様項目一覧_寸法,Height with bucket,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+575,unmapped_item,review,Case,case:sl50_tr,case_sl50tr_仕様項目一覧_寸法,Height with bucket,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+721,unmapped_item,review,GIANT,giant:g2300_hd,giant_g2300_hd_仕様一覧_仕様比較,Max. speed low,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+455,unmapped_item,review,GIANT,giant:g1500,giant_g1500_series_仕様一覧_仕様比較,Max. speed option,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+456,unmapped_item,review,GIANT,giant:g2300_x_tra_hd,giant_g2300_hd_仕様一覧_仕様比較,Max. speed low,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+512,unmapped_item,review,GIANT,giant:g1500_x_tra,giant_g1500_series_仕様一覧_仕様比較,Max. speed option,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+105,unmapped_item,review,Gianni Ferrari,gianni:h440_2s,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Load anti-spill device,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+292,unmapped_item,review,Gianni Ferrari,gianni:m280,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Cooling,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+499,unmapped_item,review,Gianni Ferrari,gianni:m280,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Lights,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+576,unmapped_item,review,Gianni Ferrari,gianni:m280,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Steering,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+729,unmapped_item,review,Gianni Ferrari,gianni:m280,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Machine anti-tip device,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+215,unmapped_item,review,Gianni Ferrari,gianni:h440_2s,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Forward - reverse motion,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+214,unmapped_item,review,Gianni Ferrari,gianni:h440_2s,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Rear auxiliary hydraulics,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+303,unmapped_item,review,Gianni Ferrari,gianni:h440_2s,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Alternator,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+318,unmapped_item,review,Gianni Ferrari,gianni:m280,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Self-levelling,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+368,unmapped_item,review,Gianni Ferrari,gianni:m280,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Wheel motors,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+378,unmapped_item,review,Gianni Ferrari,gianni:h440_2s,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Length / Width / Height with ROPS,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+389,unmapped_item,review,Gianni Ferrari,gianni:m280,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Alternator,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+695,unmapped_item,review,Gianni Ferrari,gianni:h440_2s,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Length / Width / Height with CAB,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+189,unmapped_item,review,Gianni Ferrari,gianni:m280,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Forward - reverse motion,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+652,unmapped_item,review,Gianni Ferrari,gianni:h440_2s,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Driving wheels,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+651,unmapped_item,review,Gianni Ferrari,gianni:h440_2s,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Pump,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+420,unmapped_item,review,Gianni Ferrari,gianni:m280,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Front PTO auxiliary hydraulics,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+421,unmapped_item,review,Gianni Ferrari,gianni:h440_2s,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Self-levelling,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+630,unmapped_item,review,Gianni Ferrari,gianni:m280,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Load anti-spill device,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+629,unmapped_item,review,Gianni Ferrari,gianni:m280,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Driving wheels,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+607,unmapped_item,review,Gianni Ferrari,gianni:m280,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Pump,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+596,unmapped_item,review,Gianni Ferrari,gianni:h440_2s,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Forward speed low,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+595,unmapped_item,review,Gianni Ferrari,gianni:m280,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Rear auxiliary hydraulics,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+422,unmapped_item,review,Gianni Ferrari,gianni:m280,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Battery,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+179,unmapped_item,review,Gianni Ferrari,gianni:m280,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Parking brake,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+432,unmapped_item,review,Gianni Ferrari,gianni:h440_2s,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Front auxiliary hydraulics,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+178,unmapped_item,review,Gianni Ferrari,gianni:h440_2s,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Front PTO auxiliary hydraulics,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+177,unmapped_item,review,Gianni Ferrari,gianni:m280,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Front auxiliary hydraulics,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+465,unmapped_item,review,Gianni Ferrari,gianni:h440_2s,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Lights,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+475,unmapped_item,review,Gianni Ferrari,gianni:h440_2s,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Wheel motors,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+476,unmapped_item,review,Gianni Ferrari,gianni:m280,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Electrical outlet,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+477,unmapped_item,review,Gianni Ferrari,gianni:h440_2s,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Battery,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+169,unmapped_item,review,Gianni Ferrari,gianni:h440_2s,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Steering,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+551,unmapped_item,review,Gianni Ferrari,gianni:h440_2s,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Cooling,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+511,unmapped_item,review,Gianni Ferrari,gianni:m280,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Length / Width / Height with CAB,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+155,unmapped_item,review,Gianni Ferrari,gianni:h440_2s,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Electrical outlet,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+156,unmapped_item,review,Gianni Ferrari,gianni:h440_2s,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Machine anti-tip device,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+510,unmapped_item,review,Gianni Ferrari,gianni:h440_2s,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Parking brake,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+265,unmapped_item,review,Gianni Ferrari,gianni:m280,gianni_ferrari_turboloader_仕様一覧_仕様一覧,Length / Width / Height with ROPS,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+565,unmapped_item,review,MultiOne,multione:ez_8,multione_ez8_ez8_long_range_仕様一覧_仕様一覧,Charging Current [120 VAC],,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+197,unmapped_item,review,MultiOne,multione:11_5_y,multione_11_5_y_仕様一覧_仕様一覧,シリーズ,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+553,unmapped_item,review,MultiOne,multione:11_6_k_turbos_stage_v,multione_11_6_k_turbos_仕様一覧_仕様一覧,Cruise Control,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+552,unmapped_item,review,MultiOne,multione:11_5_y,multione_11_5_y_仕様一覧_仕様一覧,ACI,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+526,unmapped_item,review,MultiOne,multione:8_5s_k_stage_v,multione_8_5s_k_仕様一覧_仕様一覧,Cruise Control Drive,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+157,unmapped_item,review,MultiOne,multione:11_5_y,multione_11_5_y_仕様一覧_仕様一覧,Drive speed (max.) - 2 speed [low],,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+525,unmapped_item,review,MultiOne,multione:6_3_ids,multione_6_3_ids_仕様一覧_仕様一覧,Drive speed (max.) (1) - low,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+515,unmapped_item,review,MultiOne,multione:11_6_k_turbos_stage_v,multione_11_6_k_turbos_仕様一覧_仕様一覧,ACI,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+514,unmapped_item,review,MultiOne,multione:2_3_efi,multione_2_3_efi_仕様一覧_仕様一覧,EFI,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+513,unmapped_item,review,MultiOne,multione:8_5_y,multione_8_5_y_仕様一覧_仕様一覧,ACI,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+232,unmapped_item,review,MultiOne,multione:ez_8,multione_ez8_ez8_long_range_仕様一覧_仕様一覧,Charger Absorbed Current,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+478,unmapped_item,review,MultiOne,multione:ez_7,multione_ez7_仕様一覧_仕様一覧,Charger plug type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+125,unmapped_item,review,MultiOne,multione:ez_7,multione_ez7_仕様一覧_仕様一覧,Charging system,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+466,unmapped_item,review,MultiOne,multione:11_6_k_turbos_stage_v,multione_11_6_k_turbos_仕様一覧_仕様一覧,Engine [過給・燃料噴射],,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+256,unmapped_item,review,MultiOne,multione:11_5_y,multione_11_5_y_仕様一覧_仕様一覧,NEW,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+233,unmapped_item,review,MultiOne,multione:ez_8_long_range,multione_ez8_ez8_long_range_仕様一覧_仕様一覧,Electric motors,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+748,unmapped_item,review,MultiOne,multione:ez_8_long_range,multione_ez8_ez8_long_range_仕様一覧_仕様一覧,Charger type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+267,unmapped_item,review,MultiOne,multione:6_3_ids,multione_6_3_ids_仕様一覧_仕様一覧,ACI,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+255,unmapped_item,review,MultiOne,multione:5_3_k_id,multione_5_3_k_id_仕様一覧_仕様一覧,ACI,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+564,unmapped_item,review,MultiOne,multione:1_1,multione_1_1_仕様一覧_仕様一覧,Turning radius: inside/outside,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+731,unmapped_item,review,MultiOne,multione:ez_8_long_range,multione_ez8_ez8_long_range_仕様一覧_仕様一覧,Charger Protection,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+180,unmapped_item,review,MultiOne,multione:ez_7,multione_ez7_仕様一覧_仕様一覧,Charger Absorbed Current,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+448,unmapped_item,review,MultiOne,multione:ez_7,multione_ez7_仕様一覧_仕様一覧,Charging Current [230 VAC],,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+268,unmapped_item,review,MultiOne,multione:ez_8_long_range,multione_ez8_ez8_long_range_仕様一覧_仕様一覧,Charging Current [230 VAC],,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+434,unmapped_item,review,MultiOne,multione:ez_8,multione_ez8_ez8_long_range_仕様一覧_仕様一覧,Electric motors,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+433,unmapped_item,review,MultiOne,multione:11_5_y,multione_11_5_y_仕様一覧_仕様一覧,Drive speed (max.) - 2 speed [low],,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+423,unmapped_item,review,MultiOne,multione:11_5_y,multione_11_5_y_仕様一覧_仕様一覧,Drive,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+577,unmapped_item,review,MultiOne,multione:8_5s_k_stage_v,multione_8_5s_k_仕様一覧_仕様一覧,ACI,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+589,unmapped_item,review,MultiOne,multione:8_4_turbos,multione_8_4_turbos_仕様一覧_仕様一覧,Drive speed (max.) (1) - low,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+631,unmapped_item,review,MultiOne,multione:11_6_k_turbos_stage_v,multione_11_6_k_turbos_仕様一覧_仕様一覧,Drive speed (max.) - 2 speed [low],,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+643,unmapped_item,review,MultiOne,multione:1_1,multione_1_1_仕様一覧_仕様一覧,Turning radius: inside/outside,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+190,unmapped_item,review,MultiOne,multione:ez_8_long_range,multione_ez8_ez8_long_range_仕様一覧_仕様一覧,Charger Input Frequency,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+266,unmapped_item,review,MultiOne,multione:8_5s_k_stage_v,multione_8_5s_k_仕様一覧_仕様一覧,Drive speed (max.) (1) - low,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+409,unmapped_item,review,MultiOne,multione:11_6_k_turbos_stage_v,multione_11_6_k_turbos_仕様一覧_仕様一覧,Drive,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+402,unmapped_item,review,MultiOne,multione:ez_8_long_range,multione_ez8_ez8_long_range_仕様一覧_仕様一覧,Charging Current [120 VAC],,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+390,unmapped_item,review,MultiOne,multione:8_4_turbos,multione_8_4_turbos_仕様一覧_仕様一覧,ACI,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+678,unmapped_item,review,MultiOne,multione:ez_7,multione_ez7_仕様一覧_仕様一覧,Charger Input Frequency,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+381,unmapped_item,review,MultiOne,multione:ez_8,multione_ez8_ez8_long_range_仕様一覧_仕様一覧,Charger Protection,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+117,unmapped_item,review,MultiOne,multione:ez_7,multione_ez7_仕様一覧_仕様一覧,Electric motors,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+198,unmapped_item,review,MultiOne,multione:ez_8_long_range,multione_ez8_ez8_long_range_仕様一覧_仕様一覧,Charger plug type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+380,unmapped_item,review,MultiOne,multione:ez_8_long_range,multione_ez8_ez8_long_range_仕様一覧_仕様一覧,Charger Absorbed Current,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+379,unmapped_item,review,MultiOne,multione:8_5_y,multione_8_5_y_仕様一覧_仕様一覧,NEW,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+696,unmapped_item,review,MultiOne,multione:8_4_turbos,multione_8_4_turbos_仕様一覧_仕様一覧,Drive speed (max.) (1) - low,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+369,unmapped_item,review,MultiOne,multione:8_5s_k_stage_v,multione_8_5s_k_仕様一覧_仕様一覧,Drive speed (max.) (1) - low,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+697,unmapped_item,review,MultiOne,multione:8_5_y,multione_8_5_y_仕様一覧_仕様一覧,Cruise Control Drive,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+352,unmapped_item,review,MultiOne,multione:ez_8_long_range,multione_ez8_ez8_long_range_仕様一覧_仕様一覧,Charging system,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+351,unmapped_item,review,MultiOne,multione:ez_7,multione_ez7_仕様一覧_仕様一覧,Charger Protection,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+346,unmapped_item,review,MultiOne,multione:11_6_k_turbos_stage_v,multione_11_6_k_turbos_仕様一覧_仕様一覧,NEW,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+345,unmapped_item,review,MultiOne,multione:8_4_turbos,multione_8_4_turbos_仕様一覧_仕様一覧,Cruise Control Drive,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+326,unmapped_item,review,MultiOne,multione:11_6_k_turbos_stage_v,multione_11_6_k_turbos_仕様一覧_仕様一覧,Drive speed (max.) - 2 speed [low],,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+319,unmapped_item,review,MultiOne,multione:11_6_k_turbos_stage_v,multione_11_6_k_turbos_仕様一覧_仕様一覧,シリーズ,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+698,unmapped_item,review,MultiOne,multione:ez_8,multione_ez8_ez8_long_range_仕様一覧_仕様一覧,Charging Current [230 VAC],,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+305,unmapped_item,review,MultiOne,multione:ez_8,multione_ez8_ez8_long_range_仕様一覧_仕様一覧,Charger plug type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+304,unmapped_item,review,MultiOne,multione:ez_8,multione_ez8_ez8_long_range_仕様一覧_仕様一覧,Charger Input Voltage,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+709,unmapped_item,review,MultiOne,multione:ez_7,multione_ez7_仕様一覧_仕様一覧,Charger Input Voltage,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+710,unmapped_item,review,MultiOne,multione:ez_8_long_range,multione_ez8_ez8_long_range_仕様一覧_仕様一覧,Charger Input Voltage,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+126,unmapped_item,review,MultiOne,multione:ez_7,multione_ez7_仕様一覧_仕様一覧,Charger type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+216,unmapped_item,review,MultiOne,multione:ez_8,multione_ez8_ez8_long_range_仕様一覧_仕様一覧,Charger type,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+217,unmapped_item,review,MultiOne,multione:ez_8,multione_ez8_ez8_long_range_仕様一覧_仕様一覧,Charger Input Frequency,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+730,unmapped_item,review,MultiOne,multione:6_3_ids,multione_6_3_ids_仕様一覧_仕様一覧,Drive speed (max.) (1) - low,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+299,unmapped_item,review,MultiOne,multione:ez_7,multione_ez7_仕様一覧_仕様一覧,Charging Current [120 VAC],,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818
+257,unmapped_item,review,MultiOne,multione:ez_8,multione_ez8_ez8_long_range_仕様一覧_仕様一覧,Charging system,,canonical_item が未割当。同義語辞書またはパターンの追加、もしくは比較対象外の判断が必要,open,2026-07-06 07:16:38.166818

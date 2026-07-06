@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AVANT SAL比較表 試作</title>
+    <!-- Artifact Theme: blackrock-v1-color -->
+    <script type="application/json" id="artifact-theme-metadata">
+        {
+            "theme_id": "blackrock-v1-color",
+            "theme_name": "BlackRock",
+            "theme_version": 1,
+            "applied_on": "2026-07-02",
+            "source_theme_file": ".github/skills/html-artifact/assets/themes.json",
+            "colors": {
+                "page_bg": "#F5F6F8",
+                "paper_bg": "#FFFFFF",
+                "ink": "#171717",
+                "muted": "#5F6368",
+                "accent": "#000000",
+                "line": "#DADCE0",
+                "soft": "#F3F4F6",
+                "warn": "#8A5A00",
+                "warn_bg": "#FFF4D8"
+            }
+        }
+    </script>
+    <style>
+        :root {
+            --page-bg: #F5F6F8;
+            --paper-bg: #FFFFFF;
+            --ink: #171717;
+            --muted: #5F6368;
+            --accent: #000000;
+            --line: #DADCE0;
+            --soft: #F3F4F6;
+            --warn: #8A5A00;
+            --warn-bg: #FFF4D8;
+            --model-225: #1D4ED8;
+            --model-423: #2F7D32;
+            --model-528: #E85D04;
+            --model-530: #7C3AED;
+            --model-635: #C026D3;
+            --model-645: #0F766E;
+            --model-650: #B91C1C;
+            --font-main: "Yu Gothic", "Meiryo", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            background:
+                radial-gradient(circle at top left, #ffffff 0, #eef1f4 28%, var(--page-bg) 60%),
+                linear-gradient(180deg, #eef1f4 0, var(--page-bg) 100%);
+            color: var(--ink);
+            font-family: var(--font-main);
+        }
+        .topbar {
+            position: sticky;
+            top: 0;
+            z-index: 20;
+            display: flex;
+            gap: 18px;
+            align-items: center;
+            justify-content: center;
+            padding: 14px 18px;
+            background: rgba(255, 255, 255, 0.94);
+            border-bottom: 1px solid var(--line);
+            backdrop-filter: blur(8px);
+        }
+        .topbar strong {
+            letter-spacing: 0.04em;
+        }
+        .topbar a {
+            color: var(--ink);
+            text-decoration: none;
+            font-weight: 700;
+        }
+        main {
+            max-width: 1280px;
+            margin: 28px auto 60px;
+            padding: 0 20px;
+        }
+        .hero {
+            padding: 42px 44px 32px;
+            border: 1px solid var(--line);
+            background: linear-gradient(180deg, #ffffff 0, #f9fafb 100%);
+            box-shadow: 0 18px 48px rgba(23, 23, 23, 0.08);
+        }
+        h1, h2, h3, p {
+            margin: 0;
+        }
+        h1 {
+            font-size: 48px;
+            line-height: 1.08;
+            letter-spacing: 0.01em;
+        }
+        .subtitle {
+            margin-top: 16px;
+            max-width: 900px;
+            color: var(--muted);
+            font-size: 18px;
+            line-height: 1.7;
+        }
+        .meta {
+            margin-top: 20px;
+            color: var(--muted);
+            font-size: 14px;
+        }
+        .section {
+            margin-top: 22px;
+            padding: 22px;
+            border: 1px solid var(--line);
+            background: var(--paper-bg);
+            box-shadow: 0 10px 28px rgba(23, 23, 23, 0.05);
+        }
+        .section-title {
+            display: flex;
+            align-items: baseline;
+            justify-content: space-between;
+            gap: 18px;
+            padding-bottom: 14px;
+            border-bottom: 4px solid var(--accent);
+        }
+        .section-title h2 {
+            font-size: 34px;
+            line-height: 1.1;
+        }
+        .section-title p {
+            color: var(--muted);
+            font-size: 15px;
+        }
+        .layout {
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            gap: 16px;
+            margin-top: 18px;
+        }
+        .card {
+            border: 1px solid var(--line);
+            background: #ffffff;
+        }
+        .card-head {
+            padding: 14px 16px;
+            background: #222222;
+            color: #ffffff;
+            font-size: 15px;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 16px;
+            border-top: 1px dotted var(--line);
+            font-size: 14px;
+            font-weight: 700;
+        }
+        .legend-item:first-of-type {
+            border-top: 0;
+        }
+        .swatch {
+            width: 16px;
+            height: 16px;
+            display: inline-block;
+            flex: 0 0 auto;
+        }
+        .circle { border-radius: 999px; }
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .comparison-table th,
+        .comparison-table td {
+            border: 1px solid var(--line);
+            padding: 14px 12px;
+            vertical-align: middle;
+        }
+        .comparison-table thead th {
+            background: #222222;
+            color: #ffffff;
+            font-size: 15px;
+        }
+        .comparison-table tbody th {
+            width: 180px;
+            background: #fafafa;
+            text-align: left;
+            font-size: 16px;
+        }
+        .comparison-table tbody td {
+            font-size: 15px;
+        }
+        .metric-name {
+            font-weight: 700;
+            line-height: 1.25;
+        }
+        .metric-unit {
+            color: var(--muted);
+            font-size: 13px;
+        }
+        .range-cell {
+            min-width: 520px;
+        }
+        .range-wrap {
+            position: relative;
+            min-height: 252px;
+            padding: 0 8px;
+            isolation: isolate;
+        }
+        .range-axis {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 200px;
+            z-index: 0;
+        }
+        /* 目盛りラベルは軸線（188px）端縦線（182-196px）より下に配置 */
+        .axis-tick {
+            position: absolute;
+            top: 200px;
+            transform: translateX(-50%);
+            padding: 0 3px;
+            background: #ffffff;
+            color: var(--ink);
+            font-size: 11px;
+            font-weight: 700;
+            line-height: 1.2;
+            white-space: nowrap;
+            z-index: 2;
+        }
+        /* 点線ガイド: --tick-after-top はJSが行ごとに設定 (デフォルト row 0) */
+        .axis-tick::after {
+            content: "";
+            position: absolute;
+            left: 50%;
+            top: var(--tick-after-top, -196px);
+            height: 184px;
+            border-left: 1px dotted #c9cfd6;
+            transform: translateX(-50%);
+            z-index: -1;
+            pointer-events: none;
+        }
+        .range-line {
+            position: absolute;
+            top: 188px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, #9aa0a6 0, #777 50%, #9aa0a6 100%);
+            z-index: 1;
+        }
+        .range-line::before,
+        .range-line::after {
+            content: "";
+            position: absolute;
+            top: -6px;
+            width: 2px;
+            height: 14px;
+            background: #777;
+        }
+        .range-line::before { left: 0; }
+        .range-line::after { right: 0; }
+        .marker-item {
+            position: absolute;
+            display: block;
+            white-space: nowrap;
+            z-index: 3;
+        }
+        /* 全マーカーを軸線（188px）より上に均等配置 */
+        .marker-item.on-line {
+            top: 180px;
+        }
+        .marker-item.row-1 { top: 8px; }
+        .marker-item.row-2 { top: 32px; }
+        .marker-item.row-3 { top: 56px; }
+        .marker-item.row-4 { top: 80px; }
+        .marker-item.row-5 { top: 104px; }
+        .marker-item.row-6 { top: 128px; }
+        .marker-item.row-7 { top: 152px; }
+        .marker {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 16px;
+            height: 16px;
+            margin-left: -8px;
+            border: 2px solid #ffffff;
+            box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+            transform: translateY(-50%);
+            background: var(--marker-color);
+            z-index: 4;
+        }
+        .marker.circle { border-radius: 999px; }
+        .marker-label {
+            position: relative;
+            display: inline-flex;
+            align-items: center;
+            min-height: 18px;
+            padding: 1px 6px;
+            margin-left: 14px;
+            border: 1px solid var(--line);
+            border-radius: 999px;
+            background: rgba(255, 255, 255, 0.96);
+            color: var(--ink);
+            font-size: 11px;
+            font-weight: 700;
+            line-height: 1.2;
+            z-index: 3;
+        }
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 18px;
+        }
+        .data-table th,
+        .data-table td {
+            border: 1px solid var(--line);
+            padding: 12px 10px;
+            text-align: left;
+            vertical-align: top;
+            font-size: 14px;
+        }
+        .data-table thead th {
+            background: #222222;
+            color: #ffffff;
+        }
+        .note-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-top: 18px;
+        }
+        .note {
+            padding: 18px 20px;
+            border: 1px solid var(--line);
+            background: linear-gradient(180deg, #ffffff 0, #f7f7f7 100%);
+        }
+        .note h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .note ul {
+            margin: 0;
+            padding-left: 18px;
+            color: var(--muted);
+            line-height: 1.7;
+        }
+        .provenance {
+            margin-top: 18px;
+            padding: 16px 18px;
+            border-left: 6px solid var(--accent);
+            background: var(--soft);
+            color: var(--muted);
+            line-height: 1.7;
+        }
+        @media (max-width: 1100px) {
+            .layout {
+                grid-template-columns: 1fr;
+            }
+            .range-cell {
+                min-width: 420px;
+            }
+        }
+        @media (max-width: 760px) {
+            .topbar {
+                position: static;
+                flex-wrap: wrap;
+            }
+            main {
+                padding: 0 10px;
+                margin: 12px auto 30px;
+            }
+            .hero,
+            .section {
+                padding: 18px 14px;
+            }
+            h1 {
+                font-size: 34px;
+            }
+            .section-title {
+                display: block;
+            }
+            .section-title h2 {
+                font-size: 28px;
+            }
+            .note-grid {
+                grid-template-columns: 1fr;
+            }
+            .range-cell {
+                min-width: 320px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="topbar">
+        <strong>AVANT SAL比較表 試作</strong>
+        <a href="2026-07-02-comparison-avant-loader-specs-prototype.md">MD正本</a>
+    </nav>
+    <main>
+        <section class="hero">
+            <h1>AVANT SAL 比較一覧</h1>
+            <p class="subtitle">DuckDB に入っている既存の AVANT 仕様データだけを使い、添付イメージに近い数値レンジ比較と分類比較の見せ方を試した Web Artifact です。数値比較の主対象は、幅と運転質量までそろっている個別機種 7 モデルに限定しています。</p>
+            <p class="meta">2026-07-02 | Web閲覧用 | Source Markdown: 2026-07-02-comparison-avant-loader-specs-prototype.md</p>
+        </section>
+
+        <section class="section">
+            <div class="section-title">
+                <h2>仕様レンジと型式の位置</h2>
+                <p>個別機種 7 モデルのみ。最小値から最大値までの間に各型式の位置を表示。</p>
+            </div>
+            <div class="layout">
+                <aside class="card">
+                    <div class="card-head">型式一覧</div>
+                    <div class="legend-item"><span class="swatch circle" style="background: var(--model-225);"></span><span>AVANT 225</span></div>
+                    <div class="legend-item"><span class="swatch circle" style="background: var(--model-423);"></span><span>AVANT 423</span></div>
+                    <div class="legend-item"><span class="swatch circle" style="background: var(--model-528);"></span><span>AVANT 528</span></div>
+                    <div class="legend-item"><span class="swatch circle" style="background: var(--model-530);"></span><span>AVANT 530</span></div>
+                    <div class="legend-item"><span class="swatch circle" style="background: var(--model-635);"></span><span>AVANT 635i</span></div>
+                    <div class="legend-item"><span class="swatch circle" style="background: var(--model-645);"></span><span>AVANT 645i</span></div>
+                    <div class="legend-item"><span class="swatch circle" style="background: var(--model-650);"></span><span>AVANT 650i</span></div>
+                </aside>
+                <div class="card">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>仕様項目</th>
+                                <th>仕様レンジと各型式の位置</th>
+                                <th>単位</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th><div class="metric-name">エンジン出力</div><div class="metric-unit">horsepower</div></th>
+                                <td class="range-cell">
+                                    <div class="range-wrap">
+                                        <div class="range-axis">
+                                            <span class="axis-tick" style="left: 0%;">20</span>
+                                            <span class="axis-tick" style="left: 16.15%;">22</span>
+                                            <span class="axis-tick" style="left: 25.38%;">25</span>
+                                            <span class="axis-tick" style="left: 28.46%;">26</span>
+                                            <span class="axis-tick" style="left: 86.15%;">44</span>
+                                            <span class="axis-tick" style="left: 100%;">46</span>
+                                        </div>
+                                        <div class="range-line"></div>
+                                        <span class="marker-item row-1" style="left: 25.38%;"><span class="marker circle" style="--marker-color: var(--model-225);"></span><span class="marker-label">225</span></span>
+                                        <span class="marker-item row-2" style="left: 16.15%;"><span class="marker circle" style="--marker-color: var(--model-423);"></span><span class="marker-label">423</span></span>
+                                        <span class="marker-item row-3" style="left: 25.38%;"><span class="marker circle" style="--marker-color: var(--model-528);"></span><span class="marker-label">528</span></span>
+                                        <span class="marker-item row-4" style="left: 25.38%;"><span class="marker circle" style="--marker-color: var(--model-530);"></span><span class="marker-label">530</span></span>
+                                        <span class="marker-item row-5" style="left: 28.46%;"><span class="marker circle" style="--marker-color: var(--model-635);"></span><span class="marker-label">635i</span></span>
+                                        <span class="marker-item row-6" style="left: 86.15%;"><span class="marker circle" style="--marker-color: var(--model-645);"></span><span class="marker-label">645i</span></span>
+                                        <span class="marker-item row-7" style="left: 86.15%;"><span class="marker circle" style="--marker-color: var(--model-650);"></span><span class="marker-label">650i</span></span>
+                                    </div>
+                                </td>
+                                <td>hp</td>
+                            </tr>
+                            <tr>
+                                <th><div class="metric-name">リフト容量</div><div class="metric-unit">lift capacity</div></th>
+                                <td class="range-cell">
+                                    <div class="range-wrap">
+                                        <div class="range-axis">
+                                            <span class="axis-tick" style="left: 0%;">500</span>
+                                            <span class="axis-tick" style="left: 17.13%;">705</span>
+                                            <span class="axis-tick" style="left: 34.78%;">1213</span>
+                                            <span class="axis-tick" style="left: 65.45%;">2094</span>
+                                            <span class="axis-tick" style="left: 83.41%;">2623</span>
+                                            <span class="axis-tick" style="left: 100%;">2800</span>
+                                        </div>
+                                        <div class="range-line"></div>
+                                        <span class="marker-item row-1" style="left: 17.13%;"><span class="marker circle" style="--marker-color: var(--model-225);"></span><span class="marker-label">225</span></span>
+                                        <span class="marker-item row-2" style="left: 34.78%;"><span class="marker circle" style="--marker-color: var(--model-423);"></span><span class="marker-label">423</span></span>
+                                        <span class="marker-item row-3" style="left: 65.45%;"><span class="marker circle" style="--marker-color: var(--model-528);"></span><span class="marker-label">528</span></span>
+                                        <span class="marker-item row-4" style="left: 65.45%;"><span class="marker circle" style="--marker-color: var(--model-530);"></span><span class="marker-label">530</span></span>
+                                        <span class="marker-item row-5" style="left: 83.41%;"><span class="marker circle" style="--marker-color: var(--model-635);"></span><span class="marker-label">635i</span></span>
+                                        <span class="marker-item row-6" style="left: 83.41%;"><span class="marker circle" style="--marker-color: var(--model-645);"></span><span class="marker-label">645i</span></span>
+                                        <span class="marker-item row-7" style="left: 83.41%;"><span class="marker circle" style="--marker-color: var(--model-650);"></span><span class="marker-label">650i</span></span>
+                                    </div>
+                                </td>
+                                <td>lb</td>
+                            </tr>
+                            <tr>
+                                <th><div class="metric-name">リフト高</div><div class="metric-unit">lift height</div></th>
+                                <td class="range-cell">
+                                    <div class="range-wrap">
+                                        <div class="range-axis">
+                                            <span class="axis-tick" style="left: 0%;">55</span>
+                                            <span class="axis-tick" style="left: 12.8%;">57.1</span>
+                                            <span class="axis-tick" style="left: 81.73%;">108.3</span>
+                                            <span class="axis-tick" style="left: 83.73%;">109.8</span>
+                                            <span class="axis-tick" style="left: 86.13%;">111.6</span>
+                                            <span class="axis-tick" style="left: 100%;">115</span>
+                                        </div>
+                                        <div class="range-line"></div>
+                                        <span class="marker-item row-1" style="left: 12.8%;"><span class="marker circle" style="--marker-color: var(--model-225);"></span><span class="marker-label">225</span></span>
+                                        <span class="marker-item row-2" style="left: 81.73%;"><span class="marker circle" style="--marker-color: var(--model-423);"></span><span class="marker-label">423</span></span>
+                                        <span class="marker-item row-3" style="left: 83.73%;"><span class="marker circle" style="--marker-color: var(--model-528);"></span><span class="marker-label">528</span></span>
+                                        <span class="marker-item row-4" style="left: 83.73%;"><span class="marker circle" style="--marker-color: var(--model-530);"></span><span class="marker-label">530</span></span>
+                                        <span class="marker-item row-5" style="left: 86.13%;"><span class="marker circle" style="--marker-color: var(--model-635);"></span><span class="marker-label">635i</span></span>
+                                        <span class="marker-item row-6" style="left: 86.13%;"><span class="marker circle" style="--marker-color: var(--model-645);"></span><span class="marker-label">645i</span></span>
+                                        <span class="marker-item row-7" style="left: 86.13%;"><span class="marker circle" style="--marker-color: var(--model-650);"></span><span class="marker-label">650i</span></span>
+                                    </div>
+                                </td>
+                                <td>in</td>
+                            </tr>
+                            <tr>
+                                <th><div class="metric-name">最高速度</div><div class="metric-unit">max speed</div></th>
+                                <td class="range-cell">
+                                    <div class="range-wrap">
+                                        <div class="range-axis">
+                                            <span class="axis-tick" style="left: 0%;">6</span>
+                                            <span class="axis-tick" style="left: 11.78%;">6.2</span>
+                                            <span class="axis-tick" style="left: 23.33%;">7.5</span>
+                                            <span class="axis-tick" style="left: 61.78%;">11.8</span>
+                                            <span class="axis-tick" style="left: 84.44%;">14.3</span>
+                                            <span class="axis-tick" style="left: 100%;">15</span>
+                                        </div>
+                                        <div class="range-line"></div>
+                                        <span class="marker-item row-1" style="left: 11.78%;"><span class="marker circle" style="--marker-color: var(--model-225);"></span><span class="marker-label">225</span></span>
+                                        <span class="marker-item row-2" style="left: 23.33%;"><span class="marker circle" style="--marker-color: var(--model-423);"></span><span class="marker-label">423</span></span>
+                                        <span class="marker-item row-3" style="left: 23.33%;"><span class="marker circle" style="--marker-color: var(--model-528);"></span><span class="marker-label">528</span></span>
+                                        <span class="marker-item row-4" style="left: 61.78%;"><span class="marker circle" style="--marker-color: var(--model-530);"></span><span class="marker-label">530</span></span>
+                                        <span class="marker-item row-5" style="left: 23.33%;"><span class="marker circle" style="--marker-color: var(--model-635);"></span><span class="marker-label">635i</span></span>
+                                        <span class="marker-item row-6" style="left: 23.33%;"><span class="marker circle" style="--marker-color: var(--model-645);"></span><span class="marker-label">645i</span></span>
+                                        <span class="marker-item row-7" style="left: 84.44%;"><span class="marker circle" style="--marker-color: var(--model-650);"></span><span class="marker-label">650i</span></span>
+                                    </div>
+                                </td>
+                                <td>mph</td>
+                            </tr>
+                            <tr>
+                                <th><div class="metric-name">全幅</div><div class="metric-unit">width</div></th>
+                                <td class="range-cell">
+                                    <div class="range-wrap">
+                                        <div class="range-axis">
+                                            <span class="axis-tick" style="left: 0%;">38</span>
+                                            <span class="axis-tick" style="left: 13.43%;">38.6</span>
+                                            <span class="axis-tick" style="left: 28.57%;">41.3</span>
+                                            <span class="axis-tick" style="left: 49.14%;">44.9</span>
+                                            <span class="axis-tick" style="left: 84.57%;">50.8</span>
+                                            <span class="axis-tick" style="left: 100%;">52</span>
+                                        </div>
+                                        <div class="range-line"></div>
+                                        <span class="marker-item row-1" style="left: 13.43%;"><span class="marker circle" style="--marker-color: var(--model-225);"></span><span class="marker-label">225</span></span>
+                                        <span class="marker-item row-2" style="left: 28.57%;"><span class="marker circle" style="--marker-color: var(--model-423);"></span><span class="marker-label">423</span></span>
+                                        <span class="marker-item row-3" style="left: 49.14%;"><span class="marker circle" style="--marker-color: var(--model-528);"></span><span class="marker-label">528</span></span>
+                                        <span class="marker-item row-4" style="left: 49.14%;"><span class="marker circle" style="--marker-color: var(--model-530);"></span><span class="marker-label">530</span></span>
+                                        <span class="marker-item row-5" style="left: 84.57%;"><span class="marker circle" style="--marker-color: var(--model-635);"></span><span class="marker-label">635i</span></span>
+                                        <span class="marker-item row-6" style="left: 84.57%;"><span class="marker circle" style="--marker-color: var(--model-645);"></span><span class="marker-label">645i</span></span>
+                                        <span class="marker-item row-7" style="left: 84.57%;"><span class="marker circle" style="--marker-color: var(--model-650);"></span><span class="marker-label">650i</span></span>
+                                    </div>
+                                </td>
+                                <td>in</td>
+                            </tr>
+                            <tr>
+                                <th><div class="metric-name">運転質量</div><div class="metric-unit">operating weight</div></th>
+                                <td class="range-cell">
+                                    <div class="range-wrap">
+                                        <div class="range-axis">
+                                            <span class="axis-tick" style="left: 0%;">1500</span>
+                                            <span class="axis-tick" style="left: 13.99%;">1587.3</span>
+                                            <span class="axis-tick" style="left: 42.81%;">2381</span>
+                                            <span class="axis-tick" style="left: 70.73%;">3130.5</span>
+                                            <span class="axis-tick" style="left: 74.02%;">3218.7</span>
+                                            <span class="axis-tick" style="left: 86.34%;">3549.4</span>
+                                            <span class="axis-tick" style="left: 87.16%;">3571.5</span>
+                                            <span class="axis-tick" style="left: 87.98%;">3593.5</span>
+                                            <span class="axis-tick" style="left: 100%;">3650</span>
+                                        </div>
+                                        <div class="range-line"></div>
+                                        <span class="marker-item row-1" style="left: 13.99%;"><span class="marker circle" style="--marker-color: var(--model-225);"></span><span class="marker-label">225</span></span>
+                                        <span class="marker-item row-2" style="left: 42.81%;"><span class="marker circle" style="--marker-color: var(--model-423);"></span><span class="marker-label">423</span></span>
+                                        <span class="marker-item row-3" style="left: 70.73%;"><span class="marker circle" style="--marker-color: var(--model-528);"></span><span class="marker-label">528</span></span>
+                                        <span class="marker-item row-4" style="left: 74.02%;"><span class="marker circle" style="--marker-color: var(--model-530);"></span><span class="marker-label">530</span></span>
+                                        <span class="marker-item row-5" style="left: 86.34%;"><span class="marker circle" style="--marker-color: var(--model-635);"></span><span class="marker-label">635i</span></span>
+                                        <span class="marker-item row-6" style="left: 87.16%;"><span class="marker circle" style="--marker-color: var(--model-645);"></span><span class="marker-label">645i</span></span>
+                                        <span class="marker-item row-7" style="left: 87.98%;"><span class="marker circle" style="--marker-color: var(--model-650);"></span><span class="marker-label">650i</span></span>
+                                    </div>
+                                </td>
+                                <td>lb</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-title">
+                <h2>分類比較</h2>
+                <p>現在の DB で離散比較しやすい項目を整理。</p>
+            </div>
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>型式</th>
+                        <th>動力</th>
+                        <th>トランスミッション</th>
+                        <th>備考</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>AVANT 225</td>
+                        <td>Gasoline min RON 95</td>
+                        <td>Hydrostatic</td>
+                        <td>最軽量。コンパクト側の基準点。</td>
+                    </tr>
+                    <tr>
+                        <td>AVANT 423</td>
+                        <td>Diesel</td>
+                        <td>Hydrostatic</td>
+                        <td>軽量ディーゼル。423 から寸法とリフト高が大きく伸びる。</td>
+                    </tr>
+                    <tr>
+                        <td>AVANT 528</td>
+                        <td>Diesel</td>
+                        <td>Hydrostatic, Avant Optidrive(R)</td>
+                        <td>500 series。Optidrive 記載あり。</td>
+                    </tr>
+                    <tr>
+                        <td>AVANT 530</td>
+                        <td>Diesel</td>
+                        <td>Hydrostatic, Avant Optidrive(R)</td>
+                        <td>528 と同容量だが速度が高い。</td>
+                    </tr>
+                    <tr>
+                        <td>AVANT 635i</td>
+                        <td>Diesel</td>
+                        <td>Hydrostatic Avant Optidrive(R)</td>
+                        <td>600 series の低出力側。寸法は 645i / 650i と同等。</td>
+                    </tr>
+                    <tr>
+                        <td>AVANT 645i</td>
+                        <td>Diesel</td>
+                        <td>Hydrostatic, Avant Optidrive(R)</td>
+                        <td>高出力側。速度は抑えめ。</td>
+                    </tr>
+                    <tr>
+                        <td>AVANT 650i</td>
+                        <td>Diesel</td>
+                        <td>Hydrostatic, Avant Optidrive(R)</td>
+                        <td>高出力かつ高速側。</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="section">
+            <div class="section-title">
+                <h2>補足比較</h2>
+                <p>シリーズページ由来、または電動シリーズのため別枠に分離。</p>
+            </div>
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>型式</th>
+                        <th>馬力 / 電動区分</th>
+                        <th>リフト容量</th>
+                        <th>リフト高</th>
+                        <th>最高速度</th>
+                        <th>バッテリー容量</th>
+                        <th>充電時間</th>
+                        <th>備考</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>AVANT 700 series</td>
+                        <td>26-57 hp</td>
+                        <td>3810 lb</td>
+                        <td>122 in</td>
+                        <td>6.8-16.2 mph</td>
+                        <td></td>
+                        <td></td>
+                        <td>シリーズページ上の主要スペックのみ。</td>
+                    </tr>
+                    <tr>
+                        <td>AVANT 800 series</td>
+                        <td>49-56 hp</td>
+                        <td>4190 lb</td>
+                        <td>137.8 in</td>
+                        <td>18.6 mph</td>
+                        <td></td>
+                        <td></td>
+                        <td>シリーズページ上の主要スペックのみ。</td>
+                    </tr>
+                    <tr>
+                        <td>AVANT e500 series</td>
+                        <td>電動</td>
+                        <td>2000 lb</td>
+                        <td>110 in</td>
+                        <td>6.2 mph</td>
+                        <td>13-27 kWh</td>
+                        <td>e513: onboard 3 kW 2h50min / rapid 400 V 16 A 1h10min; e527: onboard 3 kW 5h40min / rapid 400 V 16 A 2h20min / rapid 400 V 32 A 1h10min</td>
+                        <td>電動シリーズ。馬力値は HP 記載なし。</td>
+                    </tr>
+                    <tr>
+                        <td>AVANT e700 series</td>
+                        <td>電動</td>
+                        <td>3086 lb</td>
+                        <td>121.3 in</td>
+                        <td>8.7 mph</td>
+                        <td>27 kWh</td>
+                        <td>Avant e727: onboard 3 kW 5h30min; onboard 9 kW 1h50min; rapid 400 V 16 A 2h10min; rapid 400 V 32 A 1h5min</td>
+                        <td>電動シリーズ。高負荷側の補足比較用。</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="note-grid">
+                <div class="note">
+                    <h3>今回できたこと</h3>
+                    <ul>
+                        <li>既存 DuckDB のみで、添付イメージに近いレンジ比較を試作。</li>
+                        <li>個別機種とシリーズ機を分離し、欠損が多い行で全体を壊さない構成に整理。</li>
+                        <li>今ある分類項目として、動力とトランスミッションを比較表に反映。</li>
+                    </ul>
+                </div>
+                <div class="note">
+                    <h3>まだ足りないもの</h3>
+                    <ul>
+                        <li>オプション / 標準 / なし を並べる機能比較データ。</li>
+                        <li>700 / 800 / e500 / e700 の幅、重量、油圧系の詳細仕様。</li>
+                        <li>トラクタ比較に寄せるなら、別の型式CSVか追加DB投入。</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="provenance">
+                Provenance: db/knowledge.duckdb の loader_specifications_current view と raw/data/AVANT_型式_仕様一覧.csv を入力元にした。数値レンジは取得文字列から数値部分を抜き出して正規化し、単位変換は行っていない。ブラウザ閲覧はこの web.html を入口とする。
+            </div>
+        </section>
+    </main>
+<script>
+(function () {
+    var BASE_TOP   = 200;  // px: row 0 の top（CSS .axis-tick の top と一致）
+    var ROW_HEIGHT = 16;   // px: 行間
+    var LINE_TOP   = 188;  // px: .range-line の top
+    var ANCHOR_TOP = 4;    // px: 点線ガイドの開始位置（上端余白）
+    var GAP        = 3;    // px: 同一行で許容する最小水平余白
+
+    function staggerTicks() {
+        document.querySelectorAll('.range-axis').forEach(function (axis) {
+            var ticks = Array.from(axis.querySelectorAll('.axis-tick'));
+
+            // いったんリセットして正確な幅を計測
+            ticks.forEach(function (t) {
+                t.style.top = '';
+                t.style.removeProperty('--tick-after-top');
+            });
+
+            // 左端座標でソート
+            var items = ticks.map(function (t) {
+                var r = t.getBoundingClientRect();
+                return { el: t, left: r.left, right: r.right, row: 0 };
+            }).sort(function (a, b) { return a.left - b.left; });
+
+            // 貪欲アルゴリズム: 重ならない最小行に割り当て
+            var rowEdge = [];  // 各行の右端
+            items.forEach(function (item) {
+                var row = 0;
+                while (rowEdge[row] !== undefined && item.left < rowEdge[row] + GAP) {
+                    row++;
+                }
+                item.row = row;
+                rowEdge[row] = item.right;
+            });
+
+            // top と点線ガイド長を適用
+            items.forEach(function (item) {
+                var topPx = BASE_TOP + item.row * ROW_HEIGHT;
+                item.el.style.top = topPx + 'px';
+                item.el.style.setProperty('--tick-after-top', (ANCHOR_TOP - topPx) + 'px');
+            });
+        });
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', staggerTicks);
+    } else {
+        staggerTicks();
+    }
+    window.addEventListener('resize', staggerTicks);
+}());
+</script>
+</body>
+</html>

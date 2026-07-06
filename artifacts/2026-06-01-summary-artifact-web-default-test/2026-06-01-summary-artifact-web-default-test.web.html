@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artifact Web Default Test</title>
+    <!-- Artifact Theme: wiki-teal-v1 -->
+    <script type="application/json" id="artifact-theme-metadata">
+        {
+            "theme_id": "wiki-teal-v1",
+            "theme_name": "Wiki Teal",
+            "theme_version": 1,
+            "applied_on": "2026-06-01",
+            "source_theme_file": ".github/skills/html-artifact/assets/themes.json",
+            "colors": {
+                "page_bg": "#f3f5f7",
+                "paper_bg": "#ffffff",
+                "ink": "#172033",
+                "muted": "#5f6b7a",
+                "accent": "#0f766e",
+                "line": "#d9e1ea",
+                "soft": "#edf7f5",
+                "warn": "#8a5a00",
+                "warn_bg": "#fff4d8"
+            }
+        }
+    </script>
+    <style>
+        :root {
+            --page-bg: #f3f5f7;
+            --paper-bg: #ffffff;
+            --ink: #172033;
+            --muted: #5f6b7a;
+            --accent: #0f766e;
+            --line: #d9e1ea;
+            --soft: #edf7f5;
+            --warn: #8a5a00;
+            --warn-bg: #fff4d8;
+            --font-main: "Yu Gothic", "Meiryo", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            color: var(--ink);
+            background: var(--page-bg);
+            font-family: var(--font-main);
+            line-height: 1.72;
+        }
+        main {
+            max-width: 980px;
+            margin: 28px auto;
+            padding: 44px 52px;
+            background: var(--paper-bg);
+            box-shadow: 0 12px 36px rgba(23,32,51,0.14);
+        }
+        header {
+            margin-bottom: 30px;
+            border-bottom: 5px solid var(--accent);
+            padding-bottom: 18px;
+        }
+        h1, h2, h3 {
+            margin: 0;
+            line-height: 1.18;
+            letter-spacing: 0;
+        }
+        h1 { font-size: 42px; }
+        h2 {
+            margin-top: 34px;
+            font-size: 27px;
+            border-left: 7px solid var(--accent);
+            padding-left: 14px;
+        }
+        p, li {
+            color: var(--muted);
+            font-size: 17px;
+        }
+        p { margin: 14px 0 0; }
+        ul {
+            display: grid;
+            gap: 8px;
+            margin: 16px 0 0;
+            padding-left: 1.2em;
+        }
+        code {
+            color: var(--ink);
+            background: var(--soft);
+            border: 1px solid var(--line);
+            border-radius: 5px;
+            padding: 0.1em 0.35em;
+            font-family: Consolas, "Courier New", monospace;
+            font-size: 0.94em;
+        }
+        table {
+            width: 100%;
+            margin-top: 18px;
+            border-collapse: collapse;
+            font-size: 15px;
+        }
+        th, td {
+            border-bottom: 1px solid var(--line);
+            padding: 12px 10px;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            color: #ffffff;
+            background: var(--accent);
+        }
+        td { color: var(--ink); }
+        .meta {
+            margin-top: 16px;
+            color: #697789;
+            font-size: 15px;
+        }
+        .callout {
+            margin-top: 18px;
+            border-left: 8px solid var(--accent);
+            background: var(--soft);
+            padding: 18px 22px;
+        }
+        .warn {
+            border-left-color: var(--warn);
+            background: var(--warn-bg);
+        }
+        .source-link {
+            margin-top: 22px;
+            font-size: 15px;
+        }
+        footer {
+            max-width: 980px;
+            margin: 0 auto 30px;
+            color: #697789;
+            text-align: center;
+            font-size: 14px;
+        }
+        @media (max-width: 760px) {
+            main {
+                margin: 0;
+                padding: 28px 20px;
+                box-shadow: none;
+            }
+            h1 { font-size: 32px; }
+            h2 { font-size: 23px; }
+            table { font-size: 14px; }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Artifact Web Default Test</h1>
+            <p class="meta">2026-06-01 • LLM Wiki HTML Artifact • Web HTML only</p>
+            <p class="source-link">Source Markdown: <code>2026-06-01-summary-artifact-web-default-test.md</code></p>
+        </header>
+
+        <section>
+            <h2>TL;DR</h2>
+            <p class="callout">この Artifact は、正本 Markdown から HTML を生成するときの標準出力を <code>web.html</code> のみに変更した運用を確認するための試作である。A4版とスライド版は作成していない。</p>
+        </section>
+
+        <section>
+            <h2>入力元</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>種別</th>
+                        <th>パス</th>
+                        <th>内容</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>wiki concept</td>
+                        <td><code>wiki/concepts/Artifacts運用.md</code></td>
+                        <td>Artifact の役割、保存単位、標準HTML出力、追加出力の扱い。</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>確認したいこと</h2>
+            <ul>
+                <li><code>artifacts/&lt;artifact-id&gt;/</code> に正本 Markdown と Web HTML だけを置く。</li>
+                <li><code>*.web.html</code> を標準の閲覧入口として扱う。</li>
+                <li><code>*.a4.html</code> と <code>*.slides.html</code> は、明示依頼がない限り生成しない。</li>
+                <li>HTML には元 Markdown への参照とテーマメタデータを含める。</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>生成結果</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ファイル</th>
+                        <th>役割</th>
+                        <th>生成有無</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>2026-06-01-summary-artifact-web-default-test.md</code></td>
+                        <td>内容の正本</td>
+                        <td>生成</td>
+                    </tr>
+                    <tr>
+                        <td><code>2026-06-01-summary-artifact-web-default-test.web.html</code></td>
+                        <td>ブラウザ閲覧用HTML</td>
+                        <td>生成</td>
+                    </tr>
+                    <tr>
+                        <td><code>2026-06-01-summary-artifact-web-default-test.a4.html</code></td>
+                        <td>A4印刷/PDF用HTML</td>
+                        <td>未生成</td>
+                    </tr>
+                    <tr>
+                        <td><code>2026-06-01-summary-artifact-web-default-test.slides.html</code></td>
+                        <td>16:9スライド用HTML</td>
+                        <td>未生成</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>運用メモ</h2>
+            <p>標準生成を Web HTML のみにすると、通常の分析・まとめ・比較表では成果物数が減り、更新対象が明確になる。印刷資料や発表資料が必要な場合だけ、同じ Markdown 正本から追加形式を作る。</p>
+        </section>
+
+        <section>
+            <h2>Sources</h2>
+            <ul>
+                <li><code>wiki/concepts/Artifacts運用.md</code></li>
+                <li><code>.github/skills/html-artifact/SKILL.md</code></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>未解決点</h2>
+            <p class="callout warn">A4版・スライド版を後から追加生成するときのコマンド化やテンプレート分岐は、まだ運用検証が必要。</p>
+        </section>
+    </main>
+
+    <footer>
+        Generated as HTML Artifact • LLM Wiki
+    </footer>
+</body>
+</html>

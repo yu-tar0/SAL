@@ -1,0 +1,4 @@
+*.duckdb
+*.duckdb.wal
+*.duckdb.tmp
+*.duckdb.tmp.*

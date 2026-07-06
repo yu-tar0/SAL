@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[タイトル]</title>
+    <!-- Artifact Theme: wiki-teal-v1 -->
+    <script type="application/json" id="artifact-theme-metadata">
+        {
+            "theme_id": "wiki-teal-v1",
+            "theme_name": "Wiki Teal",
+            "theme_version": 1,
+            "applied_on": "YYYY-MM-DD",
+            "source_theme_file": ".github/skills/html-artifact/assets/themes.json",
+            "colors": {
+                "page_bg": "#f3f5f7",
+                "paper_bg": "#ffffff",
+                "ink": "#172033",
+                "muted": "#5f6b7a",
+                "accent": "#0f766e",
+                "line": "#d9e1ea",
+                "soft": "#edf7f5",
+                "warn": "#8a5a00",
+                "warn_bg": "#fff4d8"
+            }
+        }
+    </script>
+    <style>
+        :root {
+            --page-bg: #f3f5f7;
+            --paper-bg: #ffffff;
+            --ink: #172033;
+            --muted: #5f6b7a;
+            --accent: #0f766e;
+            --line: #d9e1ea;
+            --soft: #edf7f5;
+            --warn: #8a5a00;
+            --warn-bg: #fff4d8;
+            --slide-width: 1280px;
+            --paper-width: 297mm;
+            --paper-height: 167.0625mm;
+            --font-main: "Yu Gothic", "Meiryo", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            color: var(--ink);
+            background: var(--page-bg);
+            font-family: var(--font-main);
+            line-height: 1.7;
+        }
+        .controls {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            padding: 12px;
+            background: #ffffff;
+            border-bottom: 1px solid var(--line);
+        }
+        button {
+            border: 1px solid var(--line);
+            background: #ffffff;
+            color: var(--ink);
+            border-radius: 6px;
+            padding: 8px 14px;
+            font: inherit;
+            cursor: pointer;
+        }
+        button:hover { border-color: var(--accent); }
+        #content {
+            margin: 28px auto;
+            background: var(--paper-bg);
+            color: var(--ink);
+        }
+        .layout-a4 {
+            max-width: 210mm;
+            padding: 20mm 15mm;
+            box-shadow: 0 12px 36px rgba(23,32,51,0.14);
+        }
+        .layout-slides {
+            max-width: var(--slide-width);
+            padding: 0;
+            background: transparent;
+        }
+        header {
+            margin-bottom: 32px;
+        }
+        h1, h2, h3 {
+            margin: 0;
+            line-height: 1.16;
+            letter-spacing: 0;
+        }
+        h1 {
+            font-size: 44px;
+            border-bottom: 5px solid var(--accent);
+            padding-bottom: 14px;
+        }
+        h2 {
+            margin-top: 34px;
+            font-size: 30px;
+        }
+        h3 {
+            margin-top: 24px;
+            font-size: 22px;
+        }
+        p {
+            margin: 16px 0 0;
+            color: var(--muted);
+            font-size: 17px;
+        }
+        .meta {
+            margin-top: 18px;
+            color: #697789;
+            font-size: 16px;
+        }
+        .slide {
+            position: relative;
+            padding: 30px 0;
+            border-bottom: 1px solid var(--line);
+        }
+        .slide:last-child { border-bottom: 0; }
+        ul {
+            display: grid;
+            gap: 10px;
+            margin: 20px 0 0;
+            padding-left: 1.2em;
+            font-size: 18px;
+        }
+        .columns {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 28px;
+            margin-top: 26px;
+        }
+        .columns > div {
+            border-left: 6px solid var(--accent);
+            padding: 8px 0 8px 20px;
+        }
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 18px;
+            margin-top: 26px;
+        }
+        .kpi {
+            border: 1px solid var(--line);
+            border-radius: 8px;
+            padding: 22px;
+            background: #ffffff;
+        }
+        .kpi strong {
+            display: block;
+            color: var(--accent);
+            font-size: 34px;
+            line-height: 1;
+        }
+        .kpi span {
+            display: block;
+            margin-top: 12px;
+            color: var(--muted);
+            font-size: 15px;
+        }
+        table {
+            width: 100%;
+            margin-top: 24px;
+            border-collapse: collapse;
+            font-size: 16px;
+        }
+        th, td {
+            border-bottom: 1px solid var(--line);
+            padding: 14px 12px;
+            text-align: left;
+        }
+        th {
+            color: #ffffff;
+            background: var(--accent);
+            font-weight: 700;
+        }
+        td { color: var(--ink); }
+        .callout {
+            margin-top: 28px;
+            border-left: 8px solid var(--accent);
+            background: var(--soft);
+            padding: 20px 24px;
+            font-size: 18px;
+        }
+        .slide-number { display: none; }
+        .layout-slides header {
+            max-width: var(--slide-width);
+            margin: 0 0 20px;
+            padding: 36px 56px 0;
+            background: #ffffff;
+        }
+        .layout-slides .slide {
+            width: 100%;
+            min-height: 720px;
+            margin: 20px 0;
+            padding: 64px 72px;
+            overflow: hidden;
+            background: #ffffff;
+            border: 0;
+            box-shadow: 0 12px 36px rgba(23,32,51,0.14);
+        }
+        .layout-slides .slide::before {
+            content: "";
+            position: absolute;
+            inset: 0 0 auto 0;
+            height: 10px;
+            background: var(--accent);
+        }
+        .layout-slides .slide-number {
+            display: block;
+            position: absolute;
+            right: 40px;
+            bottom: 28px;
+            color: #8190a0;
+            font-size: 18px;
+        }
+        .layout-slides h2 { font-size: 46px; }
+        .layout-slides p { font-size: 26px; line-height: 1.55; }
+        .layout-slides ul { gap: 18px; font-size: 28px; line-height: 1.45; }
+        .layout-slides table { font-size: 22px; }
+        .layout-slides .callout { font-size: 26px; line-height: 1.45; }
+        @page a4 { size: A4; margin: 12mm; }
+        @page slide { size: 297mm 167.0625mm; margin: 0; }
+        @media print {
+            body { background: #ffffff; }
+            .controls, footer { display: none !important; }
+            #content {
+                margin: 0;
+                box-shadow: none;
+                background: #ffffff;
+            }
+            .layout-a4 {
+                page: a4;
+                max-width: none;
+                padding: 0;
+            }
+            .layout-slides {
+                max-width: none;
+                padding: 0;
+            }
+            .layout-slides header { display: none; }
+            .layout-slides .slide {
+                page: slide;
+                width: var(--paper-width);
+                height: var(--paper-height);
+                min-height: 0;
+                margin: 0;
+                padding: 64px 72px;
+                break-after: page;
+                page-break-after: always;
+                box-shadow: none;
+                print-color-adjust: exact;
+                -webkit-print-color-adjust: exact;
+            }
+            .layout-slides .slide:last-child {
+                break-after: auto;
+                page-break-after: auto;
+            }
+        }
+        @media (max-width: 760px) {
+            .controls { position: static; flex-wrap: wrap; }
+            #content { margin: 0; }
+            .layout-a4 { padding: 28px 20px; box-shadow: none; }
+            .columns, .kpi-grid { grid-template-columns: 1fr; }
+            h1 { font-size: 34px; }
+            h2, .layout-slides h2 { font-size: 28px; }
+            .layout-slides .slide {
+                min-height: auto;
+                margin: 0;
+                padding: 44px 20px;
+                box-shadow: none;
+                border-bottom: 1px solid var(--line);
+            }
+            .layout-slides p, .layout-slides ul { font-size: 18px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="controls">
+        <strong>レイアウト選択:</strong>
+        <button onclick="switchLayout('a4')">A4レポート</button>
+        <button onclick="switchLayout('slides')">16:9スライド</button>
+    </div>
+
+    <main id="content" class="layout-a4">
+        <header>
+            <h1>[メインタイトル]</h1>
+            <p class="meta">YYYY-MM-DD • LLM Wiki HTML Artifact</p>
+        </header>
+
+        <section class="slide">
+            <h2>要約</h2>
+            <p>ここに要約を入力します。</p>
+            <span class="slide-number">1</span>
+        </section>
+
+        <!-- ここに本文を挿入。章ごとに <section class="slide"> を追加する。 -->
+
+    </main>
+
+    <script>
+        function switchLayout(mode) {
+            const content = document.getElementById('content');
+            if (mode === 'a4') content.className = 'layout-a4';
+            else if (mode === 'slides') content.className = 'layout-slides';
+        }
+    </script>
+
+    <footer style="text-align:center; margin:32px 0; color:#777; font-size:0.9rem;">
+        Generated as HTML Artifact • LLM Wiki
+    </footer>
+</body>
+</html>
